@@ -1,0 +1,178 @@
+.container{
+    margin-bottom: var(--xl-spacing);
+}
+
+.container1 {
+    margin-top: var(--xl-spacing);
+    margin-bottom: var(--d-spacing);
+}
+
+.drawerPaper {
+    z-index: 9999 !important;
+    border-radius: var(--m-spacing) var(--m-spacing) 0 0;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.googleprofiledetails {
+    padding: var(--s-spacing);
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px var(--grey3) solid;
+}
+
+.googleplaylogo {
+    width: 15px;
+    height: 15px;
+    margin-left: var(--d-spacing);
+    margin-top: var(--xs-spacing);
+}
+
+.googleplaytext {
+    color: var(--light-grey);
+    margin-left: var(--d-spacing) !important;
+    font-size: var(--h5-font-size) !important;
+}
+
+.divider {
+    margin-top: var(--xl-spacing);
+}
+
+.stars {
+    margin-top: var(--d-spacing);
+    text-align: center;
+}
+
+.note {
+    display: flex;
+    margin: var(--m-spacing);
+    flex-direction: row;
+}
+
+.isSelected {
+    justify-content: center;
+}
+
+.note1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.windologo {
+    width: 35px;
+    height: 35px;
+}
+
+.notetext {
+    margin: var(--xs-spacing) 0 0 var(--d-spacing);
+    color: var(--grey8);
+    font-size: var(--s-font-size);
+}
+
+.windotext {
+    margin-left: var(--d-spacing);
+    font-weight: var(--bold);
+    font-size: var(--h5-font-size);
+}
+
+.buttons {
+    margin-top: var(--xxl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 var(--l-spacing);
+}
+
+.notnowButton {
+    width: 135px;
+    color: var(--green) !important;
+}
+
+.disableSubmitButton {
+    width: 135px;
+}
+
+.cancelButton {
+    width: 135px;
+    color: var(--green) !important;
+}
+
+.activeSubmitButton {
+    width: 135px;
+    background-color: #1d8348 !important;
+    color: var(--white) !important;
+}
+
+.reviewText {
+    margin: 0 var(--d-spacing);
+}
+
+.conditions {
+    display: flex;
+    margin: 0 var(--d-spacing);
+    margin-top: var(--xs-spacing);
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.optionalText {
+    color: var(--black30);
+    font-size: var(--s-font-size);
+}
+
+.textCount {
+    color: var(--black30);
+    font-size: var(--s-font-size);
+}
+
+.l1 {
+    font-size: var(--m-font-size) !important;
+}
+
+.l2 {
+    font-size: var(--m-font-size) !important;
+}
+
+.starlogo {
+    width: 75px;
+    height: 75px;
+    margin: var(--l-spacing) 0;
+}
+
+.undo {
+    color: var(--green) !important;
+}
+
+.afterRated {
+    flex: 1;
+}
+
+.cusmStars {
+    font-size: 33px !important;
+    padding-left: var(--l-spacing);
+ }
+ 
+.cusmStars1 {
+    font-size: 30px !important;
+    color: #1d8348 !important;
+    padding-left: var(--xxl-spacing) !important;
+}
+
+.cusmStars2 {
+    font-size: 30px !important;
+    padding-left: var(--xxl-spacing) !important;
+}
+
+
+
+
+
+
+
+
+

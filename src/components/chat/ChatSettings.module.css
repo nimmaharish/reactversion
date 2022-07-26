@@ -1,0 +1,11 @@
+.container {
+    padding: var(--l-spacing);
+
+    @media(--desktop) {
+        margin: var(--xxxxxxl-spacing);
+        padding: var(--xxxxxxl-spacing);
+        background: var(--secondary);
+        border: 1px solid var(--black15);
+        border-radius: var(--xx-spacing);
+    }
+}

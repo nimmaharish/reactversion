@@ -1,0 +1,31 @@
+.cards {
+    margin: var(--l-spacing);
+    @media (--desktop) {
+        margin:40px 70px;
+    }
+}
+
+.desktopContainer {
+    padding: 20px 40px;
+    height: calc(100vh - 130px);
+    overflow: auto;
+}
+
+.kbc {
+    margin: 10% var(--m-spacing) var(--m-spacing);
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }

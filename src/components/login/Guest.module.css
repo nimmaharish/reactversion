@@ -1,0 +1,109 @@
+.container {
+@media (--desktop) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: var(--l-spacing);
+  margin-bottom: var(--xl-spacing);
+  /* overflow: scroll; */
+  @media (--desktop) {
+        overflow: none !important;
+  }
+}
+
+.headText {
+    font-weight: 600;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.helperText {
+    font-weight: var(--normal);
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: rgba(33, 33, 33, 0.6);
+    width: 80%;
+    margin-top: var(--l-spacing);
+    text-align: center;
+}
+
+.card {
+    width: 100%; 
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 33, 33, 0.1);
+    box-sizing: border-box;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--l-spacing) 0px;
+}
+
+.stepCard {
+    display: flex;
+    padding: var(--l-spacing) var(--xl-spacing);
+}
+
+.stepCard1 {
+    margin-left: var(--l-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lineV  {
+    width: 1px;
+    margin: 0 var(--xxxxxxl-spacing);
+    background-color: rgba(33, 33, 33, 0.15);
+    height: 56px;
+}
+
+.button {
+    height: 52px;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;    
+}
+
+.stepHelper  {
+    font-weight: var(--normal);
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: var(--s-spacing);
+    color: rgba(33, 33, 33, 0.6);
+    /* text-align: center; */
+}
+
+.steps {
+    margin-top: var(--l-spacing);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15%;
+    @media (--desktop) {
+        margin-bottom: 5%;
+    }
+}

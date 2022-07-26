@@ -1,0 +1,36 @@
+.button {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+button.container {
+    background: var(--primaryOpacityTwo);
+    width: 100%;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: row;
+    padding: var(--l-spacing) var(--l-spacing);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.varBgn {
+    background: var(--white) !important;
+}
+
+.img {
+    height: 12px;
+}
+
+
+.open .button {
+    opacity: 0.5;
+}
+
+.open .img {
+    width: 12px;
+}
+
+button.open.container {
+    padding-bottom: 0 !important;
+}

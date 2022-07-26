@@ -1,0 +1,15 @@
+
+.noteContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--green);
+    margin: var(--xs-spacing) 0;
+    border-radius: var(--m-border-radius);
+    background: var(--secondary) !important;
+}
+
+.note {
+    font-size: var(--m-font-size);
+    margin-left: var(--m-spacing);
+}

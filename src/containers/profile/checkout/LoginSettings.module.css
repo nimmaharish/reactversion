@@ -1,0 +1,37 @@
+.container {
+    margin: var(--xl-spacing) var(--l-spacing);
+
+    @media (--desktop) {
+        border: 1px solid var(--black15);
+        border-radius: var(--border-radius);
+        padding: var(--xxxl-spacing);
+        margin: 30px 60px;
+    }
+
+}
+
+.button {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+.buttonD {
+    display: flex;
+    justify-content: center;
+}
+
+
+.line {
+    width: 45%;
+    height: var(--xxs-spacing);
+    background-color: #E0E0E0;
+}
+
+.text{
+    font-size: var(--d-font-size);
+    margin-left: var(--l-spacing);
+    margin-right: var(--l-spacing);
+}

@@ -1,0 +1,26 @@
+.root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    overflow-y: auto;
+    position: absolute;
+    bottom: 60px;
+    z-index: 999999;
+    margin-left: var(--s-spacing);
+    @media (--desktop) {
+        width: 25%;
+        right: 0;
+    }
+}
+
+.root > * {
+    min-width: 50vw;
+    width: auto;
+    max-width: 90vw;
+    @media (--desktop) {
+        width: 40%;
+        min-width: 20vw;
+    }
+}

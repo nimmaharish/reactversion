@@ -1,0 +1,73 @@
+.container {
+    padding: var(--m-spacing);
+    padding-bottom: 0;
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: var(--xl-spacing);
+    border-bottom: 1px solid var(--black15);
+    margin-bottom: var(--l-spacing);
+}
+
+.border {
+    border-left: 1px solid #989595;
+}
+
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--s-font-size);
+    color: var(--black);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--black);
+    padding: var(--s-spacing) var(--s-spacing);
+    cursor: pointer;
+    min-width: 120px;
+}
+
+.button img {
+    margin-right: var(--s-spacing);
+}
+
+.marginL {
+    margin-left: var(--l-spacing) !important;
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 0 !important;
+}
+
+.settingIcon {
+    width: 32px;
+    cursor: pointer;
+}
+
+.syncButton {
+    max-height: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: var(--m-spacing);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: var(--xxs-spacing) var(--l-spacing);
+    border-radius: var(--s-border-radius);
+    font-size: var(--m-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.syncButton img {
+    height: 24px;
+    margin-right: var(--s-spacing);
+}

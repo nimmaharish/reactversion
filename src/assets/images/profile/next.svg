@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15">
+  <g id="Icon_feather-arrow-right-circle" data-name="Icon feather-arrow-right-circle" transform="translate(-3 -3)">
+    <g id="Path_2514" data-name="Path 2514" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M18,10.5A7.5,7.5,0,1,1,10.5,3,7.5,7.5,0,0,1,18,10.5Z" stroke="none"/>
+      <path d="M 10.5 4 C 6.915889739990234 4 4 6.915890693664551 4 10.50000095367432 C 4 14.08411026000977 6.915889739990234 17 10.5 17 C 14.08411026000977 17 17 14.08411026000977 17 10.50000095367432 C 17 6.915890693664551 14.08411026000977 4 10.5 4 M 10.5 3 C 14.64212989807129 3 18 6.357871055603027 18 10.50000095367432 C 18 14.64214134216309 14.64212989807129 18 10.5 18 C 6.357870101928711 18 3 14.64214134216309 3 10.50000095367432 C 3 6.357871055603027 6.357870101928711 3 10.5 3 Z" stroke="none" fill="#fff"/>
+    </g>
+    <path id="Path_2515" data-name="Path 2515" d="M18,18.425l3.213-3.213L18,12" transform="translate(-7.633 -4.713)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_2516" data-name="Path 2516" d="M12,18h6.425" transform="translate(-4.713 -7.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+.slugSec {
+    background: white !important;
+    border: 1px solid #989595 !important;
+    border-radius: 4px !important;
+    box-sizing: border-box;
+    width: 100%;
+    margin: var(--xs-spacing) 0 !important;
+}
+
+.slugSec *:before, .slugSec *:after {
+    border: none !important;
+}
+
+.slug {
+    position: relative;
+    background: #F7FAFD !important;
+    font-size: var(--d-font-size) !important;
+    height: 36px !important;
+    padding: 4px !important;
+    border-radius: 4px !important;
+}
+
+.single {
+    text-indent: 10px;
+}
+
+.err {
+    color: var(--selected) !important;
+    font-size: var(--m-font-size);
+}
+
+.label {
+    font-size: var(--d-font-size);
+    margin: var(--s-spacing) 0;
+    text-align: left;
+    color: var(--black);
+}

@@ -1,0 +1,55 @@
+.gridContent {
+    padding-left: var(--m-spacing);
+    padding-right: var(--m-spacing);
+}
+
+.syncIcon {
+    text-align: center;
+
+    img {
+        width: 31px;
+    }
+}
+
+.instaSyncHeading {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    margin-top: var(--xl-spacing);
+    text-align: center;
+    color: var(--green);
+    margin-left: var(--xl-spacing);
+    margin-right: var(--xl-spacing);
+    line-height: var(--xl-spacing);
+}
+
+
+.instaSyncSubHeading {
+    font-size: var(--d-font-size);
+    margin-top: var(--xl-spacing);
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+}
+
+.instaSyncTip {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    text-align: center;
+    margin-top: var(--l-spacing);
+    display: flex;
+    line-height: var(--xl-spacing);
+}
+
+.instaTipBody {
+    font-size: var(--d-font-size);
+    margin-top: var(--m-spacing);
+    margin-bottom: var(--xl-spacing);
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+    line-height: var(--l-spacing);
+}
+
+.okButton {
+    margin-top: var(--xxl-spacing);
+    height: 52px;
+    margin-bottom: var(--m-spacing);
+}

@@ -1,0 +1,115 @@
+.userDetailsTileCon {
+    border-bottom: 1px solid var(--grey3);
+    padding: var(--d-spacing);
+}
+
+.profilePic div {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background-color: var(--primary1) !important;
+
+    @media (--desktop) {
+        width: 72px;
+        height: 72px;
+    }
+}
+
+.con1,.con2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.line1 {
+    color: var(--black);
+    font-size: var(--m-font-size);
+    text-transform: capitalize;
+    margin-left: var(--xl-spacing);
+    word-wrap: break-word;
+    width: 230px;
+}
+
+.lineWidth {
+    width: 185px;
+}
+
+.popover {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: var(--d-spacing);
+}
+
+.paper {
+   margin-top: var(--xs-spacing);
+   border-radius: var(--l-border-radius);
+}
+
+.iconTexts {
+    color: var(--black);
+    font-size: var(--s-font-size);
+    font-weight: var(--semi-bold);
+    text-align: center;
+    margin-top: var(--xs-spacing);
+}
+
+.IconDiv {
+    min-width: 45px; 
+    padding:0 var(--l-spacing);
+    cursor: pointer;
+    border-left: 1px solid var(--grey3);
+    text-align: center;
+}
+
+.opacity {
+    cursor: not-allowed;
+
+    .iconTexts {
+        color: var(--black60);
+        font-weight: var(--regular-bold);
+    }
+}
+
+.NoBorder {
+    border-left: 0;
+}
+
+.IconDiv button img {
+    height: 22px;
+    width: 22px;
+}
+
+.threeDotsIcon,.checkedIcon {
+    font-size: 25px  !important;
+    cursor: pointer;
+}
+
+.threeDotsIcon {
+    margin: 6px 4px 0 var(--l-spacing);
+    cursor: pointer;
+    display: flex;
+}
+
+.head {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    padding-bottom: var(--m-spacing);
+    border-bottom: 1px dashed #C4C4C4;
+}
+
+.aHead {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    padding-top: var(--m-spacing);
+    padding-bottom: var(--xs-spacing);
+    color: var(--black80) !important;
+}
+    
+.aContent {
+    font-size: var(--s-font-size);
+    color: var(--black60);
+    width: 50%;
+    padding-left: var(--m-spacing);
+    padding-bottom: var(--m-spacing);
+}

@@ -1,0 +1,87 @@
+.drawer {
+    background: var(--white) !important;
+    overflow: hidden;
+}
+
+.container {
+    margin: var(--l-spacing);
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.kbc {
+    margin-top: 8%;
+}
+
+.mode {
+    margin: var(--l-spacing) 0;
+    padding: 0;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px;
+    border-radius: 4px;
+    background: var(--primaryOpacityTwo) !important;
+}
+
+.empty {
+    padding-top: var(--l-spacing);
+}
+
+.cod {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 16px;
+    background: var(--primaryOpacity);
+    border-radius: 4px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.top {
+    /* margin-top: var(--m-spacing); */
+    padding: var(--l-spacing);
+}
+
+.modeName, .heading {
+    color: var(--black);
+    font-weight: var(--medium-bold);
+    font-size: var(--h5-font-size);
+}
+
+.button {
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.charges {
+    font-size: var(--s-font-size);
+    color: var(--black50);
+    border-bottom: 1px solid var(--black10);
+    border-radius: 6px;
+}
+
+.greenLink {
+    font-weight: var(--medium-bold);
+    color: var(--green);
+    margin-right: var(--xs-spacing);
+    font-size: var(--s-font-size);
+}
+
+.main {
+    height: calc(100vh - 60px - 32px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}

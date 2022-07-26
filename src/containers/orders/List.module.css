@@ -1,0 +1,185 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex: 1 1;
+    justify-content: center;
+    padding: 0 var(--l-spacing);
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 6%);
+    width: calc(100% - 32px);
+}
+
+.header > div:last-child {
+    padding: 0 !important;
+}
+
+.body {
+    flex: 1;
+    margin-top: 8px;
+    padding-bottom: 40px;
+    background: red;
+}
+
+.search {
+    margin-left: var(--s-spacing);
+    width: calc(50% - 8px);
+    background: var(--grey9);
+}
+
+.search > div {
+    padding: 10px;
+}
+
+
+.emptyOrders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 40px;
+    border: 1px solid var(--black10);
+    border-radius: 16px;
+
+    @media (--phone) {
+        padding: 0;
+        padding-top: var(--xxxxxxl-spacing);
+        border: 0;
+    }
+}
+
+.productShareIcon {
+    margin-left: var(--s-spacing);
+}
+
+.emptyProductText {
+    margin-top: var(--xxl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--d-font-size);
+    color: var(--black50);
+}
+
+.createButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--d-font-size);
+    color: var(--black);
+    height: 35px;
+    margin-left: var(--l-spacing);
+    margin-top: var(--s-spacing);
+    margin-bottom: var(--m-spacing);
+    width: 100px;
+    background: transparent !important;
+    border: 1px solid var(--black) !important;
+}
+
+.createButton img {
+    margin-right: var(--xs-spacing);
+}
+
+.stateBar {
+    flex: 1;
+}
+
+.section {
+    padding: 0 var(--l-spacing);
+    padding-top: var(--xl-spacing);
+}
+
+.withText {
+    background: transparent !important;
+    border: 2px solid var(--new-secondary) !important;
+    border-radius: 18px;
+}
+
+.tabClass {
+    background: var(--secondary);
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: var(--xl-spacing) var(--xs-spacing) !important;
+}
+
+.tabClass::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+.tabClassName {
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    padding: var(--s-spacing) var(--m-spacing);
+    border-radius: var(--xl-border-radius);
+    background: var(--primaryOpacityTwo);
+    min-width: max-content;
+}
+
+.tabClassName1 {
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--h5-font-size);
+    color: var(--black50);
+    padding: 0 var(--m-spacing);
+    padding-bottom: var(--xs-spacing);
+    margin: 0;
+    min-width: max-content;
+}
+
+.tabActive {
+    color: var(--secondary) !important;
+    background: var(--primary);
+}
+
+.padd0 {
+    padding: var !important;
+}
+
+.orderHead {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    margin-bottom: var(--xs-spacing);
+    padding-left: var(--l-spacing);
+
+    @media (--desktop) {
+        padding: 0 var(--xxxxxl-spacing);
+    }
+}
+
+.pickerContainer {
+    display: flex;
+    padding: var(--l-spacing);
+}
+
+:global(.ReactVirtualized__Grid__innerScrollContainer) {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+:global(.ReactVirtualized__Grid) {
+    width: 100% !important;
+}
+
+.tabList{
+    margin: var(--l-spacing) auto;
+}
+
+.tabClassName2 {
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--h5-font-size);
+    color: var(--black50);
+    padding-bottom: var(--xs-spacing);
+    margin: 0 var(--m-spacing);;
+    min-width: max-content;
+}

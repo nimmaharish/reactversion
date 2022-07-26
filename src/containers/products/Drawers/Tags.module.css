@@ -1,0 +1,35 @@
+.label {
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.drawer {
+    padding: 16px;
+}
+
+.paper {
+    height: 100% !important;
+}
+
+.close {
+    background-color: var(--primary) !important;
+    font-size: var(--m-spacing);
+    color: var(--secondary) !important;
+    text-transform: capitalize !important;
+    font-weight: var(--bold);
+}
+
+.content {
+    margin: 0 !important;
+    font-size: var(--h5-font-size) !important;
+    color: white !important;
+    padding: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    height: calc(100vh - 100px);
+    overflow: auto;
+}
+
+.titleStyles {
+    padding-top: var(--l-spacing);
+}

@@ -1,0 +1,92 @@
+.main {
+    width: 100%;
+    min-height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: var(--m-spacing) 0;
+  }
+
+  .con1 {
+    background: var(--primary);
+    border-radius: var(--m-spacing);
+    width: 60%;
+  }
+
+  .con2 {
+    width: 80%;
+    position: absolute;
+    right: 0;
+    z-index: 0;
+    height: calc(100% - 20px);
+    top: var(--m-spacing);
+    border-radius: var(--m-spacing);
+    border: 1px solid var(--primary);
+    border-left:none ;
+    /* box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.14); */
+    background: white;
+  }
+
+  .hexa {
+    width: 20px;
+    height: 50px;
+    background: var(--primary);
+    position: absolute;
+    top: calc(50% - 25px);
+    left: -1px;
+    clip-path: polygon(0 0, 100% 20%, 100% 80%, 0% 100%);
+  }
+
+  .cardDetails {
+      padding: 2% 2% 2% 10%;
+      height: calc(100% - 15px);
+      display: flex;
+      align-items: center;
+  }
+
+  .link {
+      color: var(--primary);
+      text-decoration: underline;
+      font-weight: 400;
+      cursor: pointer;
+      padding-left: var(--xs-spacing)  !important;
+  }
+
+  .name {
+    color: #212121;
+    font-family: 'SF UI Text';
+    font-style: normal;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-size: var(--d-font-size);
+    line-height: 140%;
+}
+
+.icon {
+    position: absolute;
+    top: calc(50% - 13px);
+    left: 8%;
+}
+
+.content {
+   color:rgba(33, 33, 33, 0.6);
+   font-family: 'SF UI Text';
+   font-style: normal;
+   font-weight: 400;
+   font-size: var(--m-font-size);
+   line-height: 140%;
+   width: 85%;
+}
+
+.chevron {
+    width: 10px;
+    position:absolute;
+    right: 4%;
+    top: calc(50% - 8px);
+}
+
+.main {
+  @media (--desktop) {
+    width: 500px;
+  }
+}

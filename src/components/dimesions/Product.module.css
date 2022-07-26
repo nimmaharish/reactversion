@@ -1,0 +1,17 @@
+.width70 {
+    margin-right: var(--m-spacing) !important;
+}
+
+.head {
+    width: 100%;
+    padding: 8px 0 !important;
+    padding-top: 16px !important;
+    font-size: var(--m-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.input {
+    padding: 8px !important;
+    width: 50px !important;
+    text-align: center;
+}

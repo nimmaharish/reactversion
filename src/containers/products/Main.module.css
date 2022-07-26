@@ -1,0 +1,24 @@
+.withText {
+    background: transparent !important;
+    border: 2px solid var(--new-secondary) !important;
+    border-radius: 18px;
+}
+
+.topBar {
+    padding: var(--s-spacing);
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.topBar > div {
+    width: 100%;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+}

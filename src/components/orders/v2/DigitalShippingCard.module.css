@@ -1,0 +1,72 @@
+.container {
+    background: var(--primaryOpacityTwo);
+    padding: var(--m-spacing);
+    border: 1px solid var(--black10);
+    border-radius: var(--border-radius);
+}
+
+.title {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--primary);
+}
+
+.detailsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linkText {
+    font-size: var(--d-font-size);
+    color: var(--black60);
+}
+
+.uploaderContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.opener {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.accordionContainer {
+    margin-top: var(--l-spacing);
+}
+
+.label {
+    font-size: var(--m-spacing);
+    color: var(--black80);
+    margin: var(--m-spacing) 0;
+
+    @media (--desktop) {
+        font-weight: var(--medium-bold);
+        font-size: var(--d-font-size);
+    }
+}
+
+.uploadCard {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.image {
+    opacity: 0.8;
+    margin: var(--m-spacing) 0px;
+}
+
+.uploadFileText {
+    font-size: var(--d-font-size);
+    color: var(--black);
+}
+
+.filesUploader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,104 @@
+.accordion {
+    background: var(--primaryOpacityTwo);
+    padding: var(--m-spacing);
+    border-radius: var(--border-radius);
+}
+
+.title {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--primary);
+}
+
+.opener {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.actionPending {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    text-align: center;
+    color: var(--red2);
+    padding: var(--xs-spacing) var(--s-spacing);
+    border: 1px solid var(--red2);
+    border-radius: 30px;
+    margin-right: var(--m-spacing);
+    background: var(--white);
+}
+
+.accordionContainer {
+    margin-top: var(--l-spacing);
+}
+
+.shippingFailedStatus {
+    span {
+        font-size: var(--m-font-size);
+        color: var(--black60);
+
+        &:first-child {
+            margin-right: var(--m-spacing);
+        }
+
+        &:last-child {
+            margin-left: var(--m-spacing);
+            color: var(--red2);
+        }
+    }
+
+    margin-bottom: var(--l-spacing);
+}
+
+.valueClass {
+    font-weight: var(--medium-bold) !important;
+}
+
+.downloadPopoverContainer {
+    padding: var(--xl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: var(--h3-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.downloadPopoverLabel {
+    margin-left: var(--m-spacing);
+    color: var(--black);
+    width: 150px;
+    font-size: var(--h5-font-size);
+}
+
+.downloadPopoverRoot {
+    padding: var(--s-spacing) var(--l-spacing);
+    position: relative;
+}
+
+.paper {
+    border-radius: var(--l-spacing) var(--l-spacing) 0px 0px !important;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconLabel {
+    font-size: var(--m-font-size);
+    color: var(--black);
+    margin-top: var(--xs-spacing);
+    font-weight: var(--semi-bold);
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}

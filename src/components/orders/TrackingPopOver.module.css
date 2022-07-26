@@ -1,0 +1,122 @@
+.container {
+    width: 90vw;
+    padding: var(--xl-spacing);
+}
+
+.title {
+    font-weight: var(--semi-bold);
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+
+.statusContainer {
+    display: flex;
+    flex-direction: column;
+    padding: var(--m-spacing) 0;
+}
+
+.statusBlock {
+    display: flex;
+    flex-direction: column;
+    margin-left: var(--l-spacing);
+    padding: var(--m-spacing) 0;
+    padding-left: var(--xxl-spacing);
+    border-left: 2px solid var(--yellow);
+}
+
+.statusBlock:first-child {
+    padding-top: 0;
+}
+
+.statusBlock:last-child {
+    padding-bottom: 0;
+}
+
+.statusBlock::before {
+    content: '';
+    height: 14px;
+    width: 14px;
+    background: var(--yellow);
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: -32px;
+    top: 14px;
+}
+
+.statusBlock.green {
+    border-left-color: var(--primary);
+}
+
+.statusBlock.yellow {
+    border-left-color: var(--primary);
+}
+
+.statusBlock.grey {
+    border-left-color: #E8E8E8;
+}
+
+
+.statusBlock.green::before {
+    background: var(--primary);
+}
+
+.statusBlock.yellow::before {
+    background: var(--primary);
+}
+
+.statusBlock.grey::before {
+    background: #E8E8E8;
+}
+
+.status {
+    color: var(--light-grey);
+    font-size: var(--d-font-size);
+    margin-bottom: var(--xs-spacing);
+    text-transform: capitalize;
+}
+
+.status.green {
+    color: var(--black);
+}
+
+.status.yellow {
+    color: var(--black);
+}
+
+.date {
+    color: var(--black30);
+    margin-top: var(--xs-spacing);
+    font-size: var(--m-font-size);
+}
+
+.note {
+    color: var(--black30);
+    font-size: var(--m-font-size);
+}
+
+.text {
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    margin-right: 4px;
+}
+
+.grey1 {
+    color: var(--new-primary);
+    font-size: var(--d-font-size);
+    padding: 12px 0;
+    border-bottom: 1px solid var(--black15);
+}
+
+.copyButton {
+    width: var(--m-spacing);
+    height: var(--m-spacing);
+    min-width: auto !important;
+    color: #616161;
+    margin-left: var(--m-spacing) !important;
+}
+
+.copyButton img {
+    width: var(--m-spacing);
+    height: var(--m-spacing);
+}

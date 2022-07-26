@@ -1,0 +1,91 @@
+.dialog {
+    z-index: 9999;
+}
+
+.container {
+    padding: 8px 0px 0px 0px;
+    background-color: #d7dada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container1 {
+    margin-top: var(--xl-spacing);
+    min-width: 50vw;
+}
+
+.emojilogo {
+    width: 50px;
+    height: 50px;
+    border-radius: var(--s-border-radius);
+}
+
+.texts {
+    margin-top: var(--l-spacing);
+    text-align: center;
+}
+
+.text {
+    margin-bottom: var(--xs-spacing);
+    font-size: var(--m-font-size);
+}
+
+.rating {
+    border-top: 1px solid #c3c6c6;
+    border-bottom: 1px solid #c3c6c6;
+    margin-top: var(--l-spacing);
+    width: 100%;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cancelButton {
+    font-size: var(--d-font-size);
+    width: 125px;
+    height: 40px;
+    border-right: 1px solid #c3c6c6;
+    text-align: center;
+}
+
+.submitButton {
+    text-align: center;
+    font-size: var(--d-font-size);
+    width: 125px;
+    height: 40px;
+}
+
+.cancelText, .submitText {
+    margin-top: 10px !important;
+    font-size: var(--d-font-size) !important;
+    color: #1E90FF;
+}
+
+.starlogoIos {
+    width: 75px;
+    height: 75px;
+    margin-top: 20px;
+}
+
+.undoIos {
+    margin-top: 25px;
+    color: green;
+}
+
+.iosRating { 
+    color:#1E90FF  !important;
+    padding-left: 10px !important;
+}
+
+.iosRating1 {
+    padding-left: 10px !important;
+}
+
+.dialog1 {
+    border-radius: var(--m-border-radius) !important;
+}

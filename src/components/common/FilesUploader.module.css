@@ -1,0 +1,68 @@
+.container {
+    border: var(--xxs-spacing) dashed var(--primary30);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+
+.filesUploader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.image {
+    opacity: 0.8;
+    margin: var(--m-spacing) 0px;
+}
+
+.input {
+    display: none;
+}
+
+.label {
+    font-size: var(--m-font-size);
+    color: var(--black80);
+    margin-top: var(--l-spacing);
+
+    @media (--desktop) {
+        font-weight: var(--medium-bold);
+        font-size: var(--d-font-size);
+        text-align: center;
+    }
+}
+
+.info {
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    margin-top: var(--m-spacing);
+}
+
+.bottomLabelContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: var(--m-spacing);
+}
+
+.bottomLabel {
+    font-size: var(--xs-font-size);
+    color: var(--black80);
+    margin-top: var(--l-spacing);
+
+    @media (--desktop) {
+        font-weight: var(--medium-bold);
+        font-size: var(--d-font-size);
+        text-align: center;
+    }
+}

@@ -1,0 +1,107 @@
+.container {
+    height: calc(100% - 30px);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inner {
+    padding: var(--s-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.icon {
+}
+
+.iconContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.checkBoxContainer {
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.radio {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid var(--white);
+    background: rgba(0, 0, 0, 0.16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.radio.selected {
+    background: var(--green);
+}
+
+
+.radio span {
+    font-size: var(--xs-font-size);
+    color: var(--white);
+}
+
+.unliveContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: calc(100% - 32px);
+    margin: 16px;
+}
+
+.delete {
+    background-color: var(--primary) !important;
+    color: var(--secondary) !important;
+    min-width: 125px !important;
+    padding: 8px var(--m-spacing) !important;
+    font-size: var(--h5-font-size) !important;
+    font-weight: var(--bold) !important;
+    text-transform: none !important;
+}
+
+.unlive {
+    background-color: var(--new-secondary) !important;
+    color: var(--primary) !important;
+    min-width: 125px !important;
+    margin-right: 12px !important;
+    font-size: var(--h5-font-size) !important;
+    padding: 8px var(--m-spacing) !important;
+    font-weight: var(--bold) !important;
+    text-transform: none !important;
+}
+
+.button {
+    height: 26px;
+    font-size: var(--s-font-size) !important;
+    border-radius: 0 !important;
+    max-height: 26px;
+    text-transform: none !important;
+    font-weight: var(--semi-bold);
+}
+
+.buttonContainer {
+    width: 100%;
+    border: 1px solid var(--white);
+}
+
+.empty {
+    height: calc(100vh - 140px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

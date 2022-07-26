@@ -1,0 +1,76 @@
+.head {
+    font-size: var(--h5-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black);
+}
+
+.section {
+    padding: var(--l-spacing);
+    width: calc(100% - 32px);
+}
+
+.card {
+    height: 180px;
+    min-width: 75%;
+    max-width: 320px;
+    background-repeat: no-repeat;
+    margin-right: var(--xxl-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0 var(--xl-spacing);
+    position: relative;
+    @media (--desktop) {
+        max-width: 25%;
+        min-width: 30%;
+    }
+    
+}
+
+.label {
+    font-weight: var(--semi-bold);
+    padding-top: var(--xl-spacing);
+    padding-bottom: var(--l-spacing);
+}
+
+.cardTitle {
+    font-weight: var(--semi-bold);
+    font-size: var(--h3-font-size);
+    color: var(--secondary);
+    padding-bottom: var(--s-spacing);
+    text-align: center;
+}
+
+.cardDesc {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--secondary);
+    text-align: center;
+}
+
+.single {
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    @media (--desktop) {
+        cursor: pointer;
+    }
+    
+}
+
+.single::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+/* .relative {
+    position: relative;
+} */
+
+.edit {
+    position: absolute;
+    right: 0;
+    padding: var(--l-spacing);
+    top: 0;
+}

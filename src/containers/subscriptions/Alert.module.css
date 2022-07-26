@@ -1,0 +1,19 @@
+
+.title {
+    font-weight: 500;
+    font-size: var(--d-font-size);
+    color: #212121;
+    opacity: 0.5;
+}
+
+.subTitle {
+    font-weight: 500;
+    font-size: var(--d-font-size);
+    text-align: center;
+    color: #34B751;
+    padding: 16px 0;
+}
+
+.btn {
+    padding-bottom: var(--m-spacing);
+}

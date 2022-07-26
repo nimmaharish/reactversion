@@ -1,0 +1,26 @@
+
+.right {
+    /* margin-right: var(--l-spacing); */
+}
+
+.taxCard {
+    display: flex;
+    margin-top: var(--l-spacing);
+    flex-direction: row;
+    padding: var(--l-spacing) var(--xl-spacing);
+    justify-content: space-between;
+    background: var(--primaryOpacityTwo);
+
+        &:first-child {
+            marging-top: 0 !important;
+        }
+        &:last-child {
+            margin-bottom: var(--xxl-spacing);
+        }
+}
+
+.taxTitle {
+    font-weight: 600;
+    font-size: var(--d-font-size);
+    /* margin-bottom: var(--m-spacing); */
+}

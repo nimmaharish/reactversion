@@ -1,0 +1,80 @@
+.container {
+    background: var(--white);
+    border-radius: var(--xx-spacing);
+    margin: var(--l-spacing) 0;
+    padding: var(--s-spacing) var(--l-spacing);
+
+    @media(--desktop) {
+        padding: var(--s-spacing) 100px var(--xxxl-spacing);
+    }
+}
+
+.linkExists {
+    background: var(--primaryOpacityOne);
+}
+
+.shareSection {
+    margin-bottom: var(--l-spacing);
+}
+
+.text {
+    font-size: var(--m-font-size);
+    color: var(--green5);
+}
+
+.generateIcon {
+    padding-right: var(--m-spacing);
+}
+
+.shareLinkSection {
+    background: var(--white);
+    border-radius: var(--xs-border-radius);
+}
+
+.button {
+    height: 52px !important;
+}
+
+.paymentsContainer {
+    margin: var(--m-spacing) var(--l-spacing) 0;
+
+    @media(--desktop) {
+        margin: var(--xl-spacing) var(--xxxxxl-spacing);
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.paymentCard {
+    background: var(--grey10);
+    border: 1px solid var(--black15);
+    border-radius: var(--xx-spacing);
+    padding: var(--s-spacing);
+    margin-bottom: var(--s-spacing);
+}
+
+.dialog {
+    width: calc(100% - 32px);
+    margin: var(--l-spacing);
+    padding: var(--l-spacing);
+    background: var(--grey10);
+}
+
+.paymentText {
+    font-size: var(--d-font-size);
+    color: var(--black);
+    opacity: 0.6;
+}
+
+.sharePaymentHeading {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--black);
+}
+
+.paymentLinkbar {
+    font-size: var(--m-font-size);
+    border-radius: var(--xx-spacing);
+}

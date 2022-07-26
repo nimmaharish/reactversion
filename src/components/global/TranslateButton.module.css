@@ -1,0 +1,6 @@
+.translateButton {
+    position: fixed;
+    top: 50vh;
+    right: var(--s-spacing);
+    z-index: 999999;
+}

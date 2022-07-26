@@ -1,0 +1,78 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--m-spacing);
+    background-color: var(--primaryOpacityTwo);
+    border-radius: 6px;
+}
+
+
+.noBottomBorder {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.label {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black80);
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.labelHelper {
+    font-size: var(--M-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black60);
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    background: var(--primaryOpacityTwo);
+    padding: 0 var(--m-spacing) var(--m-spacing) var(--m-spacing);
+}
+
+.label > img {
+    height: 42px;
+    width: 42px;
+    margin-right: var(--m-spacing);
+}
+
+.body {
+    padding: var(--m-spacing);
+    padding-top: 0;
+    background-color: var(--primaryOpacityTwo);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.body > label {
+    margin: var(--s-spacing) 0;
+}
+
+.main {
+    background: var(--grey6);
+    margin-top: var(--l-spacing);
+    border-radius: 6px;
+    @media (--desktop) {
+         cursor: pointer;
+    }
+}
+
+.status {
+    font-weight: var(--semi-bold);
+    font-size: var(--m-font-size);
+    margin-right: var(--m-spacing);
+    color: var(--green);
+}
+
+.inactive {
+    color: var(--red2) !important;
+}
+
+.smallHead {
+    font-size: var(--m-font-size);
+    font-weight: var(--semi-bold);
+    padding: var(--m-spacing) 0;    
+}

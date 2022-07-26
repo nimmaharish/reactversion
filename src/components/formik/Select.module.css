@@ -1,0 +1,23 @@
+
+.select {
+    font-size: var(--s-font-size) !important;
+    background: var(--card-background) !important;
+    padding: var(--xs-spacing) var(--s-spacing);
+    color: var(--black);
+}
+
+.select:global(.MuiInput-underline) {
+    &::before, &::after {
+        border: 0 !important;
+    }
+}
+
+.menuItem {
+    font-size: var(--s-font-size) !important;
+    min-height: 16px !important;
+}
+
+.menuItem:global(.Mui-selected) {
+    background: var(--yellow) !important;
+}
+

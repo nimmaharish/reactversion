@@ -1,0 +1,11 @@
+.textArea {
+    background: var(--card-background);
+    border-radius: var(--s-border-radius);
+    width: calc(100% - 16px);
+    border: 0;
+    outline: 0;
+    padding: var(--s-spacing) var(--s-spacing);
+    color: var(--black);
+    font-size: var(--s-font-size);
+    margin: var(--m-spacing) 0;
+}

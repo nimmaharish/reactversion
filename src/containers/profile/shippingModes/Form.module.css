@@ -1,0 +1,41 @@
+.saveButton {
+    border-radius: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 52px;
+
+    @media (--desktop) {
+        position: absolute;
+    }
+}
+
+.container {
+    padding: var(--l-spacing);
+
+    @media (--desktop) {
+        margin-top: var(--l-spacing);
+    }
+}
+
+.text {
+    font-size: var(--m-spacing);
+    font-weight: var(--medium-bold);
+    color: var(--black);
+    padding-bottom: var(--m-spacing);
+}
+
+.title {
+    padding-bottom: var(--l-spacing);
+    border-bottom: 1px solid var(--black10);
+}
+
+.spacer {
+    margin: var(--m-spacing) 0;
+}
+
+.bottomDrawerContainer {
+    border-bottom: 1px solid var(--black15);
+    padding-bottom: var(--l-spacing);
+}

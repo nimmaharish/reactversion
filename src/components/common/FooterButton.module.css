@@ -1,0 +1,13 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.container.isOpen {
+    position: absolute;
+    top: 130vh;
+    bottom: unset;
+}

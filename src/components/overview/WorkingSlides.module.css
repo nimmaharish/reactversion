@@ -1,0 +1,102 @@
+.minHeight {
+    /* height: 150px; */
+    width: 100%;
+}
+
+.section {
+    margin-bottom: 0px;
+    @media (--desktop) {
+        margin-bottom: var(--m-spacing);
+    }
+    /* height: 150px;
+
+    width: 100vw;
+    margin-bottom: var(--l-spacing); */
+}
+
+.btn {
+    position: absolute !important;
+    bottom: 6%;
+    left: calc(45% - 16px);
+    z-index: 9999;
+    font-size: var(--d-font-size) !important;
+    min-width: 100px !important;
+    text-transform: capitalize !important;
+}
+
+.title {
+    font-size: var(--m-font-size);
+    opacity: 0.8;
+    min-height: 84px;
+    max-height: 84px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.head {
+    font-size: var(--d-font-size);
+    text-align: left;
+    font-weight: var(--bold);
+    margin-bottom: var(--l-spacing);
+}
+
+.relative {
+    position: relative;
+}
+
+.styledButton {
+    width: 100%;
+}
+
+.button {
+    position: relative;
+    top: -10px;
+    background-color: var(--selected) !important;
+    border: none !important;
+    padding: 0 !important;
+    color: white !important;
+    padding-right: var(--m-spacing) !important;
+}
+
+.icon {
+    border-top-left-radius: 4px;
+    background: #fff!important;
+    padding: 5px!important;
+    border-bottom-left-radius: 4px;
+}
+
+.start_button{
+    text-transform: capitalize !important;
+    min-width:150px !important ;
+    background-color: var(--yellow) !important;
+}
+
+.back_button{
+    background-color: var(--black) !important;
+}
+
+.card {
+    background: red;
+    color: var(--secondary);
+    border-radius: 10px;
+    height: 169px;
+    width: 248px;
+    padding: 16px;
+    width: 250px !important;
+    @media (--desktop) {
+        height: 170px !important;
+        width: 264px !important;
+    }
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.step {
+    font-size: var(--s-font-size);
+    font-weight: var(--semi-bold);
+    text-transform: uppercase;
+}

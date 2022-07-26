@@ -1,0 +1,67 @@
+.container {
+    padding: var(--l-spacing);
+    background: var(--primaryOpacityTwo);
+    border-radius: var(--border-radius);
+    margin-top: var(--l-spacing);
+
+    @media (--desktop) {
+        background: var(--secondary);
+    }
+}
+
+.head {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+}
+
+.head1 {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    padding-top: var(--xl-spacing);
+    padding-bottom: var(--m-spacing);
+    text-transform: capitalize;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: var(--l-spacing);
+    background: var(--primaryOpacityTwo);
+}
+
+.key {
+    font-size: var(--m-font-size);
+    color: var(--black60);
+}
+
+.value {
+    font-size: var(--m-font-size);
+    color: var(--black60);
+    font-weight: var(--semi-bold);
+}
+
+.accordionHead {
+    margin-top: var(--m-spacing);
+    background: var(--secondary);
+    border-bottom: 1px solid var(--black10);
+    border-radius: 0;
+};
+
+.accordionHead div {
+    font-size: var(--m-font-size);
+};
+
+.accordionBody {
+    padding: 0;
+    padding-bottom: var(--l-spacing);
+    margin: 0;
+    background: var(--secondary);
+    border-bottom: 1px solid var(--black10);
+    border-radius: 0;
+};
+
+.accordionMain {
+    padding-bottom: 0 !important;
+}
+

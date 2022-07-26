@@ -1,0 +1,11 @@
+.button {
+    background: var(--black);
+    border-radius: var(--s-border-radius);
+    padding: var(--xs-spacing) var(--s-spacing);
+    color: var(--white);
+    font-size: var(--xs-font-size);
+    cursor: pointer;
+}
+
+.disabled {
+}

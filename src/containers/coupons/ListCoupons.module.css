@@ -1,0 +1,106 @@
+.container {
+    height: calc(100vh - 92px);
+    display: flex;
+    padding-top: 16px;
+    flex-direction: column;
+    
+}
+
+.kbc {
+    padding: var(--m-spacing) var(--m-spacing) 30px var(--m-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.desktopContainer{
+    padding:20px 40px 60px 40px;
+    background: var(--grey6);
+    height: calc(100vh - 170px) !important;
+    width: calc(100vw - 82px - 320px);
+    overflow: auto;
+}
+
+.topBar {
+    padding: var(--s-spacing);
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--l-spacing);
+}
+
+.heading {
+    font-size: var(--h3-font-size);
+    color: var(--black);
+}
+
+.emptyCoupons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    margin-left: var(--xxxxxxl-spacing);
+    margin-right: var(--xxxxxxl-spacing);
+    margin-top: var(--xxxxxxl-spacing);
+    margin-bottom: var(--m-spacing);
+}
+
+.text {
+    margin: var(--xs-spacing) var(--m-spacing);
+    margin-bottom: var(--xxxxl-spacing);
+    line-height: var(--xl-spacing);
+    opacity: 0.5;
+    font-size: var(--d-font-size);
+    font-weight: var(--normal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin-top: var(--l-spacing);
+    width: 272px;
+    @media (--desktop) {
+            margin-bottom: var(--l-spacing);
+    }
+}
+
+.buttonM {
+    display: flex;
+    align-items: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0px !important;
+    width: 100% !important;
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.couponBox {
+    margin:20px 120px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding:0px 130px 20px 130px;
+    @media (--desktop) {
+            padding:0px 130px 0px 130px;
+    }
+}
+.container1 { 
+    /* display: flex;
+    justify-content: center; */
+}

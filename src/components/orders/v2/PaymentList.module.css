@@ -1,0 +1,66 @@
+.container {
+    background: var(--white);
+    border-radius: var(--border-radius);
+    padding: var(--xl-spacing);
+    @media (--desktop) {
+        padding:var(--m-spacing) 0;
+        padding-left:100px;
+        padding-right:100px;
+    }
+}
+
+.card {
+    border-bottom: 1px solid var(--black15);
+    margin: var(--l-spacing) 0;
+
+    &:last-child {
+        border-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.icon {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+    margin: var(--l-spacing) 0;
+}
+
+.dialog {
+    :global(.MuiDialog-paperScrollPaper) {
+        height: 75vh;
+        position: relative;
+    }
+}
+
+.close {
+    width: 16px;
+    position: absolute;
+    right: var(--s-spacing);
+    top: var(--s-spacing);
+}
+
+.full {
+    width: auto;
+    height: auto;
+    object-fit: fill;
+    margin: auto 0;
+}
+
+.heading {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--primary);
+    @media (--desktop) {
+        margin-bottom: var(--xs-spacing);
+    }
+   
+}
+
+.accordionTop {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

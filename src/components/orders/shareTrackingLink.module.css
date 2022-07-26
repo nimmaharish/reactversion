@@ -1,0 +1,17 @@
+.section {
+    padding-bottom: var(--m-spacing);
+    background: var(--primaryOpacityTwo);
+    border-radius: var(--xs-border-radius);
+}
+
+.head {
+    padding: var(--m-spacing);
+}
+
+.link>div {
+    background: var(--white);
+}
+
+.link {
+    padding: 0 var(--m-spacing);
+}

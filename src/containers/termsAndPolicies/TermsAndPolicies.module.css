@@ -1,0 +1,220 @@
+.mainContainer {
+    padding: var(--l-spacing);
+    height: calc(100vh - 92px);
+    width: calc(100% - 32px);
+    overflow-y: auto;
+    position: relative;
+}
+
+.aboutShop {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    padding: var(--l-spacing);
+
+}
+
+.editor {
+   border: 1px solid var(--black30);
+   padding: 8px 12px;
+   color: var(--black70);
+   background: var(--secondary);
+   border-radius: 6px;
+ }
+
+ .shopTerms {
+    padding: 30px 0px 16px 0px;
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+ }
+
+ .deleteIcon {
+    display: flex;
+    float: right;
+    margin-left: var(--l-spacing);
+ }
+
+ .editIcon {
+    display: flex;
+    float: right;
+    margin-left: var(--l-spacing);
+ }
+
+ .deleteText {
+    color:var(--red1);
+    padding-left: var(--s-spacing);
+    padding-top: var(--xs-spacing);
+    font-size: var(--m-font-size);
+    font-weight: var(--normal);
+ }
+
+ .addIcon {
+     display: flex;
+     align-items: center;
+     margin-bottom: var(--xxl-spacing);
+     border-radius: 6px;
+     width: 100%;
+     padding: var(--l-spacing);
+     height: 59px;
+     background: var(--primaryOpacityTwo);
+    }
+
+ .addIconText {
+    padding-left: var(--s-spacing);
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+ }
+
+ .previewHead {
+   margin-top: var(--xxl-spacing);
+   font-weight: var(--semi-bold);
+   font-size: var(--h5-font-size);
+   color: var(--primary);
+ }
+
+ .previewBlock {
+   overflow: auto;
+   border-bottom: 0;
+   border-radius: 4px;
+ }
+
+ .aboutLabel {
+   color: var(--black70);
+ }
+
+ .aboutPreview {
+   font-size: var(--d-font-size);
+   color: var(--black70);
+   padding-bottom: var(--m-spacing);
+ }
+
+ .tncPreview {
+    color: var(--black70);
+    font-size: var(--d-font-size);
+    position: relative;
+    border: 1px solid var(--black10);
+    padding: 0 var(--l-spacing);
+    margin-top: var(--l-spacing);
+    border-radius: var(--border-radius);
+
+    &::before {
+      content: '';
+      height: 8px;
+      width: 8px;
+      border-radius: 50%;
+      position: absolute;
+      background: var(--black50);
+      display: block;
+      left: -16px;
+      top: 4px;
+   }
+ }
+
+ .tncPreviewUl {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+ }
+
+ :global(.tox-tinymce) {
+   border: none !important;
+}
+
+.icons {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   padding-bottom: var(--l-spacing);
+}
+
+.button {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: fixed !important;
+   bottom: 0 !important;
+   left: 0px !important;
+   width: 100% !important;
+   display: none;
+
+   @media (--desktop) {
+      position:  relative !important;
+      margin-top: var(--xl-spacing);
+   }
+}
+
+.desktopContainer {
+   padding: 20px 40px;
+   background: var(--grey6);
+   height: calc(100vh - 90px - 40px);
+   overflow-y: auto;
+}
+
+.maintitle {
+   display: flex;
+   align-items: center;
+   font-size: var(--h4-font-size);
+   color: var(--black60);
+}
+
+.backIconForDesktop {
+   padding:14px;
+   cursor: pointer;
+   background: #FFFFFF;
+   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+   border-radius: 4px;
+}
+
+.desktopBox{
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 40px;
+   background:var(--secondary);
+   border-radius: 5px;
+   padding: 30px 100px;
+}
+
+.desktopBox2{
+   cursor: pointer;
+   margin-left: auto;
+   margin-right: auto;
+   padding:20px;
+   border: 1px solid rgba(33, 33, 33, 0.1);
+   box-sizing: border-box;
+   border-radius: 6px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   background: var(--primaryOpacityTwo);}
+
+.sidebarDiv{
+   border: 1px solid rgba(33, 33, 33, 0.1);
+   box-sizing: border-box;
+   border-radius: 6px;
+   padding:30px 50px 0px 50px;
+   margin-top: 40px;
+}
+
+.previewBox{
+   box-sizing: border-box;
+   border-radius: 5px;
+}
+
+.spacer{
+   /* border-bottom: 1px solid var(--black60); */
+}
+
+.html {
+   margin: var(--m-spacing) 0 !important;
+}
+
+
+.html p {
+   margin: 0 !important;
+}
+
+.button > button {
+   @media (--phone) {
+      display: none;
+   }
+}

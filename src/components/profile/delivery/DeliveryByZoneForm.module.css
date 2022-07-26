@@ -1,0 +1,108 @@
+.card {
+    background: #E5E5E5;
+    border: 1px solid rgba(33, 33, 33, 0.1);
+    box-sizing: border-box;
+    border-radius: var(--xs-spacing);
+    padding: var(--l-spacing);
+    margin: var(--l-spacing) 0;
+}
+
+.container{
+    padding: var(--l-spacing);
+    overflow-y: auto;
+    height: calc(100vh - 52px);
+
+}
+
+.flexbetween{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: var(--l-spacing);
+    padding-bottom: var(--l-spacing);
+    border-bottom: 1px solid var(--black10);
+    width: 100%;
+}
+
+.border{
+    border-bottom: 1px solid rgba(33, 33, 33, 0.1);
+    border-top: 1px solid rgba(33, 33, 33, 0.1);
+    margin:var(--m-spacing) 0;
+    padding: var(--m-spacing) 0;
+}
+
+
+.spacer{
+    margin:var(--xs-spacing) 0;
+}
+
+.box{
+    background: #F4F4F4;
+    border-radius: 5px;
+    padding: var(--d-font-size) var(--m-spacing) 20px var(--m-spacing);
+}
+
+.saveButton{
+    border-radius: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    @media (--desktop) {
+        position: absolute;
+    }
+}
+
+.box2{
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: var(--m-spacing);
+    margin-top: var(--l-spacing);
+}
+
+.options{
+    display: flex;
+    padding: var(--l-spacing) var(--m-spacing) 20px var(--m-spacing);
+    border-bottom: 1px solid var(--black10);
+    color: rgba(33, 33, 33, 0.6);
+    font-size: var(--m-spacing);
+    font-weight: var(--medium-bold);
+}
+
+.marginLeft{
+    margin-left: var(--l-spacing);
+}
+
+.marginRight{
+    margin-right: var(--l-spacing);
+}
+
+.green{
+    color: var(--green5);
+    font-size: var(--d-font-size);
+}
+
+.f12{
+    font-size: var(--m-spacing);
+    font-weight: var(--medium-bold);
+    color: rgba(33, 33, 33, 0.6);
+}
+
+.f14{
+    font-size: var(--d-font-size);
+    color: rgba(33, 33, 33, 0.6);
+}
+
+.paddingTop {
+    padding-top: var(--s-spacing);
+}
+
+.grid {
+    width: 70;
+}

@@ -1,0 +1,77 @@
+.drawer {
+    background: var(--grey);
+}
+
+.textField input {
+    padding-top: var(--m-spacing) !important;
+    padding-bottom: var(--m-spacing) !important;
+}
+
+.textField {
+    margin-bottom: var(--m-spacing) !important;
+}
+
+.label {
+    margin-bottom: var(--s-spacing);
+}
+
+.button {
+    min-height: 35px !important;
+    min-width: 135px !important;
+    font-size: var(--d-font-size) !important;
+    text-transform: none;
+    margin-top: var(--xxl-spacing);
+    @media (--desktop) {
+        font-size: var(--h5-font-size) !important;
+    }
+}
+
+.dialogClose {
+    margin-left: -20px;
+    transform: translate(10px, -10px);
+    float: right;
+
+    img {
+        width: 20px;
+    }
+
+    cursor: pointer;
+}
+
+.container {
+    margin: var(--xl-spacing);
+    @media (--desktop) {
+        margin: var(--xxxxxxl-spacing);
+    }
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.success, .error {
+    font-size: var(--d-font-size);
+    margin: var(--l-spacing) 0;
+    font-weight: var(--semi-bold);
+    color: var(--green);
+}
+
+.error {
+    color: var(--red);
+}
+
+.message {
+    font-size: var(--d-font-size);
+    margin: var(--l-spacing) 0;
+    font-weight: var(--semi-bold);
+    color: var(--black50);
+}
+
+.okButton {
+   margin-top: var(--xs-spacing);
+}
+
+.popup {
+    padding-bottom:var(--m-spacing);
+}

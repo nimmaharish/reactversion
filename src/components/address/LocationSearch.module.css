@@ -1,0 +1,45 @@
+.container {
+    margin: 0 var(--l-spacing);
+    overflow: auto;
+    padding-top: var(--l-spacing);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: var(--m-spacing) 0;
+}
+
+.place {
+    cursor: pointer;
+}
+
+.placeName {
+    font-weight: var(--semi-bold);
+    margin: var(--xs-spacing) 0;
+}
+
+.title {
+    font-size: var(--h5-font-size);
+    margin: 0 var(--l-spacing);
+    font-weight: var(--medium-bold);
+    margin-bottom: var(--s-spacing);
+    color: var(--black);
+}
+
+.placeAddress {
+    color: var(--black50);
+    padding: 16px 0;
+    border-bottom: 1px solid var(--black10);
+}
+
+.places {
+    max-height: 70vh;
+    overflow-y: auto;
+    padding: 0 var(--l-spacing);
+}
+
+.inputClass {
+    background: var(--grey6) !important;
+}

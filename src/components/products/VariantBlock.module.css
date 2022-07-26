@@ -1,0 +1,53 @@
+.container {
+    background: var(--grey-bg);
+    border-radius: var(--border-radius);
+    margin: var(--m-spacing) 0;
+}
+
+.drawer {
+    padding: 0 var(--m-spacing);
+    padding-top: var(--xxs-spacing);
+    padding-bottom: var(--m-spacing);
+    background: var(--primaryOpacityTwo);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: var(--primaryOpacityTwo);
+}
+
+.buttonContainer button.button {
+    /* background: transparent !important; */
+}
+
+.heading {
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    margin-bottom: var(--m-spacing);
+}
+
+.card {
+    margin: var(--m-spacing) 0;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: var(--xs-spacing);
+}
+
+.row > * {
+    margin: var(--s-spacing);
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.colorBlock {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--s-border-radius);
+}

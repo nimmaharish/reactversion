@@ -1,0 +1,14 @@
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}

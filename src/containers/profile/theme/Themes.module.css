@@ -1,0 +1,32 @@
+.themesSection {
+    overflow: auto;
+    padding-top: 0;
+    height: calc(100vh - 60px);
+
+    @media (--desktop) {
+        height: calc(100% - 40px);
+        overflow: hidden;
+    }
+}
+
+.desktopContainer {
+    padding : 20px 40px ;
+    height: calc(100% - 40px);
+    overflow: hidden;
+    width: calc(100vw - 400px);
+ }
+
+ .maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h4-font-size);
+    color: var(--black60);
+ }
+
+ .backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }

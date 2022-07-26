@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 46px;
+    height: 36px;
+    margin-bottom: var(--xs-spacing);
+    border-radius: 50%;
+    transition: all 300ms;
+}
+
+.icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.label {
+    font-size: var(--d-font-size);
+    color: var(--light-grey);
+}
+
+.label.selected {
+    font-weight: var(--semi-bold);
+    color: var(--primary);
+}

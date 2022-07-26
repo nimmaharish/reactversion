@@ -1,0 +1,6 @@
+.child {
+    padding: var(--xs-spacing);
+    padding-right: var(--m-spacing);
+    margin-bottom: var(--l-spacing);
+    border-radius: 10px;
+}

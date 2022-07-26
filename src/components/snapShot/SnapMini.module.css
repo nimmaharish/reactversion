@@ -1,0 +1,43 @@
+.container {
+    padding: var(--m-spacing) var(--l-spacing);
+    background: linear-gradient(100.76deg, #7FA0E9 0%, #80D0C8 100%);
+    border: 1px solid rgba(181, 185, 227, 0.2);
+    border-radius: var(--xx-spacing);
+    color: var(--white);
+
+    @media (--desktop) {
+        padding: var(--xl-spacing) var(--xxxxxxl-spacing);
+    }
+}
+
+.head {
+    font-weight: 500;
+    font-size: 12px;
+    margin-bottom: 14px;
+}
+
+.text {
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    margin-left: var(--m-spacing);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+
+    @media (--desktop) {
+        justify-content: center !important;
+    }
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    background: var(--primary);
+    color: var(--white);
+}

@@ -1,0 +1,23 @@
+.container {
+    height: calc(100vh);
+    background: var(--white);
+    overflow-y: auto;
+}
+
+.topBar {
+    padding: var(--l-spacing);
+    display: flex;
+    align-items: center;
+    background: var(--secondary);
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 6%);
+}
+
+.heading {
+    font-size: var(--h5-font-size);
+    color: var(--black);
+    font-weight: var(--semi-bold);
+}
+
+.back {
+    padding: 0 var(--l-spacing) 0 0;
+}

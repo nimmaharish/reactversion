@@ -1,0 +1,320 @@
+.container {
+    height: var(--container-height);
+    overflow: auto;
+    background: var(--white);
+}
+
+.padding {
+    padding: var(--m-spacing);
+}
+
+.card {
+    height: 100px;
+    max-width: calc(50% - 16px) !important;
+    background-color: var(--secondary);
+    border-radius: 16px;
+    margin: var(--xs-spacing) !important;
+    font-size: var(--d-font-size);
+}
+
+.margin0 {
+    margin: 0 !important;
+}
+
+.shopStatusBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.shopStatusText {
+    font-size: var(--m-font-size);
+    margin-right: var(--s-spacing);
+    color: var(--black);
+}
+
+.progress {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.topBarForMobile {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    justify-content: space-between;
+}
+
+.spacer {
+    width: 50px;
+}
+
+.shopName {
+    font-size: var(--d-font-size);
+    text-transform: capitalize;
+    color: var(--black);
+    font-weight: var(--bold) !important;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: var(--m-spacing);
+}
+
+.overviewContainer {
+    /* padding: var(--m-spacing) 0; */
+}
+
+.noNewOrders {
+    display: flex;
+    flex-direction: column;
+    margin: var(--s-spacing) 0;
+    align-items: center;
+}
+
+.noNewOrders img {
+    /* height: 120px; */
+}
+
+.paddingTop {
+    padding-top: var(--m-spacing);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.noContentHeading {
+    margin-top: var(--m-spacing);
+    margin-bottom: var(--m-spacing);
+    color: var(--black);
+    font-size: var(--h4-font-size);
+    font-weight: var(--medium-bold);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productShare {
+    margin-top: var(--l-spacing);
+    font-size: var(--s-font-size);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.productShareIcon {
+    margin-left: var(--s-spacing);
+    cursor: pointer;
+    height: 24px;
+    width: 24px;
+}
+
+.createProductButton {
+    background: var(--yellow);
+    color: var(--black);
+    font-size: var(--s-font-size);
+    padding: var(--xs-spacing) var(--s-spacing);
+    border-radius: var(--s-border-radius);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: var(--s-spacing);
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+}
+
+.logo_icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.walletBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.walletBlock {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--m-font-size);
+    padding: var(--xs-spacing) var(--m-spacing);
+    cursor: pointer;
+}
+
+.walletBlock img {
+    border-right: 1px solid var(--dark-grey);
+    padding-right: var(--s-spacing);
+}
+
+.walletBlock .walletAmount {
+    margin-left: var(--s-spacing);
+}
+
+.share {
+    text-transform: capitalize !important;
+    font-size: var(--m-font-size) !important;
+    background-color: var(--primary) !important;
+    color: var(--secondary) !important;
+    padding: 6px 12px !important;
+    margin-right: 8px !important;
+}
+
+.postInfo {
+    font-size: var(--m-font-size);
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+
+.post {
+    height: 120px;
+    width: 33.3%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button {
+    height: 26px;
+    font-size: var(--xs-font-size) !important;
+    border-radius: 0 !important;
+    max-height: 26px;
+    text-transform: none !important;
+    font-weight: var(--semi-bold);
+}
+
+.buttonContainer {
+    width: 100%;
+    border: 1px solid var(--white);
+}
+
+.spacing {
+    margin-bottom: var(--xxxxxl-spacing);
+}
+
+.stepper {
+    margin-top: var(--xxl-spacing);
+    /* margin-left: 300px; */
+    margin-right: var(--m-spacing) !important;
+
+    @media (--phone) {
+        margin-right: 0 !important;
+    }
+}
+
+.upgradeAnalytics {
+    width: 100%;
+    min-height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 6px var(--black15);
+    border-radius: var(--m-border-radius);
+}
+
+.upgradeAnalyticsText {
+    font-size: var(--h2-font-size);
+    font-weight: var(--semi-bold);
+    margin-bottom: var(--l-spacing);
+}
+
+.upgradeAnalyticsButton {
+    height: 45px !important;
+    min-width: 135px !important;
+    font-weight: var(--semi-bold) !important;
+    font-size: var(--d-font-size) !important;
+}
+
+.tileClass {
+    height: 120px !important;
+}
+
+.tileClass1 {
+    height: 120px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    background: transparent;
+}
+
+.cardSpacer {
+    margin: var(--m-spacing) 0;
+}
+
+.tour {
+    background: linear-gradient(99.02deg, #7FA0E9 -0.75%, #80D0C8 107%);;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: var(--xl-spacing);
+    margin: 0 var(--l-spacing);
+    color: var(--white);
+}
+
+.see {
+    font-size: var(--d-font-size);
+    font-weight: var(--bold);
+    padding-bottom: var(--m-spacing);
+}
+
+.take {
+    font-size: var(--m-font-size);
+    font-weight: var(--medium-bold);
+    padding-bottom: var(--xl-spacing);
+}
+
+.button1 {
+    font-size: var(--d-font-size);
+    color: var(--black80);
+    margin-right: var(--m-spacing)
+}
+
+.expiryMain {
+    height: 52px !important;
+    background: linear-gradient(91.64deg, #4B7BE4 0%, #1B226C 100%);;
+    width: 100%;
+    bottom: 60px;
+    position: absolute;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary) !important;
+}
+
+.subscribe {
+    /* border-bottom: 1px solid var(--secondary) !important; */
+    /* color: var(--secondary) !important; */
+    margin-left: var(--xs-spacing);
+}
+
+.buttonSecond {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--m-spacing);
+}

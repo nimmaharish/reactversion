@@ -1,0 +1,249 @@
+.themesSection {
+    overflow: auto;
+    padding-bottom: 45px;
+    height: calc(100vh - 59px - 45px);
+
+    @media (--desktop) {
+        overflow-y: auto;
+        height: calc(100vh - 210px - 45px);
+    }
+}
+
+.themes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--l-spacing);
+}
+
+.box{
+    background-color: var(--white);
+    border-radius: var(--s-border-radius);
+    border: 1px solid var(--black10);
+    padding: var(--l-spacing);
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: var(--xl-spacing);
+}
+
+.title{
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black);
+    padding: var(--l-spacing) 0;
+    width: 100%;
+}
+
+.center{
+    text-align: center;
+}
+
+.selectStyle{
+    color: var(--primary);
+    font-size: var(--m-font-size);
+    float: right;
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.buttonContainer {
+
+    @media (--desktop) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        background: #F8F8F8;
+        width: 75vw;
+    }
+
+    @media (--phone) {
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0px !important;
+        width: 100% !important;
+    }
+}
+
+.img {
+    width: 100%;
+}
+
+.spacer{
+    margin: var(--l-spacing) auto;
+}
+
+.radio{
+    margin-left: var(--m-spacing);
+}
+
+.mb {
+    margin-bottom: var(--l-spacing);
+}
+
+.calatheaproductCard {
+    Width :158px;
+    Height :324px;
+
+    @media (--desktop) {
+        width: 888px;
+        height: 385px;
+    }
+}
+
+.carnationproductCard {
+    width: 158px;
+    height: 286px;
+
+    @media (--desktop) {
+        width: 888px;
+        height: 402px;
+    }
+}
+
+.lilacproductCard {
+    width: 308px;
+    height: 652px;
+    @media (--desktop) {
+        width: 888px;
+        height: 875px;
+    }
+}
+
+.celosiaproductCard {
+    @media (--desktop) {
+        width: 886px;
+        height: 260px;
+    }
+}
+
+.daffodilproductCard {
+    @media (--desktop) {
+        width: 441px;
+        height: 149px;
+    }
+}
+
+.w100{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.carnationbanners, .celosiabanners {
+    width: calc(100% + 32px);
+    @media (--desktop) {
+        width: 888px;
+        height: 146px;
+    }
+}
+
+.daffodilbanners {
+    width: 100%;
+    @media (--desktop) {
+        width: 888px;
+        height: 146px;
+    }
+}
+
+.daffodilshopProfile , .celosiashopProfile  {
+    @media (--desktop) {
+        width: 832px;
+        height: 162px;
+    }
+}
+
+.carnationshopProfile{
+    width: 152px;
+    height: 152px;
+    @media (--desktop) {
+        width: 832px;
+        height: 162px;
+    }
+}
+
+.lilacshopProfile{
+    width: 150px;
+    height: 150px;
+    @media (--desktop) {
+        width: 832px;
+        height: 162px;
+        
+    }
+}
+
+.lilacbanners{
+    width: 298px;
+    height: 298px;
+
+    @media (--desktop) {
+        width: 888px;
+        height: 244px;  
+    }
+}
+
+.celosiacatalogs, .daffodilcatalogs {
+    @media (--desktop) {
+        width: 886px;
+        height: 176px;
+    }
+}
+
+.calatheacatalogs {
+    @media (--desktop) {
+        width: 888px;
+        height: 264px;
+    }
+}
+
+.carnationcatalogs{
+    @media (--desktop) {
+        width: 888px;
+        height: 201px;
+    }
+}
+
+.lilaccatalogs{
+    @media (--desktop) {
+        width: 888px;
+        height: 241px;
+    }
+}
+
+
+.calatheabanners {
+    width: 298px;
+    height: 282px;
+    @media (--desktop) {
+        width: 888px;
+        height: 162px;
+    }
+}
+
+.button{
+    border-radius: 0;
+    left: 0;
+    bottom: 0;
+    margin-top: var(--m-spacing) !important;
+    @media (--phone) {
+        height: 52px;
+        width: 100%;
+        position: fixed;
+    }
+}
+
+
+.flexBetween {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comingSoon{
+    width: 100%;
+    margin: var(--l-spacing) auto;
+    color: var(--primary);
+    font-size: var(--h4-font-size);
+}

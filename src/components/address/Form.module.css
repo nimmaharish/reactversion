@@ -1,0 +1,122 @@
+.containerClass {
+    background: var(--secondary);
+}
+
+.container {
+    height: calc(100vh - 60px);
+    width: calc(100%);
+    @media (--desktop) {
+        width: 85%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}
+
+.container1 {
+    height: calc(100vh - 60px - 50px);
+    overflow-y: auto;
+    position: relative;  
+}
+
+
+.formContainer {
+    padding: var(--l-spacing);
+    margin-top: var(--l-spacing);
+}
+
+.textField {
+    margin: var(--m-spacing) 0 !important;
+}
+
+.textField input {
+    background: var(--white);
+    padding: var(--m-spacing) var(--s-spacing) !important;
+    font-size: var(--m-font-size) !important;
+    color: var(--black) !important;
+    border-radius: var(--xs-border-radius);
+}
+
+.textField label {
+    transform: translate(10px, 10px) scale(1);
+    font-size: var(--m-font-size);
+}
+
+.textField label:global(.Mui-focused), label:global(.MuiInputLabel-shrink) {
+    transform: translate(4px, -16px) scale(1) !important;
+}
+
+.textField fieldset {
+    border: 0;
+}
+
+.textField input[disabled] {
+    background: var(--grey2);
+}
+
+.title {
+    padding: 0 var(--l-spacing);
+    padding-top: var(--xl-spacing);
+    padding-bottom: var(--l-spacing);
+    font-size: var(--h5-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.title1 {
+    padding-top: var(--xl-spacing);
+    padding-bottom: var(--l-spacing);
+    font-size: var(--h5-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.chip {
+    border: 1px solid transparent;
+    color: var(--black50);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    padding: var(--s-spacing);
+    border-radius: var(--border-radius);
+    span {
+        margin-left: var(--xs-spacing);
+    }
+
+    &.selected {
+        border-color: var(--green);
+        color: var(--green);
+    }
+}
+
+.customInput {
+    width: 49% !important;
+}
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.capitalize input {
+    text-transform: capitalize !important;
+}
+
+.errorText {
+    font-size: var(--s-font-size) !important;
+    color: var(--primary) !important;
+}
+
+.errorInput {
+    border:1px solid var(--primary) !important;
+}
+
+.buttonD  {
+    display: flex;
+    justify-content: center;
+}

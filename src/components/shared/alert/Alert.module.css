@@ -1,0 +1,19 @@
+
+.deliveryTag {
+    max-width: 100%;
+}
+
+.deliveryTagTitle {
+    font-size: var(--d-font-size);
+    text-align: left;
+    color: var(--black60);
+    margin: var(--m-spacing) 0;
+}
+
+.btn {
+    padding-bottom: var(--xl-spacing);
+}
+
+.btn > * {
+    min-width: 150px;
+}

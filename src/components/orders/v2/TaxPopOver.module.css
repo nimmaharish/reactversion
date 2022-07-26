@@ -1,0 +1,24 @@
+.heading {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--black);
+}
+
+.subHeadingContainer {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--black);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: var(--m-spacing) 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: var(--s-spacing) 0;
+    text-transform: capitalize;
+}

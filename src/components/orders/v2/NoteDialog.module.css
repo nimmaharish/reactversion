@@ -1,0 +1,9 @@
+.heading {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--black);
+}
+
+.body {
+    margin: var(--xl-spacing) 0;
+}

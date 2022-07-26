@@ -1,0 +1,23 @@
+.topBar {
+    padding: var(--l-spacing);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-size: var(--h5-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black);
+    padding-left: var(--m-spacing);
+}
+
+.right {
+    display: flex;
+}

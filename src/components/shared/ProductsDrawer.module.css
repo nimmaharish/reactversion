@@ -1,0 +1,107 @@
+.container {
+    height: 100vh;
+    /* overflow: hidden; */
+    background: var(--grey6);
+}
+
+.productPopUpContainer {
+    height: calc(100vh - 300);
+    background: var(--grey6);
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: var(--s-spacing) var(--xs-spacing);
+    padding: var(--m-spacing);
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
+}
+
+.img {
+    width: 100%;
+    height: 108px;
+    border-radius: var(--s-border-radius);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.title {
+    margin-top: 12px;
+    font-size: var(--m-font-size);
+    text-align: left;
+    width: 100%;
+}
+
+.overflow {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 244px);
+    padding: 0 var(--l-spacing);
+    overflow: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.tagButtonContainer {
+    display: flex;
+    justify-content: center;
+    font-size: var(--m-font-size);
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.tagButtonContainerD {
+    display: flex;
+    margin-top: var(--l-spacing) !important;
+    margin-bottom: var(--l-spacing) !important;
+    justify-content: center;
+}
+.tagButton {
+    font-size: var(--m-font-size);
+    display: inline-flex;
+}
+
+.checkBoxContainer {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: var(--s-spacing);
+}
+
+.emptyProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.emptyProductText {
+    margin: var(--xl-spacing) 0;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--d-font-size);
+    color: var(--black50);
+    font-weight: var(--medium-bold);
+}
+
+.icon {
+    padding: var(--xxxl-spacing);
+}
+
+.paper {
+
+}
+:global(.ReactVirtualized__Grid) {
+    width: auto !important;
+}
+
+.tagButton {
+    max-width: 272px;
+}

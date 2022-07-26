@@ -1,0 +1,60 @@
+.from {
+
+    @media (--desktop) {
+    padding:var(--xxl-spacing);
+    }
+    padding: var(--m-spacing) 0;
+    border-bottom: 1px solid var(--black5);
+}
+
+.customHead {
+    font-size: var(--m-font-size);
+    color: var(--primary);
+}
+
+.header {
+    font-size: var(--h5-font-size);
+    font-weight: var(--bold);
+    padding-top: var(--s-spacing);
+    padding-bottom: var(--m-spacing);
+}
+
+.type {
+    color: var(--light-grey);
+    font-size: var(--m-font-size);
+}
+
+.value {
+    color: var(--black);
+    font-size: var(--m-font-size);
+    padding: 0 var(--xs-spacing);
+    @media (--desktop) {
+        padding: 0 var(--m-spacing);
+    }
+}
+
+.bottom {
+    padding-bottom: var(--m-spacing);
+}
+
+.back {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    padding-left: var(--m-spacing);
+    font-size: var(--h3-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black60);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }
+ 

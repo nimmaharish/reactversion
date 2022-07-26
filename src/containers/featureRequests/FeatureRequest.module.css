@@ -1,0 +1,59 @@
+.container {
+    margin: var(--m-spacing) var(--m-spacing);
+}
+
+.editIcon {
+    height: 24px;
+    margin-right: var(--m-spacing);
+}
+
+.editButton {
+    font-weight: var(--semi-bold) !important;
+    padding: var(--m-spacing) !important;
+    border-radius: 0 !important;
+    /* margin-bottom: var(--m-spacing) !important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    z-index: 10;
+    width: 100% !important;
+}
+
+.tab {
+    justify-content: center;
+    margin-bottom: 12px !important;
+    padding: 4px !important;
+    background: var(--secondary) !important;
+    border-radius: 4px !important;
+}
+
+.tabClassName {
+    min-width: 75px !important;
+    text-align: center;
+    color: #989595;
+    flex: 1;
+}
+
+.tabActive {
+    color: var(--primary) !important;
+    border-radius: 4px !important;
+    border: 1px solid;
+}
+
+.noRequests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    font-weight: var(--bold);
+    font-size: var(--h2-font-size);
+}
+
+.noRequests img {
+    margin-bottom: var(--xl-spacing);
+}
+

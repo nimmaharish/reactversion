@@ -1,0 +1,32 @@
+.container {
+    height: 100%;
+}
+
+.iframe {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.loading .iframe {
+    display: none;
+}
+
+.cover {
+    display: none;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading .cover {
+    display: flex;
+}
+
+.heading {
+    margin-top: var(--xl-spacing);
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+}

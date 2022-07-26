@@ -1,0 +1,217 @@
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.loginContainer {
+    background: var(--primary);
+    border-top-left-radius: var(--xl-border-radius);
+    border-top-right-radius: var(--xl-border-radius);
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--l-spacing);
+    padding-bottom: var(--l-spacing);
+    min-height: 273px;
+    overflow: scroll;
+}
+/*
+.loginContainerios {
+    background: var(--secondary);
+    border-top-left-radius: var(--xl-border-radius);
+    border-top-right-radius: var(--xl-border-radius);
+    display: flex;
+    flex-direction: column;
+    padding: 0 var(--l-spacing);
+    padding-bottom: var(--l-spacing);
+} */
+
+.trustedLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding:0 var(--xl-spacing) 0 var(--xl-spacing);
+}
+
+.trustedTxt {
+    margin-left: var(--m-spacing);
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: var(--m-spacing);
+    font-weight: var(--medium-bold);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+
+    > * {
+        margin-bottom: var(--l-spacing);
+        height: 48px;
+    }
+}
+
+.continueWith {
+    margin-top: var(--xxxl-spacing);
+    margin-bottom: var(--m-spacing);
+    font-size: var(--h4-font-size);
+    color: var(--white);
+    font-weight: var(--semi-bold);
+}
+
+.slider {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.errorText {
+    color: var(--white) !important;
+}
+
+.otpScreen {
+    align-items: center;
+    color: var(--white);
+    font-size: var(--m-font-size);
+}
+
+.otpScreen .continueWith {
+    margin-bottom: var(--xxl-spacing);
+}
+
+.otpContainer {
+    display: flex;
+    flex-direction: row;
+    margin: var(--m-spacing) 0;
+}
+
+.otpScreen input {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--white);
+    background: transparent;
+    border-radius: var(--s-border-radius);
+    padding: 0;
+    margin: 0 var(--xs-spacing);
+    color: var(--white);
+    font-size: var(--d-font-size);
+    text-align: center;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.otpScreen input[type=number]::-webkit-inner-spin-button,
+.otpScreen input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.otpScreen input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.timerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: var(--s-font-size);
+}
+
+.timerContainer > div {
+    margin: 0 var(--xl-spacing);
+}
+
+.resendCode {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: var(--s-font-size);
+    align-items: center;
+    margin-top: var(--xl-spacing);
+}
+
+.resendCodeButton {
+    font-size: var(--s-font-size);
+    color: var(--white);
+    margin-left: var(--m-spacing);
+    text-decoration: underline;
+}
+
+.otpHeader {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agree {
+    font-size: var(--m-font-size);
+    color: var(--secondary);
+    padding-left: var(--xxl-spacing);
+    padding-right: var(--xxl-spacing);
+    text-align: center;
+}
+
+.textLink {
+    font-size: var(--m-font-size);
+    color: var(--secondary);
+    padding-left: var(--xs-spacing);
+    padding-right: var(--xs-spacing);
+    text-decoration: underline;
+}
+
+.back {
+    margin-top: var(--xxxl-spacing);
+    margin-bottom: var(--m-spacing);
+    display: flex;
+    align-items: center;
+}
+
+.continue {
+    font-size: var(--h4-font-size);
+    color: var(--white);
+    margin-left: var(--m-spacing);
+    font-weight: var(--semi-bold);
+}
+
+.error {
+    padding: var(--l-spacing) 0;
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    margin-top: var(--xxxl-spacing);
+    margin-bottom: var(--m-spacing);
+    font-size: var(--h4-font-size);
+    color: var(--white);
+    font-weight: var(--semi-bold);
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.continueWith1 {
+    font-size: var(--h4-font-size);
+    color: var(--white);
+    font-weight: var(--semi-bold);
+}
+
+.selectLang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang {
+    margin-left: var(--s-spacing);
+    font-size: var(--d-font-size);
+    color: var(--white);
+}

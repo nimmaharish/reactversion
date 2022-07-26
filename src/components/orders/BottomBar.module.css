@@ -1,0 +1,64 @@
+.container {
+    width: calc(100% - 32px);
+    max-height: 56px;
+    min-height: 0;
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    display: block;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconLabel {
+    font-size: var(--m-font-size);
+    color: var(--black);
+    margin-top: var(--xs-spacing);
+    font-weight: var(--semi-bold);
+}
+
+.paper {
+    border-radius: var(--l-spacing) var(--l-spacing) 0px 0px !important;
+}
+
+
+.downloadPopoverRoot {
+    padding: var(--s-spacing) var(--l-spacing);
+    position: relative;
+}
+
+.downloadPopoverContainer {
+    padding: var(--s-spacing) var(--l-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.border {
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.downloadPopoverLabel {
+    margin-left: var(--m-spacing);
+    color: var(--black);
+    width: 100px;
+}
+
+.lSpacing {
+    margin-left: var(--l-spacing);
+}

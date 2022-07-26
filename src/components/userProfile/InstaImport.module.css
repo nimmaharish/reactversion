@@ -1,0 +1,279 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--m-font-size);
+    color: var(--primary);
+    border-radius: var(--border-radius);
+    /* border: 1px solid var(--primary); */
+    /* padding: var(--s-spacing) var(--m-spacing); */
+    cursor: pointer;
+    @media (--desktop) {
+       margin-top: 0;
+    }
+}
+
+.disabledButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--m-font-size);
+    color: var(--primary);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--primary);
+    padding: var(--s-spacing) var(--m-spacing);
+    cursor: pointer;
+}
+
+.syncIcon {
+    text-align: center;
+
+    img {
+        width: 31px;
+    }
+}
+
+.dialogClose {
+    margin-left: -20px;
+    transform: translate(10px, -10px);
+    float: right;
+
+    img {
+        width: 20px;
+    }
+
+    cursor: pointer;
+}
+
+.button img {
+    margin-right: var(--s-spacing);
+    @media (--desktop) {
+        width:  var(--xxl-spacing);
+        height: var(--xxl-spacing);
+        margin-right: var(--s-spacing);
+    }
+}
+
+.button span {
+    flex: 1;
+    text-align: center;
+}
+
+.submit {
+    background: transparent;
+    font-size: var(--m-font-size);
+    text-transform: capitalize !important;
+}
+
+.slugSec {
+    background: white !important;
+    border: 1px solid #989595 !important;
+    border-radius: 4px !important;
+    height: 38px;
+    box-sizing: border-box;
+    margin: var(--m-spacing) 0 !important;
+}
+
+#slugField .MuiInput-underline:before {
+    border: none !important;
+}
+
+
+.slug {
+    position: relative;
+    background: var(--white) !important;
+    font-size: var(--m-font-size) !important;
+    height: 28px !important;
+    padding: 4px !important;
+    border-radius: 4px !important;
+}
+
+.disabledButton {
+    background: linear-gradient(
+            to right,
+            var(--primary) 0%, var(--primary) 50%,
+            var(--white) 50%, var(--white) 100%
+    );
+    color: var(--black);
+    justify-content: center;
+}
+
+.heading {
+    font-size: var(--m-font-size);
+    color: var(--black);
+    margin: 10px 0;
+}
+
+.emptyChat {
+    width: 100%;
+}
+
+.single {
+    text-indent: 10px;
+}
+
+.instaSyncHeading {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    margin-top: var(--xl-spacing);
+    text-align: center;
+    color: var(--green);
+    margin-left: var(--xl-spacing);
+    margin-right: var(--xl-spacing);
+    line-height: var(--xl-spacing);
+}
+
+
+.instaSyncSubHeading {
+    font-size: var(--d-font-size);
+    margin-top: var(--xl-spacing);
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+}
+
+.instaSyncTip {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    text-align: center;
+    margin-top: var(--l-spacing);
+    display: flex;
+    line-height: var(--xl-spacing);
+}
+
+.instaTipBody {
+    font-size: var(--d-font-size);
+    margin-top: var(--m-spacing);
+    margin-bottom: var(--xl-spacing);
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+    line-height: var(--l-spacing);
+}
+
+.syncNowBtn {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.instaSyncBody {
+    font-size: var(--d-font-size);
+    margin-top: var(--m-spacing);
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+}
+
+.gridContent {
+    padding-left: var(--m-spacing);
+    padding-right: var(--m-spacing);
+}
+
+/* .unlinkButtonContainer {
+    padding-top: var(--m-spacing);
+    margin: var(--m-spacing) var(--s-spacing);
+} */
+
+.unlinkButton {
+    margin-top: var(--xl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.unlinkText {
+    color: var(--primary);
+
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    height: 52px;
+}
+.unlinkButtonText {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    margin-top: var(--xl-spacing);
+    margin-bottom: var(--m-spacing);
+    color: var(--black60);
+}
+
+.settingIcon {
+    width: 50%;
+}
+
+.shopSetting {
+    width: 100%;
+    justify-content: space-between;
+    display: contents;
+}
+
+.okButton {
+    margin-top: var(--xxl-spacing);
+    height: 52px;
+    margin-bottom: var(--m-spacing);
+}
+
+.tipText {
+    align-items: center;
+    margin-top: var(--s-spacing)x;
+    margin-left: var(--s-spacing);
+    padding-top: var(--xs-spacing);
+}
+
+.gridLeft {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.gridRight {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    opacity: 0.7;
+
+}
+
+.contentGrid{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--m-spacing);
+}
+
+.lastSync {
+    font-size: var(--S-font-size);
+    line-height: var(--m-spacing);
+    font-weight: var(--medium-bold);
+    opacity: 0.6;
+}
+
+.unLink {
+    background-color: var(--white)
+}
+
+.syncButton {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: var(--m-spacing);
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    padding: var(--xxs-spacing) var(--l-spacing);
+    border-radius: var(--s-border-radius);
+    font-size: var(--m-font-size);
+    justify-content: center;
+    font-weight: var(--medium-bold);
+    @media (--desktop) {
+        height: 52px;
+        width: 220PX;
+    }
+}
+
+.syncButton img {
+    height: 24px;
+    margin-right: var(--s-spacing);
+    @media (--desktop) {
+        height: 24px;
+        margin-right: var(--l-spacing);
+    }
+}

@@ -1,0 +1,5 @@
+.container {
+    color: var(--red);
+    font-size: var(--s-font-size);
+    transform: translateY(-8px);
+}

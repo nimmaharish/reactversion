@@ -1,0 +1,17 @@
+.btnSection {
+    padding-top: var(--s-spacing);
+    padding-bottom: var(--l-spacing);
+    background: var(--primaryOpacityTwo);
+    color: var(--white);
+}
+
+.label {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    color: var(--black60);
+    padding-bottom: var(--l-spacing);
+    width: 100%;
+    border-bottom: 1px solid var(--black10);
+    text-align: center;
+    background: var(--primaryOpacityTwo);
+}

@@ -1,0 +1,22 @@
+.container {
+    margin: var(--l-spacing) 0;
+    padding: 0 var(--l-spacing);
+}
+
+.section {
+    margin-left: var(--xxxl-spacing);
+    margin-top: var(--xs-spacing);
+}
+
+.charges {
+    margin: var(--s-spacing) 0;
+    font-size: var(--s-font-size);
+    color: var(--black50);
+}
+
+.greenLink {
+    font-weight: var(--medium-bold);
+    color: var(--green);
+    margin-right: var(--xs-spacing);
+    font-size: var(--s-font-size);
+}

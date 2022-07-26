@@ -1,0 +1,119 @@
+.main {
+    background: var(--white) !important;
+    min-height: calc(100vh - 160px);
+    padding: var(--l-spacing);
+    padding-top: var(--xl-spacing);
+    padding-bottom: 80px;
+}
+
+.mainDesktop {
+    background: var(--grey-bg);
+    padding: 0px;
+    padding-top: 0px;
+    min-height: calc(100vh - 95px);
+    padding-bottom: 0px;
+}
+
+.heading {
+    margin: var(--m-spacing);
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+}
+
+.radioGrid {
+    margin-bottom: var(--xl-spacing);
+    @media (--desktop) {
+        display: flex;
+        margin-left: var(--xxxxxxl-spacing);
+        margin-bottom: var(--xl-spacing);
+        margin-top: var(--xl-spacing);
+        flex-direction: row;
+    }
+}
+
+.noItemCard {
+    background: var(--primaryOpacityTwo);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--xxl-spacing);
+    padding-bottom: var(--xxl-spacing);
+}
+
+.noItemCard1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--xxl-spacing);
+    padding-bottom: var(--xxl-spacing);
+    margin-left: 60px;
+    margin-top: var(--xl-spacing);
+    margin-bottom: var(--xl-spacing);
+    margin-right: 60px;
+}
+
+.addItemButton {
+    min-width: 159px;
+}
+
+.addItemButton1 {
+    min-width: 40%;
+}
+
+.addAnother {
+    margin: var(--m-spacing);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    @media --desktop {
+      padding-bottom: var(--m-spacing);
+    }
+}
+
+.addAnother1 {
+    margin: var(--m-spacing);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: var(--m-spacing);
+}
+
+.variants {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: var(--xxl-spacing);
+}
+
+.variants1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: var(--l-spacing) !important;
+}
+
+.colorContainer {
+    padding: var(--l-spacing) !important;
+}
+
+.save {
+    background: var(--white);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    @media (--desktop) {
+        position: relative;
+        width:auto;
+        background: var(--grey-bg);
+    }
+}
+
+.save > * {
+    border-radius: 0 !important;
+    height: 52px !important;
+}

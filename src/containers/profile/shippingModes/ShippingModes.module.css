@@ -1,0 +1,240 @@
+.container {
+    padding: var(--s-spacing) var(--l-spacing);
+    border-radius: var(--xx-spacing);
+    height: calc(100vh - var(--l-spacing) * 2);
+    padding-bottom: 60px;
+    overflow-y: auto;
+
+    @media (--desktop) {
+        padding: var(--l-spacing);
+    }
+}
+
+.save {
+    padding: var(--l-spacing) 86px;
+    background: var(--primary);
+    border-radius: 6px;
+    font-size: var(--h3-font-size);
+    font-weight: var(--medium-bold);
+    text-transform: none;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.top {
+    margin-bottom: var(--l-spacing);
+    background: var(--primaryOpacityTwo);
+}
+
+.buttonContainer {
+    bottom: 86px;
+    position: absolute;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--xl-spacing) var(--l-spacing);
+    background: var(--primaryOpacity);
+    border-radius: var(--xs-spacing);
+    margin-top: var(--l-spacing);
+}
+
+.modeName {
+    color: var(--black);
+    font-weight: var(--medium-bold);
+    font-size: var(--h5-font-size);
+}
+
+.mode {
+    margin: var(--l-spacing) 0;
+    padding: 0;
+}
+
+.active {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--xl-spacing) var(--l-spacing);
+    border-radius: var(--xs-spacing);
+    background: var(--green4) !important;
+}
+
+.spacer {
+    height: var(--l-spacing);
+}
+
+.modes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainTitle {
+    padding-top: var(--xl-spacing);
+    padding-bottom: var(--xl-spacing);
+    font-size: var(--h5-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.titles {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.onFocus {
+    padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.button {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.info {
+    margin-top: var(--l-spacing);
+}
+
+.buttonD {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--l-spacing);
+}
+
+.types {
+    border: 1px solid var(--black10);
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: var(--d-font-size) var(--l-spacing);
+    color: var(--black80);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: var(--l-spacing);
+}
+
+.div1 {
+    width: 85%;
+    text-align: initial;
+}
+
+.div2 {
+    display: flex;
+}
+
+.click {
+    width: 100%;
+}
+
+.marginRight {
+    margin-right: var(--xl-spacing);
+}
+
+.marginLeft {
+    margin-left: var(--xl-spacing);
+}
+
+.box{
+    box-sizing: border-box;
+    border-radius: var(--xx-spacing);
+    padding: var(--m-spacing) var(--l-spacing) 0;
+}
+
+.customBox {
+    box-shadow: 0 var(--xs-spacing) var(--l-spacing) rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    border-radius: var(--xx-spacing);
+    padding: var(--l-spacing);
+    background: var(--primaryOpacityTwo);
+}
+
+.title {
+    font-weight: 500;
+    font-size: var(--d-font-size);
+    color: var(--black80);
+}
+
+.subTitle {
+    font-weight: 500;
+    font-size: var(--m-font-size);
+    color: var(--black60);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2 {
+    display: flex;
+    width: 100%;
+}
+
+.spacer2 {
+    margin: var(--xs-spacing) 0;
+}
+
+.bottom {
+    border-bottom: 1px solid var(--black10);
+    font-weight: var(--normal);
+    font-size: var(--m-font-size);
+    color: var(--black);
+    opacity: 0.6;
+}
+
+.bottom:last-child {
+    border-bottom: none;
+    margin-bottom: 0px;
+}
+
+.marginTop {
+    margin-top: var(--l-spacing);
+}
+
+.plusIcon {
+    margin-right: var(--s-spacing);
+}
+
+.w100 {
+    width: 100%;
+}
+
+.list {
+    margin-top: var(--l-spacing);
+}
+
+.centreDiv {
+    align-items: center;
+    height: 100%;
+}
+
+.digitalShippingImage {
+    height: auto;
+    margin: 100px auto 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    color: var(--black50);
+    text-align: center;
+}
+
+.modesText {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--black)
+}

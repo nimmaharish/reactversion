@@ -1,0 +1,18 @@
+.button {
+    min-width: 48% !important;
+}
+
+.button1 {
+    min-width: 25% !important;
+    margin: var(--xs-spacing);
+}
+
+.container {
+    display: flex;
+    margin-top: var(--m-spacing);
+    margin-bottom: var(--m-spacing);
+}
+
+.dialog {
+    
+}

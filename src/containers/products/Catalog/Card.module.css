@@ -1,0 +1,27 @@
+.root {
+    background: var(--primaryOpacityTwo);
+    padding: 8px;
+    border-radius: 12px !important;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+}
+
+.img {
+    height: calc(100% - 34px);
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.name {
+    font-size: var(--d-font-size);
+    max-width: calc(100% - 16px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.del {
+    padding: 4px !important;
+}

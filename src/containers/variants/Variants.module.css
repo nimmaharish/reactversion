@@ -1,0 +1,433 @@
+.card {
+    height: 100px !important;
+    width: 100px !important;
+    min-width: 100px !important;
+    min-height: 15px !important;
+    background: var(--primary) !important;
+    color: var(--white) !important;
+    padding: 0 !important;
+    overflow: hidden;
+    position: relative;
+    text-transform: capitalize !important;
+}
+
+.main {
+}
+
+.img {
+    height: 100%;
+    width: 100% ;
+}
+
+.del {
+    margin: 16px 0 !important;
+}
+
+.save {
+    height: 22px !important;
+    width: 25px !important;
+    margin-right: 8px;
+}
+
+.saveAct {
+    color: var(--new-secondary);
+}
+
+.edit {
+    color: var(--black);
+    padding-right: 12px;
+}
+
+.section {
+    height: calc(100vh - 77px);
+    overflow: auto;
+    margin-top: 12px;
+}
+
+.variant {
+    font-size: var(--m-font-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.equal {
+    width: calc(10%);
+    position: relative;
+}
+
+.right {
+    width: 90%;
+    max-width: 90%;
+    margin-left: 4px;
+    text-overflow: ellipsis;
+    font-size: var(--h5-font-size);
+    text-align: center;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    color: var(--primary);
+}
+
+.content {
+    overflow-y: auto;
+    height: calc(100vh - 120px);
+    margin-top: var(--l-spacing);
+}
+
+.noMar {
+    margin: 0 !important;
+    width: 100% !important;
+}
+.mrp_flex{
+    display:flex;
+}
+.radio_flex{
+    margin-top: 15px;
+}
+.same_mrp{
+    font-size: var(--h3-font-size);
+}
+
+.label {
+    font-size: var(--m-font-size) !important;
+    color: var(--black) !important;
+    margin: var(--s-spacing) 0 !important;
+}
+
+.accordion {
+    margin: var(--s-spacing) 0;
+    background-color: var(--light-blue) !important;
+    border: none;
+}
+
+.errBorder {
+    border: 1px dashed var(--selected);
+}
+
+.textRight {
+    text-align: right;
+}
+
+.btnBorder {
+    font-size: var(--d-font-size) !important;
+    min-width: 175px !important;
+    background-color: var(--new-secondary) !important;
+    color: var(--black) !important;
+    padding: 8px 24px !important;
+    text-transform: capitalize !important;
+}
+
+.btnSec {
+    padding: 16px !important;
+    background: var(--secondary);
+    border-radius: 4px;
+    margin: 12px 0 !important;
+}
+
+.btnText {
+    color: var(--black);
+    font-weight: bold;
+    font-size: var(--d-font-size);
+}
+
+.circle {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    margin: 0 4px;
+    top: 4px;
+}
+
+.noRotate {
+    transform: rotate(0deg) !important;
+}
+
+.add {
+    top: var(--m-spacing);
+}
+
+.blackButton {
+    margin-top: 8px !important;
+    text-transform: capitalize !important;
+    min-width: 150px !important;
+}
+
+.customBtn {
+    font-size: var(--s-font-size) !important;
+    border: 1px solid var(--black) !important;
+    background-color: var(--secondary) !important;
+    text-transform: capitalize !important;
+    color: var(--primary) !important;
+    margin: 8px 0!important;
+    text-transform: capitalize !important;
+    min-width: 150px !important;
+}
+
+.blackButtonSec {
+    margin-right: var(--m-spacing) !important;
+}
+
+
+.padBtm {
+    padding-bottom: 45px !important;
+    padding-top: 0 !important;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    border: none !important;
+    outline: none !important;
+}
+
+.modalInfo {
+    width: 85%;
+    padding: 16px;
+    background: var(--white);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.delIcon {
+    position: relative;
+    top: 0;
+    left: 16px;
+    height: 20px;
+    width: 20px;
+}
+
+.delCIcon {
+    position: relative;
+    top: 12px;
+    left: -65%;
+    height: 20px;
+    width: 20px;
+}
+
+.noLeft {
+    padding-left: 0 !important;
+}
+
+.help {
+    position: relative;
+    top: 4px;
+    left: 8px;
+    width: 19px !important;
+    height: 19px !important;
+}
+
+.grow {
+    flex-grow: 0 !important;
+}
+
+.chevron {
+    box-shadow: none !important;
+    background: none !important;
+}
+
+.error {
+    color: var(--selected);
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 25px;
+    align-items: center;
+}
+
+.leftM {
+    margin-left: var(--xs-spacing);
+}
+
+.tabSection {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 32px);
+    padding: 12px 16px;
+    background: var(--secondary);
+    border-radius: 4px;
+}
+
+.tabSection1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 32px);
+    padding: 12px 16px;
+    background: var(--secondary);
+    border-radius: 4px;
+}
+
+.head {
+    margin-top: 12px;
+    margin-bottom: 16px;
+    font-size: var(--d-font-size);
+    color: var(--black);
+    font-weight: var(--bold);
+    text-transform: capitalize;
+}
+
+.head1 {
+    margin-top: 12px;
+    font-size: var(--d-font-size);
+    color: var(--black);
+    font-weight: var(--bold);
+    text-transform: capitalize;
+    padding: 16px;
+    background: var(--white);
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.labelClass1 {
+    font-size: var(--d-font-size) !important;
+    color: var(--black) !important;
+    margin-top: var(--m-spacing) !important;
+    margin-bottom: var(--xs-spacing) !important;
+}
+
+.slug1 {
+    background: #f2f2f2 !important;
+    position: relative;
+    font-size: var(--d-font-size) !important;
+    height: 36px !important;
+    padding: 4px !important;
+    border-radius: 4px !important;
+}
+
+.single {
+    text-indent: 10px;
+    background: #f6f6f6 !important;
+    border-radius: 4px !important;
+    height: 36px !important;
+    text-indent: 10px;
+    padding: 4px !important;
+    border-radius: 4px !important;
+}
+
+.single1 {
+    position: relative;
+    background: #ffffff !important;
+    font-size: var(--d-font-size) !important;
+    height: 36px !important;
+    text-indent: 10px;
+    padding: 4px !important;
+    border-radius: 4px !important;
+}
+
+.single2 {
+    position: relative;
+    background: #ffffff !important;
+    font-size: var(--d-font-size) !important;
+    height: 50px !important;
+    text-indent: 10px;
+    padding: 0 !important;
+    border-radius: 4px !important;
+}
+
+.single3 {
+    position: relative;
+    background: #ffffff !important;
+    height: 8px !important;
+    text-indent: 10px;
+    padding: 0 !important;
+    border-radius: 4px !important;
+}
+
+.inputClass {
+    border: 1px solid #535353 !important;
+    margin: 0 !important;
+}
+
+.labelClass {
+    font-size: var(--m-font-size) !important;
+    color: #535353 !important;
+    margin-top: var(--l-spacing) !important;
+    margin-bottom: var(--m-spacing) !important;
+}
+
+.right8 {
+    margin: 0 !important;
+    margin-right: var(--s-spacing) !important;
+    width: calc(100% - var(--s-spacing)) !important;
+}
+
+.right81 {
+    margin: 0 !important;
+    margin-right: var(--s-spacing) !important;
+    border: 0px !important;
+    width: 50px !important;
+}
+
+.right82 {
+    margin: 4px 0 !important;
+    border: 0px !important;
+    width: 100% !important;
+}
+
+.right83 {
+    margin: 0 !important;
+    margin-top: 8px !important;
+    margin-right: var(--s-spacing) !important;
+    width: calc(100% - var(--s-spacing)) !important;
+}
+
+.bottom8 {
+    margin-bottom: var(--s-spacing) !important;
+}
+
+.chip1 {
+    color: var(--primary) !important;
+    background: var(--grey1) !important;
+    margin-right: 4px;
+    height: 26px !important;
+    padding: 8px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    width: fit-content !important;
+}
+
+.delIcon1 {
+    padding-left: 8px;
+    height: 22px;
+}
+
+.color {
+    height: 35px;
+    width: 35px;
+    border-radius: 4px;
+}
+
+.colorBody {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    background: var(--secondary);
+    width: calc(100% - 32px);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.vSection {
+    width: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+}

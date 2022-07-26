@@ -1,0 +1,9 @@
+.drawer {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.helperTextD {
+    padding-top: var(--m-spacing);
+    padding-left: var(--xs-spacing);
+}

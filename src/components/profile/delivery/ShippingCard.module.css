@@ -1,0 +1,46 @@
+.container {
+    margin: var(--l-spacing);
+    border-bottom: 1px solid var(--black10);
+}
+
+.title {
+    font-size: var(--m-font-size);
+    color: var(--black);
+}
+
+.header {}
+
+.shippingType {
+    display: flex;
+    align-items: center;
+}
+
+.shippingTypeTitle {
+    margin-right: var(--xxxxxl-spacing);
+    font-size: var(-m-font-size);
+    color: var(--black60);
+}
+
+.modeType {
+    text-transform: capitalize;
+}
+
+.modeTitle {
+    font-size: var(--d-font-size);
+}
+
+.activeText {
+    font-size: var(--m-font-size);
+    color: var(--green5);
+    margin-right: var(--l-spacing);
+}
+
+.inActiveText {
+    font-size: var(--m-font-size);
+    color: var(--primary2);
+    margin-right: var(--l-spacing);
+}
+
+.inputContainer {
+    margin-bottom: var(--l-spacing);
+}

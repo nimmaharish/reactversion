@@ -1,0 +1,59 @@
+.container {
+    padding: var(--xl-spacing);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    align-self: flex-start;
+    font-size: var(--d-font-size);
+    color: #000000;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: var(--medium-bold);
+    margin-top: var(--xl-spacing) 0;
+
+    @media (--desktop) {}
+}
+
+.subTitle {
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    text-align: left;
+    margin-top: var(--s-spacing);
+    margin-bottom: var(--xl-spacing);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--xl-spacing);
+    width: calc(100% - 32px);
+    height: calc(100% - 48px);
+}
+
+.dialog {
+    width: calc(100% - 32px);
+    margin: var(--l-spacing) !important;
+    padding: var(--l-spacing) !important;
+}
+
+.padding {
+    padding: var(--m-spacing);
+    padding-bottom: 0;
+}
+
+.inputClass {
+    margin-top: var(--xl-spacing);
+    padding-bottom: 100px;
+    overflow-wrap: break-word;
+
+}
+
+.saveButtonContainer {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,188 @@
+.ratingGrid {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.ratingBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: var(--l-spacing) 0;
+    width: 100;
+    padding-bottom: var(--l-spacing);
+    border-bottom: 1px solid var(--black10);
+
+    @media (--desktop) {
+        border-bottom: 0;
+        width: auto;
+        height: 100%;
+    }
+}
+
+.noPadding {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.border {
+    border-right:1px solid var(--black15);
+    width: 100%;
+
+
+    @media (--desktop) {
+        padding-right: 30px;
+        width: calc(100% - 30px);
+    }
+}
+
+.noBorder {
+    @media (--desktop) {
+        padding-left: 30px !important;
+     }
+}
+
+.noBorder {
+    border-bottom: 0;
+}
+
+.ratingBoxRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% - 74px);
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--l-spacing);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.empty {
+    height: 46px;
+    width: 46px;
+    background: var(--grey2);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userPic {
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+}
+
+.productIcon {
+    img {
+        width: 58px;
+        height: 58px;
+        border-radius: 12px;
+    }
+}
+
+.bottom {
+    margin-bottom: var(--l-spacing);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--m-spacing);
+}
+
+.reviewHead {
+    font-size: var(--d-font-size);
+    font-weight: 500;
+    color: var(--black);
+    display: flex;
+    align-items: center;
+}
+
+.ratingBoxName {
+    font-size: var(--d-font-size);
+    font-weight: 500;
+    color: var(--black);
+    margin-left: var(--l-spacing);
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.title {
+    font-size: var(--d-font-size);
+    font-weight: 500;
+    color: var(--black80);
+    padding-bottom: var(--l-spacing);
+}
+
+.ratingBoxDate {
+    flex: 1;
+    font-size: var(--s-font-size);
+    color: var(--black60);
+    margin-top: 4px;
+    margin-left: var(--l-spacing);
+}
+
+.more {
+    font-size: var(--s-font-size);
+    color: var(--black60);
+}
+
+.twoLines > * {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    color: var(--black60);
+}
+
+.ratingBoxReview {
+    font-size: var(--m-font-size);
+    color: var(--black70);
+}
+
+.ratingView {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 8%);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: var(--s-spacing) var(--m-spacing);
+    margin-left: var(--m-spacing);
+    width: 30px;
+    color: var(--green);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.ratingView > div {
+    margin-right: var(--xs-spacing);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--s-spacing);
+
+    button {
+        background-color: var(--secondary) !important;
+        border: 1px solid var(--primary) !important;
+        color: var(--primary) !important;
+    }
+}

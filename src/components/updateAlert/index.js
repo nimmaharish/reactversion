@@ -1,0 +1,1 @@
+export { UpdateAlert } from './UpdateAlert';

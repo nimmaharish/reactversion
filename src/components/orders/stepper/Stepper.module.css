@@ -1,0 +1,41 @@
+.text {
+    margin-top: 16px;
+    background-color: var(--primary) !important;
+    color: var(--secondary) !important;
+    padding: 10px var(--m-spacing) !important;
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--bold) !important;
+    text-transform: none !important;
+    border-radius: 4px !important;
+    text-align: center;
+    width: calc(50% - 12px) !important;
+    border: 1px solid var(--black) !important;
+}
+
+.back {
+    position: absolute !important;
+    top: 24px !important;
+    left: 16px !important;
+}
+
+.stepper {
+    align-items: flex-start !important;
+    @media (--desktop) {
+        padding: auto;
+    };
+    padding: 0 !important;
+}
+
+.stepRoot {
+    color: #D5D5D5 !important;
+    height: 30px !important;
+    width: 30px !important;
+}
+
+.stepActive {
+    color: var(--primary) !important;
+}
+
+.stepLabelActive {
+    font-size: var(--d-font-size) !important;
+}

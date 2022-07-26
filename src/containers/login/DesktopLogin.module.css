@@ -1,0 +1,301 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    flex-direction: column;
+}
+
+.trustedLogo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: var(--xxxl-spacing);
+    align-items: center;
+    /* transform: translateY(-100px); */
+}
+
+.trustedTxt {
+    margin-left: var(--m-spacing);
+    color: var(--black60);
+    width: 55%;
+    font-weight: 400 !important;
+    line-height: 140%;
+    font-size: var(--d-font-size);
+    text-align: center;
+    margin-top: var(--s-spacing);
+}
+
+.continueWithEmail {
+    color: var(--black);
+    font-weight: 600;
+    font-size: var(--h3-font-size);
+    line-height: var(--xxl-spacing);
+    margin-top: var(--xxxxl-spacing);
+    margin-bottom: var(--xxl-spacing);
+    margin-left: 100px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: var(--xxxxxxl-spacing);
+}
+
+.input {
+    margin-bottom: var(--xxxxxxl-spacing);
+}
+
+.error {
+    padding: var(--l-spacing) 0;
+    text-align: center;
+    color: var(--black50) !important;
+    font-style: normal;
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonD {
+    min-width: 272px !important;
+}
+.line {
+    width: 46%;
+    height: var(--xxs-spacing);
+    background-color: #E0E0E0;
+}
+
+
+.relative {
+    position: relative;
+    display: flex;
+    color: var(--black50);
+    align-items: center;
+    width: 90%;
+    font-size: var(--d-font-size);
+    justify-content: space-between;
+    margin-top: var(--l-spacing);
+    margin-left: var(--xxxxxl-spacing);
+}
+
+
+.singnInTypeText {
+    display: flex;
+    justify-content: center;
+    font-weight: var(--semi-bold);
+    font-size: var(--h3-font-size);
+    line-height: var(--xxl-spacing);
+    margin-top: var(--xxxxxxl-spacing);
+}
+
+.loginType {
+    display: flex;
+    margin-bottom: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: var(--xxxxxxl-spacing);
+}
+
+.otpScreen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.otpScreen input {
+    background: transparent;
+    border-radius: var(--s-border-radius);
+    padding: 0;
+    color: var(--white);
+    font-size: var(--d-font-size);
+    text-align: center;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid var(--black15);
+    margin: 0 10px;
+    color: var(--green);
+    font-weight:var(--semi-bold);
+    width: 35px;
+    height: 35px;
+}
+
+.otpScreen input[type=number]::-webkit-inner-spin-button,
+.otpScreen input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.otpScreen input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.loginContainer {
+    flex: 1;
+    border-top-left-radius: var(--xl-border-radius);
+    border-top-right-radius: var(--xl-border-radius);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 var(--l-spacing);
+    padding-bottom: 100px;
+    background: var(--white);
+}
+
+.otpHeader {
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 50%;
+    margin-left: var(--xl-spacing);
+    justify-content: center; */
+    display: flex;
+    margin-top: var(--xxxl-spacing);
+    margin-left: 10%;
+    margin-bottom: var(--xxxxxxl-spacing);
+}
+
+.continueWith {
+    /* margin-top: var(--xxxl-spacing); */
+    font-weight: var(--semi-bold);
+    color: var(--black);
+    font-size: var(--h3-font-size);
+    margin-left: 20px;
+
+}
+
+.helperText {
+    display: flex;
+    color: var(--black60);
+    justify-content: center;
+    font-weight: var(--normal);
+    font-size: var(--d-font-size);
+    margin-bottom: var(--xxl-spacing);
+
+}
+
+.otpContainer {
+    display: flex;
+    flex-direction: row;
+    margin: var(--m-spacing) 0;
+    justify-content: center;
+}
+
+.resendCode {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+        margin-top: var(--xxxxl-spacing);
+        color: var(--black50);
+        font-size: var(--d-font-size);
+}
+
+.resendCodeButton {
+    margin-left: var(--m-spacing);
+    color: var(--green);
+    font-size: var(--d-font-size);
+    text-decoration: none;
+}
+
+.otpSubmitButton {
+    margin-top: var(--xxxl-spacing);
+    min-width: 272px !important;
+}
+.slider {
+    width: 50%;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+}
+
+.agree {
+    font-size: var(--h5-font-size);
+    color: var(--black50);
+    margin-top: 60px;
+    padding-left: var(--xxl-spacing);
+    padding-right: var(--xxl-spacing);
+    text-align: center;
+    line-height:var(--xxl-spacing);
+}
+
+.textLink {
+    font-size: var(--h5-font-size);
+    color: var(--primary);
+    padding-left: var(--xs-spacing);
+    padding-right: var(--xs-spacing);
+    text-decoration: underline;
+}
+
+.timerContainer {
+    margin-top: var(--m-spacing);
+    display: flex;
+    color: var(--primary);
+    justify-content: center;
+    font-size: var(--d-font-size);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+.logo1 {
+    display: flex;
+    justify-content: center;
+}
+
+.langD {
+    background: var(--primary);
+}
+
+.selectLang {
+    display: flex;
+    justify-content: flex-end !important;
+    padding-top: var(--xl-spacing);
+    padding-right: var(--xxl-spacing);
+}
+
+.lang {
+    margin-left: var(--s-spacing);
+    font-size: var(--d-font-size);
+    color: var(--white);
+}
+
+.loginType1  {
+    display: flex;
+    justify-content: center;
+}
+
+.lineV  {
+    width: 1px;
+    margin: 0 var(--xxxxxxl-spacing);
+    background-color: rgba(33, 33, 33, 0.15);
+    height: 56px;
+}
+
+.gImg {
+    width: 52px;
+    height: 50px;
+}
+
+.helper {
+    margin-top: var(--s-spacing);
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--black80);
+}

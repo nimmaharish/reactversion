@@ -1,0 +1,53 @@
+.card {
+    height: 180px;
+    min-width: 75%;
+    max-width: 320px;
+    background-repeat: no-repeat;
+    margin-right: var(--xxl-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 0 var(--xl-spacing);
+    position: relative;
+    background-size: 100% 100%;
+    @media (--desktop) {
+        max-width: 320px;
+        min-width: 320px;
+    }
+}
+
+.noRight {
+    max-width: calc(100% - 32px);
+    margin-right: 0 !important;
+    background-size: 100% 100%;
+    margin-top: var(--l-spacing);
+    OBJECT-FIT: contain;
+}
+
+.custom {
+    background-size: contain;
+    background-position: center;
+}
+
+.edit {
+    position: absolute;
+    right: 0;
+    padding: var(--l-spacing);
+    top: 0;
+}
+
+.cardTitle {
+    font-weight: var(--semi-bold);
+    font-size: var(--h3-font-size);
+    color: var(--secondary);
+    padding-bottom: var(--s-spacing);
+    text-align: center;
+}
+
+.cardDesc {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--secondary);
+    text-align: center;
+}

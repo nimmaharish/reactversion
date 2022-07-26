@@ -1,0 +1,23 @@
+.container {
+    margin: var(--xl-spacing) var(--l-spacing);
+
+    @media (--desktop) {
+        border: 1px solid var(--black15);
+        border-radius: var(--border-radius);
+        padding: var(--xxxl-spacing);
+        margin: 30px 60px;
+    }
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+        @media (--desktop) {
+            position: inherit !important;
+        }
+}

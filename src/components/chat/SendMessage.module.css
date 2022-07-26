@@ -1,0 +1,37 @@
+.field input {
+    background: var(--card-background);
+    color: var(--black);
+    font-size: var(--m-font-size);
+}
+
+.field fieldset {
+    border: 0;
+}
+
+.container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 16px);
+    display: flex;
+    flex-direction: row;
+    padding: var(--xs-spacing) var(--s-spacing);
+    align-items: center;
+    justify-content: center;
+    background: var(--card-background);
+}
+
+.button {
+    background: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    min-width: 36px;
+    max-width: 36px;
+    height: 36px;
+    max-height: 36px;
+    margin-left: var(--s-spacing);
+    cursor: pointer;
+}

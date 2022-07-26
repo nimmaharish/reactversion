@@ -1,0 +1,104 @@
+/* .swiper-pagination-bullet{
+    background: var(--white) !important;
+    opacity: 1;
+    width: 6px;
+    height: 6px;
+  }
+
+.swiper-pagination-bullet-active {
+    background: var(--yellow) !important;
+    width: 12px;
+    height: 6px;
+    border-radius: 10px;
+  } */
+
+.ReactVirtualized__Grid__innerScrollContainer {
+    padding-bottom: 58px !important;
+}
+
+  .ReactVirtualized__Grid:focus, .ReactVirtualized__List:focus {
+    outline: none !important;
+}
+
+  /* Input type color css */
+
+  input[type="color"] {
+    -webkit-appearance: none;
+    border: none;
+    width: 100%;
+    height: 32px;
+  }
+  input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+  input[type="color"]::-webkit-color-swatch {
+    border: none;
+  }
+
+
+  /* color-input */
+
+  #color-input .MuiInput-underline:before {
+    border-bottom: none !important;
+  }
+
+  #slugField .MuiInput-underline:before {
+    border: none !important;
+  }
+
+  #chevron {
+    border-bottom: 1px solid var(--dark-grey) !important;
+  }
+
+  #chevron.MuiAccordion-root::before {
+    background-color: var(--light-blue) !important;
+  }
+
+
+  /* sklug text feild */
+
+#slugField .MuiFilledInput-root.Mui-disabled, #slugField .MuiFilledInput-root{
+    background-color: #FFF6D4 !important;
+}
+
+#slugField .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: translate(12px, 10px) scale(0.75) !important;
+}
+
+#slugField .MuiInput-underline:after, #slugField .MuiInput-underline:before {
+  border: none !important;
+}
+
+
+/* Scroll Section */
+
+.Calendar__day.-selected, .Calendar__day.-selectedEnd, .Calendar__day.-selectedStart {
+  background: var(--primary) !important;
+  color: #212121 !important;
+}
+
+.Calendar__day.-selectedBetween {
+  background: rgba(245, 96, 63, 0.1) !important;
+  color: #212121 !important;
+  border-radius: 0 !important;
+}
+
+.DatePicker__calendarContainer {
+  box-shadow: 0px 3px 50px rgb(0 0 0 / 50%) !important;
+}
+
+/* Scroll Section Ends */
+
+::-webkit-scrollbar {
+    @media (--desktop) {
+        width: 2px;
+        background-color: var(--black10);
+        margin: 10px auto;
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    @media (--desktop) {
+        background: var(--primary);
+    }
+}

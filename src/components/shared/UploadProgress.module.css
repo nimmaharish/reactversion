@@ -1,0 +1,11 @@
+.container {
+    text-align: center;
+    margin-top: var(--m-spacing);
+}
+
+.circular {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

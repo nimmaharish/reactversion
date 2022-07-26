@@ -1,0 +1,43 @@
+
+.topBar {
+    padding: var(--l-spacing);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--secondary);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+}
+
+.heading {
+    font-size: var(--h5-font-size);
+    color: var(--black);
+    font-weight: var(--semi-bold);
+    padding-left: var(--l-spacing);
+}
+
+.logo_icon {
+    width: 36px;
+    height: 36px;
+}
+
+.right {
+    display: flex;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+}
+
+.review {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--green);
+}
+
+.review > img {
+    margin-right: var(--m-spacing);
+}

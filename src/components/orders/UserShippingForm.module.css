@@ -1,0 +1,13 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: var(--m-spacing);
+    padding: 0 16px;
+    margin-top: var(--l-spacing);
+}
+
+.spacer {
+    height: 20px;
+}

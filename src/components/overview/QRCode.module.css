@@ -1,0 +1,126 @@
+.heading {
+    color: var(--black60);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qrCode {
+    padding: var(--xxxl-spacing);
+    border-radius: var(--m-border-radius);
+    margin-bottom: var(--m-spacing);
+    background: var(--grey10);
+    border: var(--xxs-spacing) solid var(--black01);
+    border-radius: var(--d-spacing);
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--black75);
+    border-bottom: 1px solid var(--grey-border);
+    width: 100%;
+
+    @media (--desktop) {
+        border-bottom: 0px;
+        font-size: 14px;
+    }
+}
+
+.button:last-child {
+    border-bottom: 0;
+}
+
+.button img {
+    margin-right: var(--m-spacing);
+    padding: var(--xl-spacing) 0;
+}
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.closeButton {
+    display: flex;
+    margin-bottom: var(--l-spacing);
+    margin-left: 90%;
+}
+
+.header {
+    color: var(--black60);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: var(--l-spacing);
+}
+
+.button1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--black75);
+}
+
+.line {
+    width: 1px;
+    height: 2vh;
+    margin-left: var(--l-spacing);
+    margin-right: var(--l-spacing);
+    background-color: var(--grey-border);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: var(--xxl-spacing);
+}
+
+.image {
+    margin-right: var(--m-spacing);
+}
+
+.paper {
+    position: absolute;
+    width: 400px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 !important;
+    top: calc(50% - 147px);
+    padding-bottom: 30px;
+    padding: 20px 20px 30px 30px;
+}
+
+.img2 {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+}

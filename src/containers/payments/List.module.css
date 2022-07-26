@@ -1,0 +1,221 @@
+.container {
+    height: calc(100%);
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    @media (--desktop) {
+        height: calc(100vh - 90px);
+        width :calc(100vw - 372px)
+    }
+}
+
+/* .tab {
+    justify-content: center;
+    margin-bottom: 12px !important;
+    padding: 4px !important;
+}
+
+.tabClassName {
+    min-width: 75px;
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--black50);
+}
+
+.tabActive {
+    color: var(--black);
+    border-bottom: 1px solid var(--primary);
+} */
+
+.logo_icon{
+    width: 50px;
+}
+
+/* .bottom {
+    @media (--desktop) {
+        display: flex;
+        position: fixed;
+        width: calc(100vw - 320px);
+        bottom: 0;
+        height: 50px;
+        background: var(--grey9);
+        padding: var(--l-spacing) 0;
+        left: 320px;
+        justify-content: center;
+    }
+    position: fixed;
+    width: 100%;
+    bottom: 58px;
+    display: flex;
+    left: 0;
+    align-items: center;
+} */
+
+.checkoutBtn {
+    min-width: 50%;
+    font-weight: var(--semi-bold);
+    border-radius: 0;
+    border: 1px solid transparent;
+    background: var(--grey);
+
+    @media (--desktop) {
+        border: 1px solid var(--primary);
+        min-width: auto;
+        border-radius: var(--border-radius);
+        margin-right: var(--xl-spacing);
+    }
+}
+
+.bottom > button {
+    font-family: inherit;
+    padding-top: var(--l-spacing);
+    padding-bottom: var(--l-spacing);
+    border: none;
+
+    @media (--desktop) {
+        border: 1px solid var(--primary);
+    }
+}
+
+.bottom > button > div {
+    font-weight: var(--semi-bold);
+    line-height: 20px;
+    font-size: var(--d-font-size);
+
+    @media (--desktop) {
+        font-weight: var(--medium-bold);
+    }
+}
+
+.paymentsBtn {
+    min-width: 50%;
+    border-radius: 0;
+    font-weight: var(--semi-bold);
+
+    @media (--desktop) {
+        border: 1px solid var(--primary);
+        min-width: auto;
+        border-radius: var(--border-radius);
+    }
+}
+
+.mobileContainer {
+    height: 100%;
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.desktopContainer{
+    padding:20px 00px 20px 40px;
+    height: calc(100vh - 164px);
+    width: calc(100vw - 120px - 320px);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.placedTab {
+    margin-top: var(--xl-spacing);
+    margin-bottom: var(--xxl-spacing);
+}
+
+.bottom {
+    position: fixed;
+    width: 100%;
+    bottom: 58px;   
+    left: 0;
+    display: flex;
+    align-items: center;
+    @media (--desktop) {
+        display: flex;
+        align-items: center;
+        position: static;
+        /* width: calc(100vw - 320px); */
+        /* bottom: 0; */
+        /* background: var(--grey9); */
+        /* left: 320px; */
+        justify-content: center;
+    }
+}
+
+.checkoutBtn {
+    min-width: 50%;
+    font-weight: var(--semi-bold);
+    border-radius: 0;
+    border: 1px solid transparent;
+    background: var(--grey);
+
+    @media (--desktop) {
+        border: 1px solid var(--primary);
+        min-width: auto;
+        border-radius: var(--border-radius);
+        margin-right: var(--xl-spacing);
+    }
+}
+
+.bottom > button {
+    font-family: inherit;
+    padding-top: var(--l-spacing);
+    padding-bottom: var(--l-spacing);
+    border: none;
+
+    @media (--desktop) {
+        border: 1px solid var(--primary);
+    }
+}
+
+.bottom > button > div {
+    font-weight: var(--semi-bold);
+    line-height: 20px;
+
+    @media (--desktop) {
+        font-weight: var(--medium-bold);
+    }
+}
+
+.paymentsBtn {
+    min-width: 50%;
+    border-radius: 0;
+    font-weight: var(--semi-bold);
+
+    @media (--desktop) {
+        border: 1px solid var(--primary);
+        min-width: auto;
+        border-radius: var(--border-radius);
+    }
+}
+
+.mobileContainer {
+    height: 100%;
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.placedTab {
+    margin-top: var(--xl-spacing);
+    margin-bottom: var(--xxl-spacing);
+}

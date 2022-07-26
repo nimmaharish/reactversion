@@ -1,0 +1,90 @@
+.root {
+    /* padding-top: 134px; */
+    min-height: 100vh;
+
+    @media (--phone) {
+        padding-top: 0;
+    }
+}
+
+.loader {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.flex {
+    display: flex;
+    height: calc(100vh - 90px);
+}
+
+.topBarDesktop {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    background: var(--secondary);
+    overflow: hidden;
+    width: calc(100% - 400px);
+    position: fixed;
+    right: 0px;
+    z-index: 999;
+    cursor: pointer !important;
+}
+
+
+.shopName {
+    font-size: var(--h3-font-size);
+    text-transform: capitalize;
+    color: var(--black);
+    font-weight: var(--bold) !important;
+    width: 100%;
+    text-overflow: ellipsis;
+    margin-left: var(--l-spacing);
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.shopIcon {
+   height: 50px;
+   width: 50px;
+   border-radius: 50px;
+}
+
+.menu {
+    margin-left: 15px;
+    height: 35px;
+    width: 35px;
+}
+
+.line {
+    width: 1px;
+    height: 24px;
+    background-color: #E0E0E0;
+    margin: 0 var(--xl-spacing);
+}
+
+.plan {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(33, 33, 33, 0.6);
+    margin-right: var(--xl-spacing);
+}
+
+.layout {
+    width: 80% !important;
+    padding-top: 90px !important;
+    height: 100%;
+}

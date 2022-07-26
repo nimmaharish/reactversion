@@ -1,0 +1,281 @@
+.section {
+    height: 100vh;
+    overflow: hidden;
+    background: var(--white);
+}
+
+.subSection {
+    padding: 0 var(--l-spacing);
+}
+
+.subSection1 {
+    padding: var(--l-spacing);
+}
+
+.spacer {
+    margin-top: var(--l-spacing);
+}
+
+.heading,
+.title,
+.subTitle {
+    font-size: var(--h5-font-size);
+    color: var(--black);
+    font-weight: var(--semi-bold);
+    padding-left: var(--l-spacing);
+}
+
+.title {
+    padding-left: 0;
+    margin-bottom: var(--m-spacing);
+}
+
+.main {
+    padding: var(--l-spacing);
+    overflow: scroll;
+    height: calc(100vh - 57px - 44px - 60px);
+
+}
+
+.customInput {
+    display: flex;
+    position: relative;
+    padding: 0 var(--s-spacing);
+    width: 100%;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: calc(50%);
+}
+
+.readonlyField,
+.readonlyField input {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.readonlyField>span:first-child {
+    opacity: 0;
+}
+
+.chevDown {
+    position: absolute;
+    bottom: var(--l-spacing);
+    right: var(--l-spacing);
+}
+
+.left label {
+    opacity: 1 !important;
+    cursor: pointer !important;
+    border-right: 1px solid var(--black30);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.subTitle {
+    font-size: var(--d-font-size);
+    padding-left: 0;
+    margin: var(--l-spacing) 0;
+}
+
+.helperText {
+    color: var(--black50);
+    font-size: var(--m-font-size);
+    margin: -10px 0;
+}
+
+.strikeOff {
+    text-decoration: line-through;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    margin-top: var(--xl-spacing);
+    bottom: 0px;
+    width: 100%;
+    z-index: 9;
+}
+
+.catalogBox,
+.descriptionContainer {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--black50);
+    padding: var(--s-spacing) var(--m-spacing);
+}
+
+.catalogBox .catalogTitle,
+.descriptionHeading {
+    font-size: var(--m-font-size);
+    color: var(--black50);
+}
+
+.catalogBox .catalogRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.catalogCol {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.catalogs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.catalogs>* {
+    margin: var(--s-spacing);
+    margin-left: 0;
+    text-transform: capitalize !important;
+}
+
+.descriptionContainer {
+    border-color: var(--black30);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+.descriptionHeading {
+    color: var(--black75);
+    margin-bottom: var(--s-spacing);
+}
+
+.descriptionPlaceholder {
+    font-size: var(--d-font-size);
+    color: var(--black30);
+    font-weight: var(--medium-bold);
+}
+
+.descriptionText,
+.descriptionLink {
+    font-size: var(--d-font-size);
+    color: var(--black75);
+    font-weight: var(--medium-bold);
+}
+
+.descriptionLink {
+    color: var(--green);
+    margin-left: var(--xs-spacing);
+}
+
+.marginTop {
+    margin-top: var(--s-spacing) !important;
+}
+
+.shippingTime {
+    width: 100%;
+}
+
+.error {
+    color: var(--primary);
+    padding: var(--m-spacing);
+}
+
+.unit {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: var(--black50);
+    height: 100%;
+    width: 100%;
+}
+
+.custom {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--black30);
+    border-radius: 4px;
+}
+
+.est {
+    padding: 20px;
+    margin-top: 12px;
+    background: var(--white);
+    color: #32BA46;
+    font-weight: var(--normal);
+    font-size: var(--m-font-size);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns,
+.btnsUpdate {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.btnsUpdate>button {
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.btns>button {
+    min-width: 50%;
+    width: 50%;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+.btns>button:first-child {
+    background: var(--grey);
+}
+
+.optionalText {
+    color: var(--black50);
+    font-size: var(--m-font-size);
+}
+
+.spacing {
+    padding: var(--s-spacing);
+}
+
+.digitalProductContainer {
+    padding: var(--s-spacing) var(--l-spacing);
+    border-radius: 6px;
+    background: var(--primaryOpacityTwo);
+}
+
+.activeDigitalProductContainer {
+    padding: var(--s-spacing) var(--l-spacing) 0px var(--l-spacing);
+    border-radius: 6px;
+    background: rgba(50, 186, 70, 0.1);
+    border: 1px solid rgba(50, 186, 70, 0.4);
+}
+
+.digitalProduct {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-spacing);
+    color: var(--black80);
+}
+
+.dialogueContent p {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--black);
+    opacity: 0.6;
+}
+
+.enableDigitalText {
+    font-weight: var(--normal);
+    font-size: var(--m-spacing);
+    color: #000000;
+    opacity: 0.5;
+}

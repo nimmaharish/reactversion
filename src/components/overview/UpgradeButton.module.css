@@ -1,0 +1,28 @@
+.button {
+    background: linear-gradient(91.85deg, #FFA8A8 2.43%, var(--primary) 98.43%);
+    font-size: var(--d-font-size);
+    color: var(--black);
+    height: 32px;
+    min-width: 92px;
+    padding: var(--xxs-spacing) var(--m-spacing);
+    padding-right: var(--l-spacing);
+    border-radius: var(--xl-border-radius);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.icon {
+    max-height: 20px;
+    margin-right: var(--m-spacing);
+}
+
+.button span {
+    font-size: var(--m-font-size);
+    font-weight: var(--bold);
+    color: var(--white);
+    text-align: center;
+    flex: 1;
+}

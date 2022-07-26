@@ -1,0 +1,186 @@
+.container {
+    display: flex;
+}
+
+.heading {
+    color: var(--white);
+    margin: var(--m-spacing) 0;
+    font-size: var(--h4-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.drawer {
+    background: var(--white);
+    padding: 0  98px;
+    display: flex;
+    flex-direction: column;
+    /* height: 157%; */
+}
+
+.shopUrl {
+    font-size: var(--h5-font-size);
+    font-weight: var(--medium-bold);
+    margin-top: var(--xl-spacing);
+    margin-bottom: var(--xl-spacing);  
+}
+
+
+.helperText {
+    font-size: var(--m-font-size);
+    margin-top: var(--s-spacing);
+    margin-bottom: var(--xl-spacing);
+    color: var(--black50);
+    font-weight: normal;
+}
+
+.helperTextD {
+    font-size: var(--m-font-size);
+    margin-top: var(--s-spacing);
+    color: var(--black50);
+    font-weight: normal;
+}
+
+.country {
+    margin-bottom: var(--xl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.country > div:first-child {
+    width: 100%;
+    margin-right: var(--xs-spacing);
+}
+
+.country > div:last-child {
+    width: 100%;
+    margin-left: var(--xs-spacing);
+}
+
+.error {
+    font-size: var(--s-font-size);
+    color: var(--primary);
+    margin: var(--xxs-spacing) 0;
+}
+
+.largeGrid {
+    background-color: var(--primary);
+}
+
+.leftGrid {
+    display: flex;
+    background-color: var(--primary);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.rightGrid {
+    background-color: var(--white);  
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    font-weight: var(--medium-bold);
+    font-size: var(--h3-font-size);
+    line-height: 140%;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: var(--xxxl-spacing);
+}
+
+.nameInput {
+ margin-top: var(--xxxl-spacing);
+}
+
+.referralInput {
+margin-bottom: var(--xl-spacing );
+}
+
+.createButton {
+    width: 328px;
+    height: 52px;
+    display: flex;
+    font-weight: var(--medium-bold);
+    font-size: var(--h5-font-size);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 194px;
+}
+
+.containerItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.containerText {
+    margin-top: var(--xxxxl-spacing);
+    font-weight: var(--size-bold);
+    font-size: var(--h4-font-size);
+    line-height: 140%;
+    color: var(--white);
+}
+
+.cLabel {
+    font-size: var(--m-font-size);
+    color: var(--black70);
+    padding-bottom: 4px;
+}
+
+.cValue {
+    font-size: var(--d-font-size);
+    color: var(--black) !important;
+    font-weight: var(--medium-bold);
+    display: flex;
+    text-transform: capitalize;
+    justify-content: space-between;
+}
+
+.countrySelect {
+    border: 1px solid var(--black30);
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 6px 12px;
+    height: 100%;
+    text-align: left;
+}
+
+.code {
+    color: var(--grey8);
+    padding: var(--l-spacing) 0;
+    width: 100%;
+    font-size: var(--m-font-size);
+    text-decoration: underline;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: var(--l-spacing);
+    margin-top: var(--l-spacing);
+    margin-bottom: var(--xxxxl-spacing);
+}
+
+.cardLabel {
+    padding: 0 var(--l-spacing);
+    font-size: var(--m-font-size);
+    color: var(--grey8)
+}
+
+.submitButton {
+    margin-left: 60px;
+    margin-right: 60px; 
+    margin-top: var(--xxxxl-spacing);
+}
+
+.referralCode {
+    margin-top: var(--xxxxl-spacing);
+    margin-bottom: var(--xxxxxxl-spacing);
+}

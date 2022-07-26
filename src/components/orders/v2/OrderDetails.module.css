@@ -1,0 +1,35 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+
+    @media (--desktop) {
+        padding: 20px 50px;
+        flex-direction: row;
+        background: var(--white);
+        border-radius: var(--border-radius);
+
+        > div {
+            flex: 1;
+        }
+
+        > div:first-child {
+            padding-right: 50px;
+            border-right: 1px solid var(--black10);
+        }
+
+        > div:last-child {
+            margin-left: 50px;
+        }
+    }
+}
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delIcon {
+    margin-right: var(--xxl-spacing);
+}

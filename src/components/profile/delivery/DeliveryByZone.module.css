@@ -1,0 +1,60 @@
+.paddingBottom{
+    margin-bottom: 10px;
+}
+
+.container{
+    padding: var(--l-spacing);
+}
+
+
+.card {
+    box-shadow: 0 3px 6px var(--black15);
+    padding: var(--s-spacing) var(--l-spacing);
+    color: var(--black);
+    margin: var(--s-spacing) 0;
+    background: var(--white);
+    border-radius: var(--border-radius);
+ }
+
+.saveButton{
+    border-radius: 0;
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 52px;
+    @media (--desktop) {
+        position: absolute;
+    }
+}
+
+.select{
+    display: flex;
+    background:var(--primaryOpacityTwo) ;
+    height: 51px;
+    border-radius: var(--xs-spacing);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 var(--m-spacing);
+}
+
+.icon{
+    Width :5px;
+    Height :9px;
+    margin-left:var(--l-spacing);
+}
+
+.noData{
+    display: flex;
+    justify-content: center;
+    margin-top:140px;
+}
+
+.text{
+    font-weight: 400;
+    font-size: var(--d-font-size);
+    line-height: 17px;
+    color: var(--black50);
+    margin-top: var(--m-spacing);
+    text-align: center;
+}

@@ -1,0 +1,126 @@
+.textField input {
+    padding-top: var(--m-spacing) !important;
+    padding-bottom: var(--m-spacing) !important;
+}
+
+.textField {
+    margin-bottom: var(--m-spacing) !important;
+}
+
+.label {
+    margin-bottom: var(--s-spacing);
+}
+
+.container {
+    margin-top: var(--s-spacing);
+    margin-bottom: var(--m-spacing);
+}
+
+.button {
+    min-height: 35px !important;
+    font-size: var(--d-font-size) !important;
+    min-width: 49% !important;
+    max-width: 49% !important;
+    @media (--desktop) {
+        min-width: 25% !important;
+        max-width: 25% !important;
+    }
+}
+
+.add {
+    min-height: 35px !important;
+    font-size: var(--d-font-size) !important;
+    margin-bottom: var(--xl-spacing);
+    float: right;
+    justify-content: flex-end
+}
+
+.addMoreCharges {
+    min-height: 35px !important;
+    font-size: var(--d-font-size) !important;
+    min-width: 50% !important;
+    margin-bottom: var(--xl-spacing);
+    margin-left: var(--m-spacing);
+}
+
+.deleteButton {
+    border: 1px solid red !important;
+    color: red !important;
+}
+
+.updateButton {
+    width: 49%;
+    padding-left: 10px;
+}
+
+.charge {
+    display: flex;
+    flex-direction: row;
+    background: var(--primaryOpacityOne);
+    padding: 0px 10px 16px 20px;
+    border-radius: var(--border-radius);
+    align-items: center;
+    margin: var(--m-spacing) 0;
+}
+
+.chargeIndex {
+    background: var(--primary);
+    color: var(--white);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+    font-weight: var(--semi-bold);
+    font-size: var(--s-font-size);
+}
+
+.chargeBody {
+    margin-left: var(--m-spacing);
+    flex: 1;
+    font-weight: var(--normal);
+    font-size: var(--l-font-size);
+}
+
+.chargeButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    @media (--desktop) {
+        justify-content: space-evenly;
+    }
+}
+
+.editContainer {
+    cursor: pointer;
+    line-height: 1.5;
+    padding-left: 20px;
+}
+
+.addMoreCharges {
+    background: var(--white) !important;
+    color: var(--primary) !important;
+    border: 1px solid var(--primary) !important;
+    margin: var(--l-spacing) 0;
+    line-height: 1.5 !important;
+    text-transform: none;
+}
+
+.select {
+    margin: var(--m-spacing) 0;
+}
+
+.editDiv {
+    display: flex;
+    margin-top: 50px;
+}
+
+.paddingBottom{
+   margin-bottom: 10px;
+}
+
+.textCenter {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+}

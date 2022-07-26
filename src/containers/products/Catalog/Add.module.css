@@ -1,0 +1,141 @@
+.paper {
+    background: var(--grey1);
+    overflow: auto !important;
+    height: calc(100%) !important;
+    @media (--desktop) {
+        width: 50%;
+        background: var(--white);
+    }
+}
+
+.heading {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.heading1 {
+    font-size: var(--h4-font-size);
+    font-weight: var(--semi-bold);
+    margin-bottom: var(--xl-spacing);
+}
+
+.padd {
+    padding: var(--l-spacing);
+}
+
+.catalogImg {
+    height: 110px !important;
+    width: 110px !important;
+    margin: 12px 0;
+    border: 1px dashed rgba(33, 33, 33, 0.3);
+    @media (--desktop) {
+        width: 100% !important;
+    }
+}
+
+.catalogImg img {
+    background: var(--secondary) !important;
+    object-fit: contain !important;
+
+}
+
+.emptyImg img{
+    height: 35px !important;
+    width: 35px !important;
+}
+
+.del {
+    position: absolute;
+    top: -6px;
+    left: 100px;
+    height: 20px;
+    width: 20px;
+}
+
+.del1 {
+    position: absolute;
+    top: 155px;
+    left: 380px;
+    height: 20px;
+    width: 20px;
+}
+
+
+.border {
+    border: 1px solid var(--primary) !important;
+    text-transform: capitalize !important;
+    padding: 4px 12px !important;
+    background-color: var(--primary) !important;
+    border-radius: 4px !important;
+    color: var(--secondary) !important;
+    width: calc(100% - 60px);
+    margin-left: 16px !important;
+}
+
+.border50 {
+    width: 60% !important;
+    margin-top: var(--xxl-spacing) !important;
+    font-size: var(--h5-font-size) !important;
+}
+
+.error {
+    color: var(--red);
+    font-size: var(--m-font-size);
+}
+
+
+.button {
+    margin-top: var(--l-spacing);
+}
+
+.button1 {
+    display: flex;
+    justify-content:center;
+    margin-top: var(--xxxxxl-spacing);
+    height: 52px;
+}
+
+.backIcon {
+    padding:14px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.container1 {
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.containerText {
+    font-weight: 600;
+    font-size: var(--h4-font-size);
+    color: var(--black60);
+    margin-bottom: var(--m-spacing);
+}
+
+.containerText1 {
+    font-weight: 600;
+    font-size: var(--h4-font-size);
+    color: var(--black60);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 90px;
+}
+
+.relative {
+    width: 100%;
+}

@@ -1,0 +1,46 @@
+.flex {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--grey2);
+    margin: 0 var(--l-spacing);
+    padding: var(--l-spacing) 0;
+    @media (--desktop) {
+      padding: 24px 0px;
+    }
+  }
+
+  .label {
+    font-size: var(--d-font-size);
+    color: var(--black70);
+    @media (--desktop) {
+      color: var(--black80);
+      font-weight: 500;
+    }
+  }
+
+  .sub {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .answer {
+    width: calc(100% - 45px);
+    background: var(--grey);
+    border-radius: 4px;
+    line-height: 1.3;
+    padding: 12px;
+    font-size: var(--m-font-size);
+    margin-top: 12px;
+    color: var(--black80);
+    background: var(--secondary);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+
+.desktopContainer {
+  padding:20px 40px;
+}
+
+.desktopAnswer{
+  right:0px
+}

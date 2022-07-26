@@ -1,0 +1,33 @@
+.boxes {
+    display: flex;
+    flex-direction: column;
+    background: var(--grey10);
+    padding-left: var(--l-spacing);
+    padding-bottom: var(--xl-spacing);
+
+    > * {
+       margin-top: var(--xl-spacing);
+    }
+}
+
+.hintContainer {
+    margin: var(--l-spacing) 0;
+    display: flex;
+    align-content: center;
+    background: var(--grey10);
+    border: 1px solid rgba(33, 33, 33, 0.1);
+    border-radius: var(--border-radius);
+    height: 70px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.hintText {
+    font-size: var(--m-font-size);
+    width: 250px;
+    color: var(--black60);
+}
+
+.imgH {
+    margin: var(--l-spacing);
+}

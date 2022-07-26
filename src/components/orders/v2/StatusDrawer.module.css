@@ -1,0 +1,133 @@
+.radio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: var(--d-font-size);
+    padding: var(--m-spacing);
+    color: var(--black);
+    font-weight: var(--medium-bold);
+    background: var(--primaryOpacityTwo);
+    border-radius: 5px;
+    margin-bottom: var(--m-spacing);
+}
+
+.container {
+    @media (--desktop) {
+        margin: 30px;
+        border: 1px solid var(--black10);
+        border-radius: var(--border-radius);
+        padding: var(--xl-spacing);
+    }
+}
+
+.bottomButtons {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    @media (--desktop) {
+        background: #F4F4F4;
+        justify-content: center;
+        box-shadow: none;
+        padding: var(--l-spacing) 0;
+    }
+}
+
+.primary,
+.secondary {
+    width: 100%;
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--semi-bold) !important;
+    padding: 16px 32px;
+
+    @media (--desktop) {
+        max-width: 40%;
+        border-radius: 6px;
+        font-size: var(--h5-font-size) !important;
+    }
+}
+
+.secondary {
+    color: var(--primary) !important;
+    background: var(--white) !important;
+
+    @media (--desktop) {
+        margin-right: 30px;
+        border: 1px solid var(--primary);
+    }
+}
+
+.primary {
+    background: var(--primary) !important;
+    color: var(--white) !important;
+    text-transform: uppercase !important;
+}
+
+.shippingButton {
+    margin-bottom: var(--l-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    button {
+        min-width: 60%;
+    }
+}
+
+.statuses {
+    @media (--phone) {
+        padding-bottom: 80px;
+    }
+}
+
+.bottomDrawerContainer {
+    text-align: left;
+    font-size: var(--d-font-size) !important;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.button {
+    background: var(--primary);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 52px;
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    text-transform: uppercase;
+    color: var(--white);
+    width: 100%;
+
+    span {
+        flex: 1;
+        text-align: center;
+    }
+
+    padding: 0 var(--l-spacing);
+}
+
+.drawer {
+    @media (--phone) {
+        border-radius: 20px 20px 0 0;
+        min-height: 35% !important;
+    }
+}
+
+
+.borderBottom {
+    border-bottom: 1px solid var(--black10);
+    margin-bottom: var(--l-spacing);
+}

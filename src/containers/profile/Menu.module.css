@@ -1,0 +1,125 @@
+.paper {
+    width: 70vw !important;
+}
+
+.paper1 {
+    width: 25vw !important;
+}
+
+.logoSection {
+    height: 55px;
+    background: var(--grey6);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: var(--xl-spacing);
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    padding-right: var(--xl-spacing);
+}
+
+.icon1 {
+    padding: var(--m-spacing);
+}
+.topSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 var(--l-spacing);
+    padding: 0 var(--l-spacing);
+}
+
+.lower {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.lowerSec1 {
+    border-top: 1px solid #E8E8E8;
+    margin: 0 var(--l-spacing);
+    padding: 0 var(--l-spacing);
+}
+
+.minW {
+    min-width: 25px !important;
+}
+
+.underline {
+    justify-content: end !important;
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--medium-bold) !important;
+    color: var(--black) !important;
+    margin-top: var(--s-spacing) !important;
+    text-transform: capitalize !important;
+}
+
+.noline {
+    justify-content: end !important;
+    font-size: var(--s-font-size) !important;
+    margin-bottom: 5px !important;
+}
+
+.middle {
+    display: flex !important;
+    flex-direction: column !important;
+    padding-top: 36px !important;
+    padding-left: 10px !important;
+}
+
+.info {
+    font-size: var(--m-font-size) !important;
+    margin: 0 8px !important;
+    margin-bottom: 8px !important;
+}
+
+.divider {
+    margin: 16px !important;
+    background-color: #EEEEEE !important;
+}
+
+.marginB {
+    margin: var(--m-spacing) 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    font-size: var(--d-font-size) !important;
+    text-transform: capitalize !important;
+    color: var(--primary) !important;
+}
+
+.logout {
+    background: var(--primary20) !important;
+    padding-left: var(--xxxl-spacing) !important;
+}
+
+.build {
+    margin: var(--xxxl-spacing) 0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buildId {
+    font-weight: 500;
+    font-size: var(--d-font-size);
+    color: var(--black60);
+    width: 100%;
+}
+
+.buildDate {
+    font-weight: 500;
+    font-size: var(--d-font-size);
+    color: var(--black60);
+    width: 100%;
+    padding: var(--m-spacing) 0;
+}

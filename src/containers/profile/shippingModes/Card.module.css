@@ -1,0 +1,48 @@
+.top2 {
+    align-items: center;
+    margin-bottom: var(--l-spacing);
+}
+
+.container {
+    background: var(--primaryOpacityTwo);
+    padding:0 var(--l-spacing) 0 var(--l-spacing);
+}
+
+.center {
+    text-align: center;
+    align-self: center;
+}
+
+.activeText {
+    font-size: var(--m-font-size);
+    color: var(--green5);
+    margin-right: var(--l-spacing);
+}
+
+.inActiveText {
+    font-size: var(--m-font-size);
+    color: var(--primary2);
+    margin-right: var(--l-spacing);
+}
+
+.shippingText {
+    font-size: var(--m-font-size);
+    color: var(--black60);
+}
+
+.shippingTypeText {
+    font-size: var(--m-font-size);
+    color: var(--black);
+}
+
+.iconsContainer {
+    padding: var(--s-spacing) 0;
+}
+
+.editIcon {
+    margin-left: var(--l-spacing);
+}
+
+.line {
+    border-bottom: 1px solid var(--black10);
+}

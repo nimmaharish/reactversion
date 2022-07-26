@@ -1,0 +1,22 @@
+.textField {
+    margin-top: var(--xs-spacing);
+    margin-bottom: var(--m-spacing);
+
+    :global(.react-select__control) {
+        background: var(--card-background);
+        border: none;
+    }
+
+    :global(.react-select__multi-value) {
+        background: var(--yellow);
+        color: var(--black);
+    }
+
+    :global(.react-select__menu) {
+        z-index: 2;
+    }
+
+    :global(.react-select__option--is-focused) {
+        background: var(--yellow);
+    }
+}

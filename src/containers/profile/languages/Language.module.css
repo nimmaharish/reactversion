@@ -1,0 +1,51 @@
+.drawer {
+    background: var(--white);
+}
+
+.kbc {
+    margin-top: 10%;
+}
+
+.container {
+    padding: var(--xl-spacing);
+    height: auto;
+    padding-bottom: 50px !important;
+
+    @media (--desktop) {
+        padding: 20px 40px;
+        height: calc(100vh - 210px);
+        overflow-y: auto;
+        margin: 0px;
+    }
+}
+
+
+.buttonContainer {
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0px !important;
+    width: 100% !important;
+    height: 52px !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.hint {
+    font-weight: normal;
+    font-size: 12px;
+    color: var(--black60);
+    margin-top: var(--m-spacing);
+}
+
+.heading {
+    font-weight: var(--medium-bold);
+    font-size: var(--h5-font-size);
+    margin: var(--m-spacing) 0;
+}
+
+.containerB {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}

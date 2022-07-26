@@ -1,0 +1,119 @@
+.chatContainer {
+    padding: 0 var(--d-spacing);
+    /* overflow-y: scroll !important; */
+}
+
+.mailButton {
+    width: 100%;
+    border-radius: 0%;
+    background-color: var(--primary);
+    color: var(--white);
+    padding: var(--d-spacing);
+}
+
+.sendMailDiv {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    @media (--desktop) {
+        left: 320px;
+        padding: 0 0;
+        width: calc(100vw - 320px);;
+        background: var(--grey6);
+        display: flex !important;
+        flex-direction: column  !important;
+        align-items: center !important;
+    }
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    padding-right: var(--xl-spacing);
+}
+
+.sendMailDiv button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (--desktop) {
+        width: 50%;
+        background-color: var(--primary) !important;
+        border: none !important;
+        font-size: var(--h3-font-size) !important;
+    }
+}
+
+.sendMailDiv button > div:last-child {
+   flex: none;
+}
+
+.body {
+    height: calc(100vh - 57px - 58px);
+    overflow: scroll;
+    @media (--desktop) {
+        padding: 20px 80px;
+        height: calc(100% - 40px);
+        overflow: hidden;
+        width: calc(100vw - 480px);
+    }
+}
+
+.emptyOrders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    justify-content: center;
+    height: calc(100% - 120px);
+    padding: 40px;
+    border: 1px solid var(--black10);
+    border-radius: 16px;
+
+    @media (--phone) {
+        padding: 0;
+        padding-top: var(--xxxxxxl-spacing);
+        border: 0;
+    }
+}
+
+.emptyProductText {
+    margin-top: var(--xxl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--d-font-size);
+    color: var(--black50);
+}
+
+:global(.ReactVirtualized__Grid__innerScrollContainer) {
+    max-width: 100% !important;
+}
+
+:global(.ReactVirtualized__Grid) {
+    width: 100% !important;
+}
+
+.paddLR {
+    padding-left: var(--m-spacing);
+    padding-right: var(--m-spacing);
+}
+
+.helperText {
+    font-size: var(--m-font-size);
+    font-weight: normal !important;
+    color: var(--black50);
+    margin-top: var(--m-spacing);
+    padding: var(--s-spacing) !important;;
+    text-align: center;
+}
+
+.picker  {
+    display: flex;
+    padding: var(--l-spacing);
+    justify-content: flex-end;
+}

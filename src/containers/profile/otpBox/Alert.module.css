@@ -1,0 +1,86 @@
+.title {
+    font-size: var(--h4-font-size);
+    color: var(--black);
+    text-align: left;
+    line-height: 1.5;
+    font-weight: var(--semi-bold);
+    padding: 0 var(--l-spacing) !important;
+    margin-top: var(--xl-spacing);
+    margin-bottom: var(--l-spacing);
+    text-align: center;
+}
+
+.subTitle {
+    font-size: var(--d-font-size);
+    color: var(--black60);
+    text-align: left;
+    font-weight: var(--medium-bold);
+    margin-top: var(--s-spacing);
+    margin-bottom: var(--xl-spacing);
+    padding: 0 var(--l-spacing) !important;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--l-spacing);
+    width: calc(100% - 32px);
+    height: calc(100% - 48px);
+}
+
+.buttons > * {
+    min-width: calc(50% - 8px);
+}
+
+.dialog {
+    width: calc(100% - 32px);
+    margin: var(--l-spacing) !important;
+}
+
+.padding {
+    padding: var(--m-spacing);
+    padding-bottom: 0;
+}
+
+.otpScreen {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: var(--m-spacing) 0;
+}
+
+.otpScreen input {
+    background: transparent;
+    border-radius: var(--s-border-radius);
+    padding: 0;
+    color: var(--white);
+    font-size: var(--d-font-size);
+    text-align: center;
+    outline: none;
+    text-transform: uppercase;
+    border: 1px solid var(--black15);
+    margin: 0 10px;
+    color: var(--green);
+    font-weight:var(--semi-bold);
+    width: 45px;
+    height: 45px;
+
+    @media (--phone) {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.otpScreen input[type=number]::-webkit-inner-spin-button,
+.otpScreen input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.otpScreen input[type=number] {
+    -moz-appearance: textfield;
+}

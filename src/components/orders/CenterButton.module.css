@@ -1,0 +1,73 @@
+.iconContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iconLabel {
+    font-size: var(--m-font-size);
+    color: var(--black);
+    margin-top: var(--xs-spacing);
+    font-weight: var(--semi-bold);
+}
+
+.downloadPopoverContainer {
+    padding: var(--xl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: var(--h3-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.border {
+    border-bottom: 1px solid var(--black15);
+}
+
+.downloadPopoverLabel {
+    margin-left: var(--m-spacing);
+    color: var(--black);
+    width: 150px;
+    font-size: var(--h5-font-size);
+}
+
+.lSpacing {
+    margin-left: var(--l-spacing);
+}
+
+.downloadPopoverRoot {
+    padding: var(--s-spacing) var(--l-spacing);
+    position: relative;
+}
+
+.paper {
+    border-radius: var(--l-spacing) var(--l-spacing) 0px 0px !important;
+}
+
+.textClass {
+    color: var(--black);
+    opacity: 0.6;
+}
+
+.btn {
+    margin: var(--xl-spacing) 0;
+}
+
+.customizationPending {
+    margin: var(--m-spacing);
+    text-align: center;
+    color: var(--primary);
+    font-size: var(--h5-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.cancelButton {
+    color: var(--primary) !important;
+    font-size: var(--d-font-size) !important;
+    width: 100%;
+    margin-bottom: var(--m-spacing);
+    text-decoration: underline;
+}

@@ -1,0 +1,119 @@
+.slug {
+    position: relative;
+    background: #f6f6f6 !important;
+    font-size: var(--d-font-size) !important;
+    height: 36px !important;
+    padding: 4px !important;
+    border-radius: 4px !important;
+}
+
+.single {
+    text-indent: 10px;
+}
+
+.slugSec {
+    background: #f6f6f6 !important;
+    border: 1px solid #989595 !important;
+    border-radius: 4px !important;
+    box-sizing: border-box;
+    width: 100%;
+    margin: var(--xs-spacing) 0 !important;
+}
+
+.label {
+    font-size: var(--d-font-size);
+    margin: var(--s-spacing) 0;
+    text-align: left;
+    color: var(--black);
+}
+
+.section {
+    padding: 8px;
+    background: #ffffff;
+    width: calc(100% - 16px);
+}
+
+.rightS {
+    margin-right: 8px !important;
+    text-transform: capitalize !important;
+    min-width: 150px !important;
+    background-color: var(--primary) !important;
+    color: var(--secondary) !important;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--m-font-size);
+    color: var(--black);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--black);
+    padding: var(--s-spacing) var(--m-spacing);
+    cursor: pointer;
+    width: 140px;
+    float: right;
+    margin: 20px 0;
+}
+
+.icon {
+    margin-right: 12px;
+}
+
+.ocSection {
+    width: 100%
+}
+
+.listHeader {
+    font-weight: bold;
+    font-size: var(--h5-font-size);
+    margin: 16px 8px;
+}
+
+.listBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    padding: 12px 16px;
+    background: #ffffff;
+    font-size: var(--d-font-size);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: var(--s-spacing);
+}
+
+.right4 {
+    margin-right: var(--xs-spacing);
+}
+
+.circle {
+    height: 25px;
+    width: 25px;
+    line-height: 1.8;
+    border-radius: 50%;
+    background: var(--primary);
+    color: var(--secondary);
+    text-align: center;
+}
+
+.width22 {
+    width: 30%;
+    margin-top: var(--m-spacing) !important;
+}
+
+.width78 {
+    width: 70%;
+    margin-top: var(--m-spacing) !important;
+}
+
+.inputClass {
+    background-color: var(--grey1) !important;
+    margin: 0 !important;
+}
+
+.adorn {
+    margin-left: var(--m-spacing) !important;
+}

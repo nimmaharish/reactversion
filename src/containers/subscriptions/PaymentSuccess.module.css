@@ -1,0 +1,35 @@
+.container {
+    margin: var(--xxxl-spacing) var(--xl-spacing);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.icon {
+    max-width: 80vw;
+}
+
+.heading {
+    color: var(--black);
+    font-weight: var(--bold);
+    margin-top: var(--xxxl-spacing);
+    font-size: var(--h3-font-size);
+}
+
+.txHeading {
+    color: var(--black);
+    font-weight: var(--semi-bold);
+    margin-top: var(--xxxl-spacing);
+    font-size: var(--m-font-size);
+}
+
+.subHeading {
+    color: var(--black50);
+    margin-top: var(--l-spacing);
+}
+
+.spacer {
+    flex: 1;
+}

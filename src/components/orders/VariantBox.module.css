@@ -1,0 +1,44 @@
+.container {
+    margin: var(--s-spacing) 0;
+}
+
+.variants {
+    color: var(--black);
+    font-weight: var(--semi-bold);
+    font-size: var(--h3-font-size);
+    margin-bottom: var(--s-spacing);
+}
+
+.variantContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.variantBox {
+    display: flex;
+    flex-direction: column;
+    margin-top: var(--xs-spacing);
+    margin-bottom: var(--xs-spacing);
+    margin-right: var(--l-spacing);
+}
+
+.variantName {
+    color: var(--black50);
+    font-size: var(--m-font-size);
+    text-transform: capitalize;
+    margin-bottom: var(--s-spacing);
+}
+
+.colorBox {
+    width: 20px;
+    height: 16px;
+    border-radius: var(--xs-border-radius);
+}
+
+.variantValue {
+    color: var(--black);
+    font-size: var(--s-font-size);
+    text-transform: capitalize;
+    text-align: center;
+}

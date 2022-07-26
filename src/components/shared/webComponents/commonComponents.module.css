@@ -1,0 +1,24 @@
+.root {
+    background: var(--grey6);
+    border-radius: var(--xxs-font-size);
+    width: 504px;
+    padding:  var(--xl-spacing) var(--xl-spacing) var(--xl-spacing) var(--xxxl-spacing);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    color:  #000000;
+}
+
+.button {
+    margin-top: var(--xl-spacing);
+    color: var(--primary);
+    width: 160px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    padding-right: 20px;
+}

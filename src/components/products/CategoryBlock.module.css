@@ -1,0 +1,45 @@
+.container {
+    background: var(--grey-bg);
+    border-radius: var(--border-radius);
+    margin: var(--m-spacing) 0;
+}
+
+.drawer {
+    padding: 0 var(--m-spacing);
+    padding-top: var(--xxs-spacing);
+    padding-bottom: var(--m-spacing);
+}
+
+.box {
+    border-radius: var(--border-radius);
+    border: 1px solid var(--black50);
+    padding: var(--s-spacing) var(--m-spacing);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: var(--s-spacing);
+}
+
+.boxTitle {
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    margin-bottom: var(--s-spacing);
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.categories > * {
+    margin-right: var(--s-spacing);
+    margin-bottom: var(--s-spacing);
+    text-transform: capitalize !important;
+}
+
+
+.margin {
+    padding: var(--m-spacing);
+}

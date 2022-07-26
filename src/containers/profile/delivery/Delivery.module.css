@@ -1,0 +1,87 @@
+.drawer {
+    background: var(--white);
+}
+
+.container {
+    padding: var(--l-spacing);
+    height: calc(100vh - 92px);
+    width: calc(100% - 32px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    @media (--desktop) {
+            height: auto;
+    }
+}
+
+.card {
+    padding: var(--s-spacing) var(--l-spacing);
+    color: var(--black);
+    margin: var(--s-spacing) 0;
+    background: var(--white);
+    border-radius: var(--border-radius);
+    position: relative;
+    background: var(--primaryOpacityTwo);}
+
+.card2{
+    background: var(--primaryOpacityTwo);
+    padding: var(--s-spacing) var(--l-spacing);
+    color: var(--black);
+    margin: var(--s-spacing) 0;
+    border-radius: var(--border-radius);
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.iconR{
+    align-items: center;
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.iconF {
+    margin-left: var(--xl-spacing);
+    margin-left: var(--xl-spacing);
+    position: absolute;
+    right: var(--m-spacing);
+    top: var(--xl-spacing);
+}
+
+.button {
+    font-size: var(--d-font-size) !important;
+    min-height: 45px !important;
+    min-width: 135px !important;
+    margin-top: var(--m-spacing) !important;
+}
+
+.calculate {
+    color: var(--green5);
+    border-radius: var(--border-radius);
+    background: var(--white);
+    border: 1px solid var(--green5);
+    text-transform: none;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-spacing);
+}
+
+.marginTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.buttonD {
+    display: flex;
+    justify-content: center;
+    margin-top: var(--l-spacing);   
+}
+
+.config{
+    color: var(--green5);
+}

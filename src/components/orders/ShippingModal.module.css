@@ -1,0 +1,38 @@
+.radioContainer {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    margin: var(--m-spacing) 0 !important;
+
+    @media (--desktop) {
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 24px;
+        margin-top:10px;
+    }
+}
+
+.heading {
+    text-align: center;
+    font-size: var(--h5-font-size);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    @media (--desktop) {
+        justify-content: right;
+    }
+}
+
+.paper {
+    width: 100%;
+}
+
+
+.type {
+    width: calc(100% - 20px) !important;
+    text-align: left;
+}
+
+.spacer {
+    height: 20px;
+}

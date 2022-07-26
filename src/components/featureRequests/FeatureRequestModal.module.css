@@ -1,0 +1,46 @@
+.textInput {
+    position: relative;
+    background: #F6F6F6 !important;
+    font-size: var(--d-font-size) !important;
+    height: 36px !important;
+    padding: 4px !important;
+    border-radius: 4px !important;
+    text-indent: 10px;
+}
+
+.textarea {
+    background: #F6F6F6;
+    text-indent: 10px;
+    border-radius: var(--s-border-radius);
+    width: calc(100% - 2px);
+    border: 1px solid #989595;
+    outline: 0;
+    padding: var(--m-spacing) 0;
+    color: var(--black);
+    font-size: var(--d-font-size);
+}
+
+.buttonsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;}
+
+.button {
+    height: 45px !important;
+    min-width: 135px !important;
+    border-radius: 0 !important;
+    font-size: var(--d-font-size) !important;
+}
+
+.title {
+    margin: var(--xs-spacing) var(--xs-spacing);
+    color: var(--black50);
+}
+
+.container {
+    padding: var(--m-spacing) !important;
+}

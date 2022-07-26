@@ -1,0 +1,50 @@
+.root {
+    padding: 12px;
+    background: var(--secondary);
+    border-radius: 10px;
+    border-top: 6px solid var(--new-secondary);
+    margin-bottom: var(--l-spacing);
+}
+
+.head {
+    margin-top: 12px;
+    font-size: var(--h5-font-size);
+    color: var(--black);
+}
+
+.variantSec {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.outer {
+    min-width: 33px !important;
+    height: 33px !important;
+    border-radius: 50% !important;
+    margin-top: var(--s-spacing) !important;
+    margin-right: var(--l-spacing) !important;
+    margin-bottom: var(--s-spacing) !important;
+}
+
+.btnC {
+    min-width: 29px !important;
+    height: 29px !important;
+    border-radius: 50% !important;
+    position: relative !important;
+    top: 2px;
+    left: 2px;
+}
+
+.btn {
+    text-transform: capitalize !important;
+    font-size: var(--d-font-size) !important;
+    margin-top: var(--s-spacing) !important;
+    margin-right: var(--l-spacing) !important;
+    margin-bottom: var(--s-spacing) !important;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}

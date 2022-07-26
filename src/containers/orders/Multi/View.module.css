@@ -1,0 +1,50 @@
+.container {
+    @media (--desktop) {
+        width:75%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    padding: 16px 0;
+    overflow: auto;
+    width: 100%;
+}
+
+.heading {
+    font-size: var(--h5-font-size);
+    font-weight: var(--semi-bold);
+    margin-bottom: var(--m-spacing);
+}
+
+.divider {
+    border-top: 1px solid #E0E0E0;
+    padding: var(--m-spacing) 0;
+    margin: var(--m-spacing) 0;
+}
+
+.divider:first-child {
+    border: none;
+    margin-top: 0;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+}
+
+.flex > div {
+    flex: 1;
+}
+
+.textClass {
+    color: var(--black);
+    opacity: 0.4;
+}
+
+.confirmButton {
+    width:100%;
+    @media (--desktop) {
+        width:30%;
+        margin-left:auto;
+        margin-right:auto;
+    }
+}

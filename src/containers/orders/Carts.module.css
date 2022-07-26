@@ -1,0 +1,99 @@
+.flex {
+    display: flex;
+}
+
+.tabClass {
+    background: var(--secondary);
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: var(--xl-spacing) var(--xs-spacing) !important;
+}
+
+.tabClass::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.tabClassName {
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    padding: var(--s-spacing) var(--m-spacing);
+    border-radius: var(--xl-border-radius);
+    background: var(--grey9);
+    min-width: max-content;
+}
+
+.tabActive {
+    color: var(--secondary) !important;
+    background: var(--primary);
+}
+
+.padd0 {
+    padding: 0 !important;
+}
+
+.orderHead {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    margin-bottom: var(--xs-spacing);
+    padding-left: var(--l-spacing);
+
+    @media (--desktop) {
+        padding: 0 var(--xxxxxl-spacing);
+        padding-top: var(--l-spacing);
+        font-size: var(--h4-font-size);
+    }
+}
+
+:global(.ReactVirtualized__Grid__innerScrollContainer) {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+:global(.ReactVirtualized__Grid) {
+    width: 100% !important;
+}
+
+
+.picContainer {
+    display: flex;
+    background: #FFFFFF;
+    justify-content: flex-end !important;
+    margin-top: var(--l-spacing);
+    margin-right: var(--l-spacing);
+    @media (--desktop) {
+        padding: var(--l-spacing);
+        margin-top: var(--l-spacing);
+        margin-right: 0;
+        padding-right: var(--l-spacing);
+    }
+}
+
+.loaderPadding {
+    padding: var(--xs-spacing);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }
+
+.desktopContainer{
+    padding:20px 40px 60px 40px;
+    background: var(--grey6);
+    height: calc(100vh - 170px) !important;
+    width: calc(100vw - 82px - 320px);
+    overflow: hidden;
+}
+
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h2-font-size);
+    color: var(--black60);
+}   

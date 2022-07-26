@@ -1,0 +1,29 @@
+.title {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black);
+}
+
+
+.subTitle {
+    padding-top: var(--l-spacing);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    color: var(--black75);
+}
+
+.container {
+    padding: var(--xl-spacing) var(--l-spacing);
+}
+
+.btn {
+    padding-bottom: var(--xl-spacing);
+}
+
+.btn > * {
+    min-width: calc(50% - 24px);
+}
+
+.click {
+    margin-left: var(--s-spacing);
+}

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39" height="38" viewBox="0 0 39 38">
+    <defs>
+        <style>.a{fill:#fea729;}.b{fill:#fff;}</style>
+    </defs>
+    <g transform="translate(-46 -1270)">
+        <rect class="a" width="39" height="38" rx="5" transform="translate(46 1270)"/>
+        <g transform="translate(55 1120.475)">
+            <path class="b"
+                  d="M10.5,161.525A11.517,11.517,0,0,0,.042,168.331a.468.468,0,0,0,0,.388,11.438,11.438,0,0,0,20.916,0,.468.468,0,0,0,0-.388A11.517,11.517,0,0,0,10.5,161.525Zm0,11.83a4.83,4.83,0,1,1,4.733-4.829A4.781,4.781,0,0,1,10.5,173.355Z"
+                  transform="translate(0 0)"/>
+            <circle class="b" cx="3.265" cy="3.265" r="3.265" transform="translate(7.235 165.259)"/>
+        </g>
+    </g>
+</svg>

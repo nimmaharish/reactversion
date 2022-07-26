@@ -1,0 +1,133 @@
+.themesSection {
+    overflow: auto;
+    padding-bottom: 45px;
+    height: calc(100vh - 59px - 45px);
+
+    @media (--desktop) {
+        overflow-y: auto;
+        height: calc(100%);
+    }
+}
+
+.kbc {
+    margin:20% 5% 0 5%;
+}
+
+.kbcDesk {
+    margin: 10% 0 5% 25%;
+}
+
+.card {
+    position: relative;
+    padding: var(--xl-spacing) var(--l-spacing) 0 var(--l-spacing);
+    border-radius: var(--border-radius);
+    margin: var(--xl-spacing) var(--l-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (--desktop) {
+        margin-left: 0;
+        height: 300px !important;
+    }
+}
+
+.bgnCelosia {
+    background: #FFEEEE;
+}
+
+.bgnDaffodil {
+    background:#F7ECDE ;
+}
+
+.bgnCarnation {
+    background:#DBDFFD ;
+}
+
+.bgnCalathea {
+    background: #C8F2EF;
+}
+
+.bgnLilac {
+    background: var(--primaryOpacityTwo);
+}
+
+.bgnOwnTheme {
+    background: #FFCCD2;
+}
+
+.new {
+    position: absolute;
+    left: 16px;
+    top: -6px;
+}
+
+.name {
+    color: var(--black);
+    font-size: var(--h3-font-size);
+    padding-bottom: var(--xs-spacing);
+    text-align: center;
+    font-weight: var(--bold);
+}
+
+.description {
+    color: var(--black60);
+    padding-top: var(--m-spacing);
+    padding-bottom: var(--xl-spacing);
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 190px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var(--l-spacing);
+
+    @media (--desktop) {
+        padding-left: 0;
+    }
+}
+
+.icon1 {
+    width: 40px;
+    position: absolute;
+    right: 4px;
+    top: 8px;
+}
+
+.icon2 {
+    width: 25px;
+    position: absolute;
+    right: 4px;
+    top: 8px;
+}
+
+.button {
+    min-width: 49%;
+}
+
+.icon1 {
+    width: 40px;
+    position: absolute;
+    right: 4px;
+    top: 8px;
+}
+
+
+.tabClassName1 {
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--h5-font-size);
+    color: var(--black50);
+    padding: 0 var(--m-spacing);
+    padding-bottom: var(--xs-spacing);
+    margin: 0;
+    min-width: max-content;
+}

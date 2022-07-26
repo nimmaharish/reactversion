@@ -1,0 +1,23 @@
+.swiper {
+    height: 150px;
+}
+
+.slide {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.image {
+    height: 100%;
+    width: auto;
+    max-width: 90vw;
+    border-radius: var(--border-radius);
+}
+
+.video {
+    height: 100%;
+    width: auto;
+    max-width: 90vw;
+    border-radius: var(--border-radius);
+}

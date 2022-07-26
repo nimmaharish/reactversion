@@ -1,0 +1,47 @@
+.heading {
+    font-weight: var(--semi-bold);
+    color: var(--black);
+    font-size: var(--h21-font-size);
+    text-align: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: var(--m-spacing) 0;
+}
+
+.text {
+    margin-left: var(--m-spacing);
+    flex: 1;
+    font-size: var(--d-font-size);
+}
+
+.logoContainer {
+    border: 1px solid var(--yellow);
+    border-radius: var(--border-radius);
+    width: 56px;
+    height: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 36px;
+    height: 36px;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    height: 45px !important;
+    min-width: 135px !important;
+    font-size: var(--d-font-size) !important;
+}

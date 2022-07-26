@@ -1,0 +1,22 @@
+.note {
+    font-size: var(--m-font-size);
+    margin-left: var(--m-spacing);
+    color: var(--black75);
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: var(--border-radius);
+    background: var(--white);
+    padding: var(--s-spacing) var(--m-spacing);
+    margin-bottom: var(--m-spacing);
+    max-width: 100%;
+}
+
+.more {
+    color: var(--green);
+    margin-left: var(--xs-spacing);
+}

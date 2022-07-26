@@ -1,0 +1,122 @@
+.container {
+    overflow: hidden;
+    background: var(--white);
+    max-width: 100vw;
+    width: 100vw;
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: var(--xs-spacing) var(--xs-spacing);
+    width: 100% !important;
+    background: var(--white);
+    height: 38px;
+}
+
+.heading {
+    font-size: var(--h3-font-size);
+    color: var(--black);
+    font-weight: var(--semi-bold);
+    margin-top: var(--s-spacing);
+    text-transform: capitalize;
+    margin-left: -20px;
+}
+
+.dateBlock {
+    display: flex;
+    flex-direction: column;
+    padding: var(--xs-spacing) var(--s-spacing);
+}
+
+.dateHeading {
+    text-align: center;
+    color: var(--black50);
+    font-size: var(--s-font-size);
+}
+
+.chatRoom {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.otherUser img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.otherUser {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.otherUser .message, .you .message {
+    background: var(--white);
+    padding: var(--m-spacing);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    margin-left: var(--m-spacing);
+    font-size: var(--m-font-size);
+    max-width: 60vw;
+    padding-bottom: 4px;
+    min-width: 30vw;
+    color: var(--black);
+}
+
+.you {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.you .message {
+    background: var(--yellow);
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.chat {
+    margin: var(--xs-spacing) 0;
+}
+
+.at {
+    text-align: right;
+    font-size: var(--xxs-font-size);
+    color: var(--black50);
+    text-transform: uppercase;
+    padding: var(--xxs-spacing);
+    padding-right: 0;
+}
+
+.loadMoreContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: var(--m-spacing);
+    padding-top: 0;
+}
+
+.loadMore {
+    display: inline-block;
+}
+
+.back {
+    padding: var(--s-spacing);
+}
+
+.info {
+    background: var(--secondary1);
+    text-align: center;
+    width: 50%;
+    padding: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50%;
+}

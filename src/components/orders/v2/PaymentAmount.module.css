@@ -1,0 +1,89 @@
+.title {
+    font-weight: var(--semi-bold);
+    font-size: var(--h5-font-size);
+    color: var(--black);
+
+    @media (--phone) {
+        font-size: var(--d-font-size);
+    }
+
+}
+
+.subTitle {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--black60);
+    margin-bottom: var(--xl-spacing);
+
+    @media (--phone) {
+        font-size: var(--m-font-size);
+    }
+}
+
+.payments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+    margin-bottom: var(--xl-spacing);
+}
+
+.chips {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: var(--xl-spacing) 0;
+}
+
+.chip {
+    margin-right: var(--l-spacing);
+    background: var(--primaryOpacityTwo);
+    border-radius: var(--border-radius);
+
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    text-align: center;
+    padding: var(--s-spacing) 0;
+    min-width: 60px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    color: var(--grey8);
+
+    &:last-child {
+        margin-right: 0;
+    }
+
+    @media (--phone) {
+        font-size: var(--m-font-size);
+    }
+
+    &.selected {
+        color: var(--white) !important;
+        background: var(--primary) !important;
+    }
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--l-spacing);
+}
+
+.price {
+    text-align: center;
+    font-weight: var(--semi-bold);
+    font-size: var(--h3-font-size);
+    color: var(--black);
+    margin-bottom: var(--l-spacing);
+}

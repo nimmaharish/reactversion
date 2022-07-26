@@ -1,0 +1,14 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: var(--m-spacing) 0;
+    @media (--desktop) {
+        margin-top: var(--xxxl-spacing);
+    }
+
+}
+
+:global(.tox-tinymce) {
+    border-radius: var(--border-radius) !important;
+}

@@ -1,0 +1,23 @@
+.table {
+    padding: var(--xxl-spacing);
+}
+
+.tableContainer {
+    height: 75vh;
+    overflow-y: auto;
+    padding: var(--s-spacing);
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--m-spacing) var(--xl-spacing);
+}
+
+.heading {
+    font-weight: var(--bold);
+    font-size: var(--h3-font-size);
+}
+

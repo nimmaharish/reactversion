@@ -1,0 +1,121 @@
+.mini {
+    /* .heading {
+        font-size: var(--d-font-size);
+    }
+
+    .progressContainer {
+        font-size: var(--m-font-size);
+    }
+
+    .button {
+        font-size: var(--s-font-size);
+        padding: var(--xs-spacing) var(--l-spacing);
+        padding-right: var(--xxl-spacing);
+        min-height: 20px;
+        min-width: 60px;
+        margin-top:5px !important;
+    }
+    .progress {
+        height: 5px !important;
+    }     */
+}
+
+.heading {
+    font-size: var(--h5-font-size);
+    color: var(--primary);
+    margin: 10px 0;
+}
+
+.heading1 {
+    font-size: var(--m-font-size) !important;
+    color: var(--black) !important;
+    margin: 12px 0;
+    margin-bottom: 0;
+}
+
+.progressContainer {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: var(--d-font-size);
+    color: var(--black50);
+    margin-bottom: var(--xs-spacing);
+    /* min-height: 120px; */
+}
+
+.progress div {
+    /* height: 10px !important; */
+    background: var(--yellow) !important;
+    border-radius: 6px !important;
+}
+
+.progress {
+    height: 10px !important;
+    background: #D2D2D2;
+    width: 90%;
+    border-radius: 6px !important;
+}
+
+.width100 {
+    width: 100% !important;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: var(--s-spacing); */
+    /* margin-top: 10px; */
+    flex-wrap: wrap;
+}
+
+.button {
+    margin-right: var(--l-spacing);
+    text-transform: capitalize;
+    position: relative;
+    background: var(--black);
+    border-radius: 16px;
+    padding: var(--xs-spacing) var(--l-spacing);
+    padding-right: var(--xxl-spacing);
+    color: var(--white);
+    cursor: pointer;
+    display: flex;
+    min-height: 10px !important;
+    min-width: 25px !important;
+    font-size: var(--s-font-size) !important;
+    align-items: center;
+    margin-top:10px !important;
+}
+
+
+.icon {
+    font-size: var(--xs-font-size) !important;
+    position: absolute;
+    right: 3px;
+    /* top: -2px; */
+    height: 20px !important;
+    width: 18px !important;
+    /* border: 1px solid var(--light-blue); */
+    ;
+}
+.bar{
+    margin-bottom: 15px;
+}
+
+.action {
+    background-color: #ffa44a !important;
+    border-radius: 12px !important;
+    max-width: 120px;
+    font-size: var(--m-font-size) !important;
+    color: var(--white) !important;
+    margin: 8px 0 !important;
+    text-transform: capitalize !important;
+    padding: 4px 8px !important;
+}
+
+.className {
+    background: none !important;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}

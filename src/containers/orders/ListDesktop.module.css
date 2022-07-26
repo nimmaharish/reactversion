@@ -1,0 +1,145 @@
+.container {
+    height: calc(100vh - 190px);
+    width: calc(100vw - 380px);
+    padding: 50px 30px;
+    overflow-y: hidden;
+}
+.body {
+    flex: 1;
+    margin-top: 8px;
+    padding-bottom: 40px;
+    background: red;
+}
+
+.emptyOrders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: var(--xxl-spacing);
+    padding: 40px;
+    border: 1px solid var(--black10);
+    border-radius: 16px;
+}
+
+.productShareIcon {
+    margin-left: var(--s-spacing);
+}
+
+.emptyProductText {
+    margin-top: var(--xxl-spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--d-font-size);
+    color: var(--black50);
+}
+
+.createButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--d-font-size);
+    color: var(--black);
+    height: 35px;
+    margin-left: var(--l-spacing);
+    margin-top: var(--s-spacing);
+    margin-bottom: var(--m-spacing);
+    width: 100px;
+    background: transparent !important;
+    border: 1px solid var(--black) !important;
+}
+
+.createButton img {
+    margin-right: var(--xs-spacing);
+}
+
+.stateBar {
+    flex: 1;
+}
+
+.section {
+    margin-top: var(--xl-spacing);
+}
+
+.withText {
+    background: transparent !important;
+    border: 2px solid var(--new-secondary) !important;
+    border-radius: 18px;
+}
+
+.placedTab {
+    margin-top: 45px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--h3-font-size);
+    font-weight: var(--medium-bold);
+    text-align: center;;
+}
+
+.Searchbutton {
+   margin-left: 10px;
+   width: 102px;
+}
+
+.searchDiv {
+    display: flex;
+}
+
+.searchBar{
+    /* width: 360px; */
+}
+
+.mainGrid {
+    padding: 30px;
+    overflow: auto;
+}
+
+.text{
+    padding-top:var(--d-spacing);
+    padding-bottom:var(--l-spacing);
+    font-size: var(--h4-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.span {
+    font-size: var(--h5-font-size);
+    font-weight: normal;
+    color: var(--black60);
+}
+
+.tabClass {
+    background: var(--secondary);
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding: var(--xl-spacing) var(--xs-spacing) !important;
+}
+
+.tabClass::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.tabClassName {
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    color: var(--black50);
+    padding: var(--s-spacing) var(--m-spacing);
+    border-radius: var(--xl-border-radius);
+    background: var(--grey7);
+    min-width: max-content;
+}
+
+.tabActive {
+    color: var(--secondary) !important;
+    background: var(--primary);
+}
+
+.content {
+    padding: 0 80px;
+}

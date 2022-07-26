@@ -1,0 +1,28 @@
+.container {
+    /* padding: var(--s-spacing) 0; */
+}
+
+.topBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: var(--m-spacing) 0;
+}
+
+.title {
+    color: var(--primary);
+    font-size: var(--h3-font-size);
+}
+
+.link {
+    color: var(--violet1) !important;
+    font-size: var(--m-font-size);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: var(--s-spacing) !important;
+}

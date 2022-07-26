@@ -1,0 +1,120 @@
+.root {
+    cursor: pointer;
+    max-height: 130px;
+    height: 130px;
+
+    @media (--desktop) {
+        padding-right: 16px;
+        border-right: 1px solid var(--black10);
+        margin-right: 16px;
+    }
+}
+
+.noBorder {
+    border-right: 0;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-height: 130px;
+    height: 130px;
+    padding: 20px 0;
+    background: var(--secondary);
+    box-sizing: border-box;
+    border-radius: 0;
+    border-bottom: 1px solid var(--black15);
+
+    @media (--desktop) {
+        border-bottom: 0;
+    }
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img {
+    height: 55px;
+    width: 55px;
+    border-radius: 10px;
+}
+
+.orderId {
+    font-size: var(--m-font-size);
+    color: var(--black);
+    font-weight: var(--semi-bold);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%);
+    margin-left: 12px;
+}
+
+.price {
+    color: var(--black);
+    font-size: var(--m-font-size);
+    font-weight: var(--medium-bold);
+    padding-top: var(--l-spacing);
+}
+
+.currency {
+    font-weight: var(--semi-bold);
+    padding-right: var(--xs-spacing);
+}
+
+.date {
+    color: var(--black60);
+    font-size: var(--m-font-size);
+    font-weight: var(--normal);
+    border-left: 1px solid var(--black15);
+    padding-left: 8px;
+    margin-left: 16px;
+}
+
+.badge {
+    background: var(--secondary) !important;
+    font-size: var(--m-font-size) !important;
+    color: var(--black) !important;
+    width: calc(50% - 30px);
+    text-align: center;
+    display: block;
+    font-weight: var(--medium-bold) !important;
+}
+
+.green {
+    border: 1px solid rgba(52, 183, 81, 0.4) !important;
+}
+
+.pink {
+    border: 1px solid #E1BEE7 !important;
+}
+
+.blue {
+    border: 1px solid #BBDEFB !important;
+}
+
+.statsSection {
+    padding-top: var(--m-spacing);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

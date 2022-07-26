@@ -1,0 +1,101 @@
+.productDetailsText {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--primary);
+}
+
+.uploadCardContainer {
+    padding: var(--l-spacing);
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.uploadCard {
+    background: var(--primaryOpacityTwo);
+    border-radius: 6px;
+    padding: var(--l-spacing);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.uploadLinkContainer {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 33, 33, 0.1);
+    border-radius: 6px;
+    padding: var(--xs-spacing) 0px;
+}
+
+.orDivider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: var(--m-spacing) 0px;
+    color: #000000;
+}
+
+.orDivider div {
+    flex: 1;
+    background: var(--black15);
+    height: 1px;
+}
+
+.orDivider span {
+    margin: 0 var(--s-spacing);
+    color: var(--black15);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.line {
+    height: 1px;
+    background: #212121;
+    opacity: 0.1;
+    margin-bottom: var(--xl-spacing);
+}
+
+.productLinkInput {
+    padding-bottom: 100px;
+}
+
+.shareEditBtnsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shareEditBtnsContainer button {
+    border: none;
+}
+
+.linkCard {
+    margin: var(--xl-spacing);
+    font-size: var(--m-spacing);
+    color: var(--black60);
+    overflow-wrap: break-word;
+}
+
+.uploadLinkBtn {
+    font-size: var(--d-font-size);
+    color: var(--blue1);
+    border: none;
+}
+
+.uploadFileText {
+    font-size: var(--d-font-size);
+    color: var(--blue1);
+}
+
+.uploadFilesContainer {
+    background: #FFFFFF;
+    border: 1px solid rgba(33, 33, 33, 0.1);
+    border-radius: 6px;
+    padding: var(--m-spacing);
+}
+
+.borderRadiusNone {
+    border-radius: 0;
+}

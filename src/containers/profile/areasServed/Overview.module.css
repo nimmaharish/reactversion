@@ -1,0 +1,223 @@
+.container {
+    @media (--phone) {
+        padding: var(--xl-spacing) var(--l-spacing);
+    }
+    @media (--desktop) {
+       width: 70%;
+       margin-left:auto;
+       margin-right:auto;
+       background:#F4F4F4;
+       padding:var(--xl-spacing) 80px;
+    }   
+}
+
+.initialText{
+    font-weight: normal;
+    font-size: var(--d-font-size);
+    color: var(--black80);
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: var(--l-spacing) 0;
+    border-bottom: 1px solid var(--black10);
+
+    @media (--desktop) {
+        padding: var(--xl-spacing) 40px;
+        background:var(--white);
+        margin:var(--xl-spacing);
+    }
+    
+}
+
+.optionsText{
+    flex-direction: column;
+    margin-left: var(--m-spacing);
+}
+
+.marginTop{
+    margin-top: var(--s-spacing);
+}
+
+.optionButton{
+    margin-right: 0;
+    margin-left: auto;
+    color: #00B2FF !important;
+}
+
+.radio {
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+.arrow{
+    margin-left: var(--xl-spacing);
+}
+
+.title{
+    font-size: var(--d-font-size);
+    font-weight: bold;
+    color: var(--black80);
+}
+
+.subTitle{
+    font-size: var(--m-spacing);
+    color: var(--black60);
+    font-weight: normal;
+}
+
+.config {
+    color: #4B7BE5;
+}
+
+.ConfigText{
+    display: flex  ;
+    flex-direction: row;
+    align-items: center;
+}
+
+.marginLeft{
+    margin-left: var(--m-spacing);
+}
+
+.configOptions{
+    background:#ECF0FF ;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: var(--l-spacing);
+    margin-top: var(--l-spacing);
+    font-size: var(--d-font-size);
+    @media (--desktop) {
+        background:var(--white);
+        padding:var(--xl-spacing) 30px;
+    }
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black80);
+}
+
+.addCountries{
+    width: 60%;
+    display: flex;
+    background: #4B7BE5;
+    box-sizing: border-box;
+    border-radius: var(--xs-spacing);
+    padding: 10px 30px;
+    margin: var(--l-spacing) auto 0 auto;
+    color: var(--white);
+    justify-content: center;
+
+}
+
+.countryDiv{
+    border-radius: 5px;
+    padding: var(--m-spacing);
+    margin-top: var(--xl-spacing);
+    color: var(--green5);
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    @media (--desktop) {
+        padding: var(--xl-spacing);
+    }
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: var(--l-spacing);
+    background: var(--white);
+}
+
+.zoneDiv{
+    flex-direction: column;
+    border-radius: 5px;
+    padding: var(--xl-spacing);
+    margin-top:var(--xl-spacing)
+}
+
+.zoneTitle{
+    font-weight: 500;
+    font-size: var(--m-spacing);
+    color: var(--black60);
+    display: flex;
+    align-items: center;
+    line-height: 160%;
+}
+
+.addZoneDiv{
+    padding-top:var(--xl-spacing);
+    color: var(--primary);
+    display: flex;
+    font-size: var(--m-spacing);
+    justify-content: center;
+    width: 100%;
+}
+
+.showInput{
+    background: var(--white);
+    padding:var(--m-spacing);
+    margin-top: var(--xl-spacing);
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: var(--m-spacing);
+    color: var(--black80);
+}
+
+.zoneEditDiv{
+    padding: var(--xl-spacing) 0;
+    border-bottom: 1px solid var(--black10);
+    display: flex;
+    justify-content: space-between;
+    font-size: var(--m-spacing);
+    color: var(--black80);
+    @media (--desktop) {
+        padding: 30px 0;
+    }
+}
+
+.borderTop{
+    margin-top: var(--xl-spacing);
+    border-top: 1px solid var(--black10);
+}
+
+.backIconForDesktop {
+    padding:var(--d-font-size);
+    background: #FFFFFF;
+    box-shadow: 0px var(--xs-spacing) var(--xl-spacing) rgba(0, 0, 0, 0.1);
+    border-radius: var(--xs-spacing);
+    cursor: pointer;
+}
+
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+    margin-bottom: 30px;
+}
+
+.desktopContainer{
+    height: calc(100vh - 134px);
+    padding:var(--xl-spacing) 40px;
+    overflow-y: auto;
+}
+
+.tab{
+  width: 100%;
+}
+
+.f500{
+    font-weight: 500;
+    color: var(--black80);
+    text-align: start;
+}

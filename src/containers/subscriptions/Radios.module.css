@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: var(--m-spacing) auto;
+    @media (--desktop) {
+        width: 30%;
+    }
+}
+
+:global(.MuiFormControlLabel-label) {
+    color: var(--secondary);
+    font-size: var(--m-font-size);
+    font-weight: var(--medium-bold);
+}
+
+:global(.MuiRadio-root) {
+    color: var(--secondary);
+}
+
+.options {
+    padding: var(--s-font-size) 0;
+    text-align: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size) !important;
+    flex: 1;
+    border: 1px solid var(--black15);
+    font-style: normal;
+
+    &:first-child {
+        border-bottom-left-radius: 21px;
+        border-top-left-radius: 21px;
+    }
+
+    &:last-child {
+        border-bottom-right-radius: 21px;
+        border-top-right-radius: 21px;
+    }
+}
+
+.active {
+    font-weight: var(--semi-bold);
+    font-size: var(--m-font-size);
+    color: var(--secondary);
+    background: var(--primary);
+}
+
+.inActive {
+    background: var(--secondary);
+    font-size: var(--m-font-size) !important;
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+
+}

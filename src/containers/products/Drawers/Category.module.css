@@ -1,0 +1,30 @@
+.label {
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+
+.drawer {
+    padding: 0 16px;
+    padding-bottom: 16px;
+    background: var(--grey1);
+}
+
+.paper {
+    /* height: 100% !important; */
+}
+
+.close {
+    background-color: var(--primary) !important;
+    font-size: var(--m-spacing);
+    color: var(--secondary) !important;
+    text-transform: capitalize !important;
+    font-weight: var(--bold);
+}
+
+
+.textRight {
+    color: var(--black);
+    font-size: var(--d-font-size) !important;
+    text-align: left !important;
+    margin-top: 0 !important;
+}

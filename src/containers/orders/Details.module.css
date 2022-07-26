@@ -1,0 +1,13 @@
+.container {
+    height: 100%;
+}
+
+.paper {
+    overflow: auto !important;
+    height: 100%;
+}
+
+.container2{
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+}

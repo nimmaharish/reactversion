@@ -1,0 +1,222 @@
+.container {
+    @media (--desktop) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: var(--xl-spacing) 0px var(--xl-spacing) 0px;
+    }
+
+    margin: var(--l-spacing) 0;
+    background: var(--primaryOpacityTwo);
+    border-radius: 6px;
+    padding: var(--xl-spacing);
+}
+
+.desktopBox {
+    padding-left: 100px;
+    padding-right: 100px;
+    background: var(--primaryOpacityTwo);
+}
+
+.black50 {
+    color: var(--black50);
+    display: flex;
+    align-items: center;
+
+    img {
+        height: 10px;
+        width: 10px;
+        padding-left: var(--xs-spacing);
+        cursor: pointer;
+    }
+}
+
+.title {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--primary);
+    padding-bottom: var(--m-spacing);
+    margin-top: var(--xs-spacing);
+}
+
+.breakup {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background: transparent;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: var(--m-font-size);
+    margin: 6px 0;
+}
+
+.total {
+    font-weight: var(--semi-bold);
+}
+
+.rupee {
+    font-size: var(--m-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.name {
+    color: #808080;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+}
+
+.value {
+    color: #212121;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+}
+
+.rupee1 {
+    color: #EB3737;
+}
+
+.borderTop {
+    /* border-top: 1px solid var(--light-grey); */
+}
+
+.borderTop1 {
+    border-top: 1px solid var(--black15);
+    border-bottom: 1px solid var(--black15);
+}
+
+.borderTop2 {
+    border-top: 1px solid var(--black15);
+    padding-top: var(--s-spacing);
+}
+
+.head {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    padding: var(--l-spacing) 0;
+    border-top: 1px solid var(--black15);
+}
+
+.details {
+    border: 1px solid var(--black15);
+    padding: var(--m-spacing);
+    border-radius: var(--border-radius);
+}
+
+.directPayment {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    padding-bottom: var(--l-spacing);
+}
+
+.head1 {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.details1 {
+    background: var(--grey9);
+    padding: var(--m-spacing);
+    border-radius: var(--border-radius);
+}
+
+.details2 {
+    padding: var(--l-spacing) 0;
+    font-size: var(--m-font-size);
+    font-weight: var(--medium-bold);
+    border-bottom: 1px solid var(--black15);
+}
+
+.details2 p {
+    margin: 0 !important;
+}
+
+.head2 {
+    font-size: var(--m-font-size);
+    font-weight: var(--medium-bold);
+    text-align: center;
+    color: var(--black60);
+    padding: var(--l-spacing) 0;
+}
+
+.full {
+    width: 100% !important;
+    height: 100%;
+    object-fit: fill;
+}
+
+.close {
+    width: 16px;
+    position: absolute;
+    right: var(--s-spacing);
+    top: var(--s-spacing);
+}
+
+.dialog {
+    :global(.MuiDialog-paperScrollPaper) {
+        height: 75vh;
+        position: relative;
+    }
+}
+
+.icon {
+    height: 70px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card {
+    padding: var(--l-spacing);
+    background: var(--secondary);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+
+    @media (--desktop) {
+        padding-left: 100px;
+        padding-right: 100px;
+        width: 53%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.heading {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    margin-bottom: var(--xl-spacing);
+}
+
+.subHead {
+    font-weight: var(--semi-bold);
+    margin-left: var(--l-spacing);
+    font-size: var(--d-font-size);
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    font-weight: var(--normal);
+    font-size: var(--m-font-size);
+    color: var(--black75);
+    width: 70%;
+    margin-left: 48px;
+    position: relative;
+    top: -4px;
+}
+
+.padding {
+    padding: var(--m-spacing) 0;
+}
+
+.infoIcon {
+    padding-left: 4px !important;
+}
+
+.marginTop {
+    margin-top: 4px;
+}

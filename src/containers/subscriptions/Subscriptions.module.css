@@ -1,0 +1,471 @@
+.subHeading {
+    padding-bottom: var(--xl-spacing);
+    font-size: var(--m-font-size);
+    color: var(--black60);
+}
+
+.kbc {
+    margin-left: 25%;
+}
+
+.freeTrailText {
+    font-weight: 500;
+    font-size: var(--m-font-size);
+    padding-bottom: 4px;
+    color: var(--secondary);
+}
+
+.freeTrailSubText {
+    font-weight: 500;
+    font-size: var(--s-font-size);
+    padding-bottom: 4px;
+    color: var(--black60);
+}
+
+.freeTrailTextOr {
+    font-weight: 500;
+    font-size: var(--m-font-size);
+    color: var(--secondary);
+    padding: 16px 0;
+}
+
+.freeTrailTextTrail {
+    padding-top: var(--l-spacing);
+    font-weight: 500;
+    font-size: var(--m-font-size);
+    padding-bottom: 4px;
+    color: var(--secondary);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: var(--l-spacing);
+    margin-bottom: var(--l-spacing) !important;
+    min-height: 70vh;
+}
+
+.minHeight {
+    height: 100%;
+    margin: 0 16px;
+}
+
+.back_button,
+.upgradeNow {
+    color: var(--primary) !important;
+    text-transform: capitalize !important;
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--bold);
+}
+
+.upgradeNow {
+    background-color: var(--white) !important;
+}
+
+.plus .upgradeNow {
+    color: #A958FE !important;
+}
+
+.premium .upgradeNow {
+    color: #80B85C !important;
+}
+
+.containerClass {
+    height: calc(100vh - 60px);
+    width: calc(100%);
+    overflow-y: auto;
+    position: relative;
+}
+
+.containerClassForDesktop {
+    width: calc(100%);
+    position: relative;
+}
+
+
+.stateBar {
+    padding-top: var(--xxl-spacing) !important;
+    justify-content: center;
+    padding-bottom: var(--l-spacing) !important;
+    flex-wrap: wrap;
+}
+
+.tabClassName {
+    text-align: center;
+    min-width: fit-content !important;
+    padding: var(--s-spacing) !important;
+    font-size: var(--h5-font-size);
+    font-weight: var(--semi-bold);
+}
+
+.itemClassName {
+    font-size: var(--d-font-size);
+}
+
+.activeClass {
+    border-bottom: 1px solid var(--primary) !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+}
+
+.card {
+    border-radius: 4px;
+    width: 100%;
+
+    @media (--desktop) {
+        width: 60%;
+    }
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body {
+    /* padding: 36px;
+    padding-top: 18px; */
+}
+
+.activity {
+    padding: 0 var(--xxl-spacing);
+    padding-bottom: var(--l-spacing);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.planTimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: var(--s-spacing);
+    color: var(--green);
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+}
+
+.timer {
+    font-size: var(--d-font-size);
+    margin-top: var(--s-spacing);
+}
+
+.activity1 {
+    margin: 16px var(--l-spacing);
+    margin-bottom: var(--l-spacing);
+    padding: 8px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 35px;
+    background: #F4F4F4;
+}
+
+.name {
+    padding-left: 8px;
+    flex: 1;
+    font-weight: 500;
+    font-size: var(--m-font-size);
+    color: var(--black80);
+}
+
+
+.name1 {
+    padding-left: 8px;
+    flex: 1;
+    font-weight: 500;
+    font-size: var(--m-font-size);
+    color: var(--primary);
+}
+
+.tick {
+    width: 14px;
+}
+
+.main {
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    color: var(--black);
+    padding-bottom: var(--xxs-spacing);
+}
+
+.sub,
+.sub1 {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--black60);
+}
+
+.sub1 {
+    margin-top: var(--s-spacing);
+}
+
+.details {
+    color: #979797;
+    margin: 12px 36px;
+    font-size: var(--d-font-size);
+}
+
+.head {
+    position: relative;
+}
+
+.statusBlock {
+    margin: 0;
+}
+
+.info {
+    margin: var(--m-spacing) 35px;
+    text-align: center;
+    color: var(--black50);
+}
+
+.free {
+    border-radius: 12px;
+    margin: 0 var(--l-spacing);
+
+    @media (--desktop) {
+        margin: 0px 100px;
+    }
+}
+
+.plus {
+    border-radius: 12px;
+    margin: 0 var(--l-spacing);
+
+    @media (--desktop) {
+        margin: 0px 100px;
+    }
+}
+
+.premium {
+    border-radius: 12px;
+    margin: 0 var(--l-spacing);
+
+    @media (--desktop) {
+        margin: 0px 100px;
+    }
+}
+
+.freeText {
+    background: rgba(33, 33, 33, 0.05);
+    width: 85%;
+    color: var(--primary);
+    font-size: var(--m-font-size);
+    font-weight: var(--medium-bold);
+    text-align: center;
+    padding: var(--s-spacing) 0;
+    margin-bottom: var(--xl-spacing);
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom {
+    margin-bottom: var(--l-spacing) !important;
+}
+
+.trialButtons,
+.trialButtonsText {
+    display: flex;
+    flex-direction: row;
+    margin: var(--s-spacing) 0;
+}
+
+.trialButtons>* {
+    margin: 0 var(--m-spacing);
+    min-width: 40% !important;
+}
+
+.trialButtonsText {
+    width: 100%;
+    margin: var(--xs-spacing) 0;
+    margin-left: 50px;
+    color: var(--black60);
+}
+
+
+.otherPlan {
+    margin-bottom: var(--m-spacing);
+}
+
+.upgradeTrial {
+    margin: var(--m-spacing);
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.mainLogo {}
+
+.starIcon {
+    margin-left: var(--xs-spacing);
+    width: 8px;
+}
+
+.starNote {
+    margin: var(--m-spacing);
+    margin-top: 0;
+    text-align: center;
+    color: var(--primary);
+    font-size: var(--s-font-size);
+    font-weight: var(--medium-bold);
+
+    img {
+        margin-right: var(--xs-spacing);
+        width: 8px;
+    }
+}
+
+.desktopContainer {
+    height: calc(100vh - 134px);
+    padding: 20px 40px;
+    overflow-y: auto;
+}
+
+.backIconForDesktop {
+    padding: 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+    margin-bottom: 30px;
+}
+
+.desktopWidth {
+    margin-left: -33%;
+    margin-right: -33%;
+    position: relative;
+}
+
+.planTitleText {
+    padding: 8px 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: var(--h3-font-size);
+    color: var(--primary);
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    min-width: 128px;
+    top: -20px;
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.15));
+}
+
+
+.bottomButton {
+    bottom: 0px;
+    margin-top: auto;
+    position: fixed;
+    width: 100%;
+
+    @media (--desktop) {
+        position: absolute;
+        width: 100%;
+        background: var(--white);
+    }
+}
+
+.noBorder {
+    border: none !important;
+}
+
+.currPlanContainer {
+    padding: var(--l-spacing) 0;
+    background: rgba(50, 186, 70, 0.2);
+    text-align: center;
+}
+
+.currPlan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    align-items: center;
+    color: #32BA46;
+}
+
+
+.paddingLeft {
+    padding-left: var(--s-spacing);
+}
+
+
+.primary {
+    background: var(--primary);
+}
+
+.upgradeNow {
+    padding: var(--l-spacing) 0;
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    background: var(--primary);
+    color: var(--secondary);
+    align-items: center;
+}
+
+.manageSubscription {
+    color: var(--primary);
+}
+
+.autoRenews {
+    padding-top: var(--xs-spacing);
+    font-size: var(--s-font-size);
+    color: var(--black80);
+
+}
+
+.hiddenCharges {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-font-size);
+    color: var(--black60);
+    text-align: center;
+}
+
+.white {
+    color: var(--secondary) !important;
+}
+
+.infoIcon {
+    padding-left: 6px;
+    width: 14px;
+    height: 14px;
+}
+
+.desktopTitle {
+    font-weight: 600;
+    font-size: var(--h5-font-size);
+    color: var(--black);
+    text-align: center;
+    width: 100%;
+}
+
+.desktopRadios {
+    margin: 24px auto;
+    width: 100%;
+}
+
+.desktopSubtitle {
+    margin: 16px auto 24px auto;
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+    width: 100%;
+    text-align: center;
+}

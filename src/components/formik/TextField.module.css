@@ -1,0 +1,24 @@
+.textField {
+    margin: var(--m-spacing) 0 !important;
+}
+
+.textField input {
+    background: var(--card-background);
+    padding: var(--s-spacing) var(--s-spacing) !important;
+    font-size: var(--s-font-size) !important;
+    color: var(--black) !important;
+    border-radius: var(--xs-border-radius);
+}
+
+.textField label {
+    transform: translate(10px, 10px) scale(1);
+    font-size: var(--s-font-size);
+}
+
+.textField label:global(.Mui-focused), label:global(.MuiInputLabel-shrink) {
+    transform: translate(4px, -12px) scale(1) !important;
+}
+
+.textField fieldset {
+    border: 0;
+}

@@ -1,0 +1,13 @@
+.smallText {
+    :global(.MuiTypography-body1) {
+        font-size: var(--s-font-size);
+    }
+}
+
+.radioInline {
+    flex-direction: row !important;
+}
+
+.content {
+    padding: var(--l-spacing);
+}

@@ -1,0 +1,231 @@
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.container {
+    padding-top: var(--l-spacing);
+    background: var(--grey6);
+    padding-left: var(--xl-spacing);
+    height: calc(100vh - 90px - 56px);
+    overflow-y: auto;
+    padding-bottom: 40px;
+}
+
+.title {
+    font-size: var(--h5-font-size);
+    padding-left: 16px;
+    font-weight: var(--bold) !important;
+}
+
+.marginL {
+    margin-left: var(--l-spacing) !important;
+    float: right;
+}
+
+.sellerIDContainer {
+    font-weight: var(--medium-bold);
+    font-size: var(--m-spacing);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--black70);
+    padding-top: var(--s-spacing);
+    cursor: pointer;
+}
+
+.share {
+    padding-left: 10px;
+    right: 0%;
+    float: right;
+}
+
+.body {
+    padding: 0 var(--l-spacing);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.status {
+    border-radius: var(--xs-spacing);
+    color: var(--secondary) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.unliveStatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: var(--xs-spacing);
+    color: var(--secondary) !important;
+}
+
+.primary {
+    font-size: var(--l-spacing);
+    color: var(--black);
+    font-weight: var(--bold);
+}
+
+.statusDot {
+    border-radius: 12px;
+    font-size: var(--m-font-size);
+    padding: 4px 12px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+    text-transform: capitalize !important;
+}
+
+.statusDot.live {
+    color: var(--green5);
+    ;
+}
+
+.statusDot.unlive {
+    color: var(--primary);
+}
+
+.statusDot.rejected {
+    color: #EF4949;
+}
+
+
+.dot1 {
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: var(--s-spacing);
+    position: relative;
+    top: -2px;
+}
+
+.dot1.live {
+    background-color: var(--green5);
+}
+
+.dot1.unlive {
+    background-color: var(--primary);
+}
+
+.toggleSwitch {
+    float: right;
+    padding-top: var(--m-spacing);
+}
+
+.secondary {
+    font-size: var(--m-font-size);
+    color: var(--black70);
+    padding-top: 6px;
+    font-weight: normal;
+}
+
+.box {
+    padding: var(--xxl-spacing);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding: 14px;
+    background: var(--white);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: var(--xs-spacing);
+}
+
+.upload {
+    position: absolute;
+    bottom: 0;
+    right: calc(50% - 36px);
+    cursor: pointer;
+}
+
+.avatar {
+    width: 76px !important;
+    min-width: 76px !important;
+    height: 76px !important;
+    border-radius: 50% !important;
+    box-shadow: 0px 0px 5px var(--primary);
+    cursor: pointer;
+}
+
+.profile {
+    background: var(--secondary);
+    border: 1px solid var(--black10);
+    border-radius: var(--xl-spacing);
+    margin-bottom: var(--xxxl-spacing);
+}
+
+.planContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: var(--medium-bold);
+    font-size: var(--m-spacing);
+    color: var(--black70);
+}
+
+.shareShopBtn {
+    border: none;
+    margin-right: calc(var(--xl-spacing) * -1) !important;
+}
+
+.planBtn {
+    background: var(--primary);
+    border-radius: 0 var(--m-spacing);
+    color: var(--secondary);
+    font-size: var(--d-font-size);
+
+}
+
+.planText {
+    font-weight: var(--normal);
+    font-size: var(--m-font-size);
+    color: var(--black60);
+}
+
+.planNameText {
+    font-size: var(--m-font-size);
+    color: var(--black);
+}
+
+.line {
+    border: 1px solid var(--black10);
+    margin: var(--xl-spacing) 0;
+}
+
+
+.liveText {
+    color: var(--green5);
+}
+
+.unLiveText {
+    color: var(--primary);
+}
+
+.searchContainer {
+    background: var(--white);
+    border: 1px solid var(--black10);
+    border-radius: var(--xs-spacing);
+    padding: 20px 25%;
+    display: flex;
+    margin: var(--xxxxxl-spacing) 0;
+}
+
+.searchInputContainer {
+    @media (--desktop) {
+        margin-right: var(--l-spacing);
+        width: 100%;
+    }
+}
+
+.searchBtn {
+    color: var(--white);
+}
+
+.chevIcon {
+    cursor: pointer;
+}

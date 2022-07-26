@@ -1,0 +1,102 @@
+.left img {
+    border-radius: 10px;
+    width: 70px;
+    height: 70px;
+}
+
+.center {
+    flex: 1;
+    margin-left: var(--m-spacing);
+    display: flex;
+    flex-direction: column;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 70px;
+}
+
+.title {
+    font-size: var(--s-font-size);
+    color: var(--black);
+    margin-top: var(--xs-spacing);
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: var(--xs-spacing);
+}
+
+.date {
+    font-size: var(--xs-font-size);
+    color: var(--black50);
+}
+
+.bottomRight {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.status {
+    color: var(--black);
+    font-size: var(--xs-font-size);
+    text-transform: capitalize;
+}
+
+.dot {
+    margin-right: var(--xs-spacing);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot.pending {
+    background: #FFD538;
+}
+
+.dot.live {
+    background: #1DC449;
+}
+
+.dot.unlive {
+    background: #D66F33;
+}
+
+.dot.rejected {
+    background: #EF4949;
+}
+
+.line1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: var(--s-spacing);
+    font-size: var(--m-font-size);
+}
+
+.line3 {
+    color: var(--black);
+}
+
+.button {
+    border-radius: 12px;
+    font-size: var(--s-font-size);
+    padding: var(--xs-spacing) var(--s-spacing);
+    text-transform: capitalize;
+    display: inline;
+    background: var(--yellow3);
+    color: var(--primary);
+}
+

@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 16px;
+    background: var(--primaryOpacityTwo) !important;
+}
+
+.mode {
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+    color: var(--black70);
+    background: var(--primaryOpacityTwo) !important;
+}
+
+.content {
+    padding: var(--l-spacing);
+    border-radius: 4px;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    background: var(--primaryOpacityTwo)  !important;
+}
+
+.html {
+    width: calc(100% - 50px);
+}
+
+.html p {
+    margin: 0 !important;
+}
+

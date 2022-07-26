@@ -1,0 +1,234 @@
+.drawer {
+    background: #FFFFFF;
+    @media (--desktop) {
+        
+    }
+}
+
+.grid {
+    margin-bottom: var(--xl-spacing) !important;
+}
+
+.input {
+    opacity: 1;
+}
+
+.nested {
+    opacity: 0.7;
+}
+
+.textField {
+    margin: var(--m-spacing) 0 !important;
+}
+
+.textField input {
+    background: var(--white);
+    padding: var(--m-spacing) var(--s-spacing) !important;
+    font-size: var(--m-font-size) !important;
+    color: var(--black) !important;
+    border-radius: var(--xs-border-radius);
+}
+
+.textField label {
+    transform: translate(10px, 10px) scale(1);
+    font-size: var(--m-font-size);
+}
+
+.textField label:global(.Mui-focused), label:global(.MuiInputLabel-shrink) {
+    transform: translate(4px, -16px) scale(1) !important;
+}
+
+.textField fieldset {
+    border: 0;
+}
+
+.textField input[disabled] {
+    background: var(--white);
+}
+
+.label {
+    margin-bottom: var(--s-spacing);
+}
+
+.button {
+    min-height: 35px !important;
+    min-width: 135px !important;
+    font-size: var(--d-font-size) !important;
+    margin: var(--l-spacing) 0;
+}
+
+.Btn {
+   margin-top: var(--xl-spacing)  !important;
+   @media (--desktop) {
+       width:70%;
+      margin-left:auto;
+      margin-right:auto
+   }
+}
+
+.dialogClose {
+    margin-left: -20px;
+    transform: translate(10px, -10px);
+    float: right;
+
+    img {
+        width: 20px;
+    }
+
+    cursor: pointer;
+}
+
+.container {
+    margin: var(--l-spacing);
+    @media (--desktop) {
+        width:60%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:30px 50px 30px 50px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        border-radius: 5px;
+    }
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+}
+
+.message {
+    font-size: var(--d-font-size);
+    margin: var(--l-spacing) 0;
+    font-weight: var(--semi-bold);
+    color: var(--black50);
+}
+
+.ifscButton {
+    margin-left: var(--xs-spacing);
+    text-decoration-line: underline;
+    color: #34B751;   
+}
+
+.textRight {
+    color: var(--black50);
+}
+
+.select {
+    width: 100%;
+
+    :global(.react-select__control) {
+        background: var(--white);
+        border: none;
+    }
+
+    :global(.react-select__menu) {
+        z-index: 2;
+        top: 45px;
+    }
+
+    :global(.react-select__option) {
+        background: transparent;
+        color: var(--black);
+        text-transform: capitalize;
+        height: 35px;
+    }
+
+    :global(.react-select__option--is-focused) {
+        background: var(--yellow);
+        color: var(--black);
+        height: 35px;
+    }
+}
+
+.success {
+    color: var(--green);
+}
+
+.processing {
+    color: var(--primary);
+}
+
+.error {
+    color: var(--red);
+}
+
+.status {
+    font-weight: var(--medium-bold);
+    padding: var(--xs-spacing) 0 var(--l-spacing) 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: var(--m-font-size);
+    @media screen {
+        width:80%;
+    }
+}
+
+.status1 {
+    font-weight: var(--medium-bold);
+    padding: var(--xs-spacing) 0 var(--l-spacing) 0px;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--m-font-size);
+}
+
+.left {
+    margin-left: var(--m-spacing);
+}
+
+.failed {
+    color: var(--black50);
+    font-size: var(--m-font-size);
+    padding-top: var(--xs-spacing);
+    text-align: right;
+}
+
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }
+
+.text {
+    padding-top: 30px;
+    font-size: var(--h3-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--black60);
+
+}
+
+.ifscContainer{
+    margin: var(--l-spacing);
+    background: var(--white);
+    @media (--desktop) {
+        width:90%;
+        margin-left:auto;
+        margin-right:auto;
+        padding:30px 50px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-top:40px;
+    }
+}
+
+.textClass {
+    display: flex;
+    justify-content: center;
+}
+
+.desktopMainContainer {
+    height: calc(100vh - 130px);
+    padding: 20px 40px;
+    overflow-y: auto;
+}

@@ -1,0 +1,128 @@
+.switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.heading {
+    color: var(--black50);
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+    margin: var(--m-spacing) 0;
+}
+
+.delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: var(--m-spacing) 0;
+    @media (--desktop) {
+        margin: var(--xl-spacing) 0 0 0;
+    }
+}
+
+.delete img {
+    height: 20px;
+}
+
+.title {
+    margin: var(--l-spacing) 0;
+    font-weight: var(--semi-bold);
+    font-size: var(--d-font-size);
+}
+
+.status {
+    font-size: var(--m-spacing);
+    font-weight: var(--medium-bold);
+    margin-right: var(--s-spacing);
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardBgn,.colorBgn {
+    background: var(--primaryOpacityTwo);
+}
+
+.statusLive {
+    color: var(--green);
+}
+
+.statusUnlive {
+    color: var(--orange);
+}
+
+.status span {
+    width: 4px;
+    height: 4px;
+    margin-right: var(--xs-spacing);
+    border-radius: 50%;
+}
+
+.statusLive span {
+    background: var(--green);
+}
+
+.statusUnlive span {
+    background: var(--orange);
+}
+
+.selectColor {
+    border: 1px solid var(--black30);
+    border-radius: var(--border-radius);
+    padding: var(--s-spacing) var(--m-spacing);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--d-font-size);
+}
+
+.colorBlock {
+    width: 24px;
+    height: 24px;
+    border-radius: var(--s-border-radius);
+    margin-right: var(--m-spacing);
+}
+
+.imageDrawerContainer {
+    background: var(--grey-bg);
+    border-radius: var(--border-radius);
+    margin: var(--m-spacing) 0;
+}
+
+.imageDrawer {
+    padding: 0 var(--m-spacing);
+    padding-top: var(--xxs-spacing);
+    padding-bottom: var(--m-spacing);
+    background: var(--white) !important;
+}
+
+.sizeCard {
+    margin: var(--xl-spacing);
+    padding: var(--xxxxl-spacing);
+}
+
+.colorV {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: var(--l-spacing);
+}
+
+.gridContent {
+    display: flex;
+    justify-content: flex-start;
+}
+.imageDrawer1 {
+    margin-top: var(--xl-spacing);
+}
+
+.desktopCard {
+    background-color: var(--gray-bg);
+}
+
+.colorV {
+    padding: 6%;
+}

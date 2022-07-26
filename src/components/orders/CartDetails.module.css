@@ -1,0 +1,305 @@
+.left {
+    font-size: var(--h4-font-size);
+    color: var(--primary);
+}
+.container {
+    padding: var(--m-spacing);
+    background: #f4f4f4;
+    height: calc(100vh - 120px)!important;
+    @media (--desktop) {
+        margin-top: var(--l-spacing);
+        background: var(--grey6);
+        height: calc(100vh - 170px) !important;
+    }
+}
+
+.date {
+
+}
+
+.info {
+    font-size: var(--m-font-size);
+    color: var(--black60);
+    @media (--desktop) {
+        font-size: var(--d-font-size) !important;
+    }
+    span {
+        margin-right: var(--s-spacing);
+
+        &:last-child {
+            margin-right: 0;
+            color: var(--black);
+            font-weight: var(--medium-bold);
+        }
+    }
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom:  var(--xl-spacing);
+
+    @media (--desktop) {
+        margin-top: 30px;
+        font-size: var(--d-font-size) !important;
+    }
+
+    > * {
+        padding: 0 var(--m-spacing);
+        border-right: 1px solid var(--black10);
+
+        &:first-child {
+            padding-left: 0;
+        }
+
+        &:last-child {
+            padding-right: 0;
+            border-right: none;
+        }
+    }
+}
+
+.imageContainer {
+    min-width: 80px;
+    width: 80px;
+    height: 80px;
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--black05);
+
+    img {
+        max-width: 80px;
+        max-height: 80px;
+        object-fit: contain;
+        border-radius: var(--border-radius);
+    }
+
+    @media (--desktop) {
+        min-width: 140px;
+        width: 120px;
+        height: 120px;
+
+        img {
+            max-width: 120px;
+            max-height: 120px;
+        }
+
+        margin-right: 10px;
+    }
+}
+
+
+.title {
+    font-size: var(--m-font-size);
+    color: var(--black);
+    font-weight: 400;
+    margin-bottom: var(--s-spacing);
+    padding-left: var(--m-spacing);
+    @media (--desktop) {
+        font-size: var(--h5-font-size);
+        font-weight: var(--medium-bold);
+        margin-bottom: var(--m-spacing);
+        margin-right: var(--l-spacing);
+    }
+}
+
+.currency {
+    font-size: var(--m-font-size);
+    color: var(--black);
+    font-weight: 600;
+    margin-bottom: var(--s-spacing);
+    padding-left: var(--m-spacing);
+    @media (--desktop) {
+        font-size: var(--h5-font-size);
+        font-weight: var(--medium-bold);
+        margin-bottom: 0;
+        margin-right: var(--l-spacing);
+    }
+}
+
+.qty {
+      margin-right: var(--m-spacing);
+      font-weight: 400;
+    @media (--desktop) {
+        font-size: var(--h5-font-size);
+        font-weight: var(--semi-bold);
+        color: var(--black80);
+    }
+}
+
+.size {
+    /* max-width: 50%; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: var(--m-spacing);
+    font-weight: 400;
+
+    @media (--desktop) {
+        font-size: var(--h5-font-size);
+        font-weight: var(--semi-bold);
+        color: var(--black80);
+    }
+}
+.firstRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (--desktop) {
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: column;
+
+        > div {
+            margin-bottom: var(--l-spacing);
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.containerCard {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--black10);
+    padding-bottom: var(--l-spacing);
+    padding-top: var(--l-spacing);
+    @media (--desktop) {
+        font-size: var(--d-font-size) !important;
+    }
+}
+
+
+
+.firstRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.otherDetails {
+    display: flex;
+    flex-direction: column;
+    padding: var(--xs-spacing);
+    padding-top: var(--s-spacing);
+    @media (--desktop) {
+        padding-top: var(--l-spacing);
+    }
+}
+
+.colorBox {
+    width: 14px;
+    height: 14px;
+    margin-right: var(--s-spacing);
+    border-radius: var(--xs-border-radius);
+}
+
+.variants {
+    padding-left: var(--m-spacing);
+    display: flex;
+    font-size: var(--m-font-size) !important;
+}
+
+.lineV  {
+    width: 1px;
+    margin: 0 var(--xxxl-spacing);
+    background-color: rgba(33, 33, 33, 0.15);
+    height: 14px;
+}
+
+.containerC {
+    margin: var(--s-spacing) 0;
+    background: var(--secondary) !important;
+    border-radius: 10px;
+    padding: var(--xl-spacing);
+        @media (--desktop) {
+        margin-left: auto;
+        margin-right: auto;
+        padding: var(--xl-spacing) 0px var(--xl-spacing) 0px;
+        font-size: var(--d-font-size) !important;
+    };
+}
+
+.desktopBox {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.titleC {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--primary);
+    padding-bottom: var(--m-spacing);
+}
+
+.rowC {
+    display: flex;
+    flex-direction: row;
+    margin: var(--s-spacing) 0;
+}
+
+.rowC > div {
+    flex: 1;
+}
+
+.img {
+    margin-left: var(--xl-spacing);
+
+        &:first-child {
+        margin-left: var(--m-spacing) !important;
+        }
+                &:last-child {
+        margin-left: var(--l-spacing);
+        }
+
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }
+
+.desktopContainer{
+    padding:20px 40px 60px 40px;
+    background: var(--grey6);
+    height: calc(100vh - 170px) !important;
+    width: calc(100vw - 82px - 320px);
+    overflow: auto;
+}
+
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h2-font-size);
+    color: var(--black60);
+}
+
+.value {
+    @media (--desktop) {
+        font-size: var(--d-font-size);
+    }
+
+}
+
+.keyTitle {
+        @media (--desktop) {
+        font-size: var(--d-font-size);
+    }
+}
+
+.gridDesk {
+    @media (--desktop) {
+        padding: 0px 120px;
+    }
+}

@@ -1,0 +1,21 @@
+.bg {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    margin-right: 4px;
+    @media (--desktop) {
+        cursor: pointer;
+    }
+}
+
+.withText {
+    color: var(--primary);
+    font-size: var(--d-font-size);
+    font-weight: var(--medium-bold);
+}
+
+.withText img {
+    margin-right: var(--s-spacing);
+}

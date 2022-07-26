@@ -1,0 +1,46 @@
+.tab {
+    justify-content: center;
+    margin-bottom: 12px !important;
+    padding: 4px !important;
+    background: var(--secondary) !important;
+    border-radius: 4px !important;
+}
+
+.tabClassName {
+    min-width: 75px !important;
+    text-align: center;
+    color: #989595;
+}
+
+.tabActive {
+    color: var(--primary) !important;
+    border-radius: 4px !important;
+}
+
+
+.desktopContainer {
+    padding-top: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desktopButton {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.button{
+    color:var(--black70);
+    border: 1px solid var(--black70);
+    border-radius: 6px;
+}
+
+.main {
+    height: calc(100vh - 90px - 60px);
+    overflow-y: auto;
+}

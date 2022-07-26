@@ -1,0 +1,114 @@
+.mainContainer {
+    background: var(--secondary);
+    padding: var(--l-spacing);
+
+    @media (--desktop) {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.06);
+        border-radius: 5px;
+        padding: 80px;
+    }
+}
+
+.con2 {
+    background: var(--primaryOpacityTwo);
+    padding: var(--l-spacing);
+}
+
+.cardContainer {
+    display: flex;
+    margin: var(--l-spacing);
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100% - 32px);
+
+    @media (--desktop) {
+        border-radius: var(--border-radius);
+        background: var(--grey6);
+        padding: var(--l-spacing) var(--xxl-spacing);
+    }
+}
+
+.kbc {
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.name {
+    font-size: var(--h5-font-size);
+    font-weight: var(--medium-bold);
+    padding-left: var(--m-spacing);
+    color: var(--black80);
+}
+
+.chevron {
+    display: flex;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line {
+    height: 1px;
+    background-color: #E0E0E0;
+
+    @media (--desktop) {
+        height: 0px;
+    }
+}
+
+.text {
+    font-weight: 500;
+    margin-right: var(--xxxxxl-spacing);
+    font-size: var(--m-font-size);
+}
+
+.green {
+    color: var(--green);
+}
+
+.primary {
+    color: var(--primary);
+}
+
+.blue {
+    color: var(--blue1);
+}
+
+.container {
+    padding-top : var(--l-spacing) ;
+    background: var(--grey6);
+    padding-left : var(--xl-spacing) ;
+    max-height: calc(100vh - 90px - 32px);
+    overflow-y: hidden;
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.main {
+    padding: var(--xxl-spacing) 50px;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 92px - 48px);
+    width: calc(100% - 100px);
+    overflow-y: hidden;
+    position: relative;
+    padding-left: 50px;
+}

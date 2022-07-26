@@ -1,0 +1,48 @@
+.heading {
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--semi-bold) !important;
+}
+
+.subHeading, .subCatHeading {
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    margin: var(--m-spacing);
+    text-align: center;
+}
+
+.subCatHeading {
+    text-align: left;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.row > * {
+    margin-right: var(--s-spacing);
+    margin-bottom: var(--s-spacing);
+}
+
+.container {
+    overflow-y: auto;
+    height: auto;
+    max-height: 70vh;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: var(--m-spacing) 0;
+    margin-right: var(--m-spacing);
+}
+
+
+.card {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 6px;
+}

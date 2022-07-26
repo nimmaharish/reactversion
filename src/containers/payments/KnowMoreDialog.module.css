@@ -1,0 +1,13 @@
+.drawer {
+    padding: 16px;
+    font-size: var(--d-font-size);
+    line-height: 1.5;
+}
+
+.item {
+    margin: var(--s-spacing) 0;
+}
+
+.list {
+    list-style-type: none;
+}

@@ -1,0 +1,28 @@
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.loader {
+    padding: var(--m-spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: var(--border-radius);
+}
+
+.loader img {
+    width: 100px;
+    height: 100px;
+}

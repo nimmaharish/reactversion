@@ -1,0 +1,56 @@
+.sdContent {
+    height: calc(100% - 92px);
+    padding: 16px;
+    position: relative;
+    /* background: var(--grey6); */
+}
+
+.shopSetting {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.desktopContainer{
+    padding:20px 40px 60px 40px;
+    height: calc(100vh - 170px);
+    width: calc(100vw - 85px - 320px);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.cText {
+    width: 67px;
+}
+
+.grid1 {
+    display: flex;
+    justify-content: center;
+}
+
+.tileText1 {
+    font-weight: var(--semi-bold);
+    font-size: var(--m-font-size);
+    color: var(--black60);
+    position: relative;
+    top: -12px;
+}

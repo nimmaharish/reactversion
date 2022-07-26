@@ -1,0 +1,49 @@
+.image {
+    width: 64px;
+    height: 64px;
+    border-radius: var(--border-radius);
+}
+
+.imageContainer {
+    width: 64px;
+    height: 64px;
+    margin: 0 var(--xs-spacing);
+    border: 1px solid var(--grey);
+    border-radius: var(--border-radius);
+}
+
+.container {
+    display: flex;
+}
+
+.images {
+    width: 175px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+}
+
+.close {
+    position: relative;
+    top: -64px;
+    left: 46px;
+    z-index: 2;
+    cursor: pointer;
+    width: 16px;
+}
+
+.file {
+    display: none;
+}
+
+.label {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed var(--primary);
+    border-radius: var(--border-radius);
+    margin-right: var(--s-spacing);
+}

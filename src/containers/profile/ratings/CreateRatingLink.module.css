@@ -1,0 +1,61 @@
+.sdContent {
+    height: calc(100% - 92px);
+    padding: var(--l-spacing);
+    position: relative;
+
+    @media (--desktop) {
+        overflow: hidden;
+    }
+}
+
+.label {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+}
+
+.shareSection {
+    margin-top: var(--l-spacing);
+    @media (--desktop) {
+        padding: var(--l-spacing);
+        border-radius: var(--border-radius);
+        border: 1px solid var(--black10);
+    }
+}
+
+.paddLR {
+    margin-top: var(--m-spacing);
+}
+
+.shareSection img {
+    @media (--desktop) {
+        width: 12px;
+        transform: rotate(-90deg);
+    }
+}
+
+:global(div[class*="LinkBar-module_url"]) {
+    flex: 1;
+    margin: 0 var(--l-spacing);
+    max-width: calc(100% - 180px);
+    width: calc(100% - 180px);
+    min-width: calc(100% - 180px);
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.emptyProducts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.emptyProductText {
+    margin: var(--xl-spacing) 0;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--d-font-size);
+    color: var(--black50);
+    font-weight: var(--medium-bold);
+}

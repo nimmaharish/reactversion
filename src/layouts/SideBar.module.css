@@ -1,0 +1,120 @@
+.container {
+  background: #060B29;
+  padding: var(--xl-spacing) var(--xxl-spacing);
+  color: var(--black60);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+  font-size: var(--h3-font-size);
+  min-width: 272px;
+  position: relative;
+  height: calc(100vh - 40px);
+  overflow-y: auto;
+}
+
+.mainTitle {
+  font-weight: var(--medium-bold);
+  margin: var(--l-spacing) 0;
+  font-size: var(--h5-font-size);
+  cursor: pointer;
+  width: 100%;
+  color: #FFFFFF;
+}
+
+.mainTitle:focus {
+  outline: none;
+  color: var(--primary);
+}
+
+.subMenu {
+  padding-left: var(--xl-spacing);
+  font-size: var(--h5-font-size);
+  display: none;
+  margin: var(--l-spacing);
+  font-weight: var(--semi-bold);
+  color: var(--black80);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: var(--s-spacing);
+  margin-bottom: var(--xs-spacing);
+  color: #FFFFFF;
+}
+
+.link:hover, .active {
+  color: var(--primary);
+}
+
+.primary {
+  color: var(--primary);
+}
+
+.link span {
+  margin-left: var(--l-spacing);
+}
+
+.show {
+  display: block;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+
+}
+
+.icon{
+  padding-left: var(--m-spacing);
+  padding-right: var( --xl-spacing);
+}
+
+.chevron {
+  float: right;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    margin-top: 28px;
+    margin-bottom: 26px;
+    background-color: #E0E0E0;
+}
+
+.windoLogo {
+  margin-left: var(--m-spacing) !important;
+  margin-bottom: var(--xs-spacing) !important;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.app {
+    position: absolute;
+    width: 272px;
+}
+
+.mainTitle1 {
+  font-weight: var(--medium-bold);
+  margin: var(--l-spacing) 0;
+  font-size: var(--h5-font-size);
+  cursor: pointer;
+  width: 100%;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.store {
+  margin-left: 30px;
+}

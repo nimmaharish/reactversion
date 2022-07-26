@@ -1,0 +1,249 @@
+.container {
+    padding:16px;
+    height: calc(100vh - 120px);
+    overflow: auto;
+    @media (--desktop) {
+        padding-left:70px;
+        padding-right:70px;
+        margin-top:20px;
+        background: none;
+        height: auto;
+        overflow:hidden;
+    }
+}
+
+.mainContainer {
+    height: 100%;
+    @media (--desktop) {
+        padding:20px 40px;
+        background: var(--grey6);
+        height: calc(100vh - 130px);
+        overflow-y: auto;
+    }
+}
+
+.maintitle {
+    font-weight: var(--semi-bold);
+    font-size: var(--h5-font-size);
+}
+.text {
+    font-size: var(--m-font-size);
+    color: var(--black60);
+    padding-top: 16px;
+    padding-bottom: 24px;
+    font-weight: 400;
+}
+
+.timezoneDiv{
+    padding: 15px;
+    font-size: var(--d-font-size);
+    background: var(--primaryOpacityTwo);
+    border-radius: 6px;
+    font-weight: var(--medium-bold);
+    color: var(--black80);
+    @media (--desktop) {
+        background: var(--secondary);
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+        border: 1px solid rgba(33, 33, 33, 0.1);
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+}
+
+.timeZoneText{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drawerContainer {
+    padding: 16px;
+    font-size: var(--h5-font-size);
+    height: calc(100vh - 32px - 59px);
+    overflow: auto;
+}
+
+.options{
+    font-size: var(--d-font-size);
+    color: var(--black60);
+    margin-top: 30px;
+}
+
+.optionsText {
+    margin-top:16px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+    border-bottom: 1px solid var(--black10);
+}
+
+
+.days {
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: var(--primaryOpacityTwo);
+    padding:15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    @media (--desktop) {
+        width:70%;
+        margin-left:auto;
+        margin-right:auto;
+        border: none;
+        border-radius: Opx;
+        border-bottom: 1px solid rgba(33, 33, 33, 0.1);
+        margin-bottom: 10px;
+
+    }
+}
+
+.days:last-child {
+    @media (--desktop) {
+        border-bottom: none;
+    }
+}
+
+.selectedTimezone {
+    font-size: var(--s-font-size);
+    margin-top: 10px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.maginTop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.editTimings {
+    padding-top:16px;
+    font-weight: 500;
+    font-size: var(--d-font-size);
+    color: var(--black60);
+}
+
+.select {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.width {
+    width: 46%;
+}
+
+.width > div {
+    padding-top: 0 !important;
+}
+
+.width2 > div {
+    padding-top: 0 !important;
+}
+
+.width2{
+    width: 46%;
+    margin-left: 8px;
+}
+
+.green {
+    color: var(--green2);
+}
+
+.marginLeft {
+    margin-left: 8px;
+}
+
+.black {
+    color: var(--black60);
+}
+
+/* :global(div.react-select__menu) {
+    max-height: 150px !important;
+} */
+
+.drawer {
+    height: 50vh !important;
+    @media (--desktop) {
+        height:35vh !important;
+        margin-top:40px;
+        border: 1px solid rgba(33, 33, 33, 0.1);
+        box-sizing: border-box;
+        border-radius: 6px;
+        padding:30px 40px;
+    }
+}
+
+.maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }
+
+.desktopBlock {
+    background: var(--secondary) !important;
+    padding-top: 30px;
+    /* padding-bottom: 30px; */
+}
+
+.desktopSaveButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.buttonC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0px !important;
+    width: 100% !important;
+}
+
+.bdBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0px !important;
+    width: 100% !important;
+}
+
+.textField {
+
+    :global(.Select-module_container) {
+        background: var(--white);
+        border: none;
+    }
+}
+
+.containerB {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    width: 272px;
+}

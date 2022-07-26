@@ -1,0 +1,68 @@
+.tile {
+    padding: 2px 0px 16px 8px !important;
+    font-size: var(--m-font-size);
+    font-weight: var(--bold);
+    border-left: 3px solid transparent;
+    text-transform: capitalize;
+    position: relative;
+  }
+
+.addBorder {
+    border-left: 3px solid var(--primary);
+}
+
+.addDotBorder {
+    border-left: 3px dotted var(--primary);
+}
+
+  .align {
+    text-align: center;
+  }
+
+.remark {
+    padding: 8px;
+    padding-top: 0;
+}
+.rotate {
+    transform: rotate(90deg)
+}
+
+.icon {
+    text-align: center;
+}
+
+.state {
+    padding: 16px 0;
+    position: relative;
+}
+
+.more {
+    border: none !important;
+    text-transform: none !important;
+    padding: 4px !important;
+    text-align: center;
+}
+
+.width80 {
+    width: 80%;
+}
+
+
+
+.ball {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    top: 0px;
+    border-radius: 50%;
+    background: var(--primary);
+    left: -12px;
+}
+
+.paper {
+    min-height: 45% !important;
+    max-height: 90% !important;
+    margin: 8px;
+    padding: 16px;
+    padding-top: 0px;
+}

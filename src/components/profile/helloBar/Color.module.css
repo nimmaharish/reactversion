@@ -1,0 +1,28 @@
+.textColor {
+    margin-top: var(--l-spacing);
+    background: var(--primaryOpacityTwo) ;
+    border-radius: var(--border-radius);
+    padding: var(--l-spacing) var(--m-spacing);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .title {
+        color: var(--black);
+        font-weight: var(--semi-bold);
+        font-size: var(--d-font-size);
+    }
+
+    .colorBox {
+        box-shadow: 0 2px 15px var(--black10);
+        border-radius: var(--border-radius);
+        width: 28px;
+        height: 28px;
+        margin-right: var(--l-spacing);
+    }
+}
+
+.imgA {
+    margin-right: var(--s-spacing);
+}

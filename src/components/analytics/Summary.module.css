@@ -1,0 +1,152 @@
+.container {
+    background: var(--primary10);
+    border-radius: var(--m-border-radius);
+    padding: var(--m-spacing) var(--l-spacing);
+    border: 1px solid var(--primary30);
+    @media (--desktop) {
+        margin-left: var(--l-spacing);
+    }
+}
+
+.loader {
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--m-spacing);
+}
+
+.heading {
+    font-size: var(--h3-font-size);
+    color: var(--black);
+    font-weight: var(--semi-bold);
+}
+
+.chipContainer {
+    display: flex;
+    flex-direction: row;
+    @media (--desktop) {
+        margin-right: var(--xxxxl-spacing)
+    }
+}
+
+.chip {
+    text-align: center;
+    background: var(--white);
+    border: 1px solid var(--primary30);
+    border-radius: var(--s-border-radius);
+    padding: var(--s-spacing);
+    margin-left: var(--s-spacing);
+    cursor: pointer;
+    color: var(--light-grey);
+    font-size: var(--m-font-size);
+    @media (--desktop) {
+        height: 30px;
+        width: 79px;
+        margin-top: var(--xxxxl-spacing)
+    }
+}
+
+.chip.selected {
+    background: var(--primary);
+    color: var(--white);
+}
+
+.tile {
+    display: flex;
+    flex-direction: row;
+    background: var(--white);
+    border: 1px solid var(--primary30);
+    border-radius: var(--m-border-radius);
+    padding: var(--m-spacing);
+    align-items: center;
+    height: 50px;
+    @media (--desktop) {
+        height: 100px;
+        width: 200px;
+        margin-top: var(--xxxl-spacing)
+    }
+}
+
+.tileIcon {
+    height: 36px;
+    @media (--desktop) {
+     height: 54px;
+    }
+}
+
+.tileDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: var(--s-spacing);
+    flex: 1;
+}
+
+.tileValue {
+    font-size: var(--d-font-size);
+    color: var(--black);
+    margin: var(--xs-spacing) 0;
+}
+
+.tileText {
+    font-size: var(--s-font-size);
+    color: var(--black50);
+    margin: var(--xs-spacing) 0;
+    text-align: center;
+    @media (--desktop) {
+        font-size: var(--m-font-size);
+        font-weight: var(--semi-bold);
+        color: var(--black);
+        margin: var(--xs-spacing) 0;
+        text-align: center;
+       }
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: var(--l-spacing);
+    @media (--desktop) {
+        margin-top: var(--xxl-spacing);
+        margin-bottom: var(--xxl-spacing);
+        margin-right: var(--xxxl-spacing)
+    }
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: var(--d-font-size);
+    font-weight: var(--semi-bold);
+    color: var(--light-grey);
+
+    img {
+        margin-left: var(--s-spacing);
+    }
+}
+
+.cardContainer {
+    display: flex;
+}
+
+.desktopCard {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+}

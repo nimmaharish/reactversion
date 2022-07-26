@@ -1,0 +1,35 @@
+.container {
+    padding: var(--l-spacing);
+}
+
+.button {
+    bottom: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    height: 52px !important;
+}
+
+.title {
+    border-bottom: 1px solid var(--black10);
+}
+
+.spacer {
+    margin: var(--m-spacing) 0;
+}
+
+.width {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--xl-spacing);
+}
+
+.width50 {
+    width: 49%;
+}
+
+.input {
+    padding-bottom: var(--xxl-spacing);
+}

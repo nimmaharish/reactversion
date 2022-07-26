@@ -1,0 +1,26 @@
+
+.amount {
+    font-weight: var(--semi-bold);
+    font-size: var(--h4-font-size);
+    color: var(--green);
+    text-align: center;
+    border-bottom: 1px solid var(--black10);
+}
+
+.amountLabel {
+    font-weight: var(--medium-bold);
+    font-size: var(--d-font-size);
+    color: var(--green);
+    padding-top: var(--m-spacing);
+    padding-bottom: var(--xl-spacing);
+}
+
+.paper {
+    background: var(--secondary);
+    padding: var(--l-spacing);
+    padding-top: var(--xxl-spacing);
+}
+
+.noPad {
+    padding: 0 !important;
+}

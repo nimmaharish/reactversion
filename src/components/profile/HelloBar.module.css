@@ -1,0 +1,126 @@
+.margin {
+    padding: 0 var(--l-spacing);
+    margin-bottom: 60px;
+        @media (--desktop) {
+                height: 65vh;
+                border: 1px solid rgba(33, 33, 33, 0.1);
+                border-radius: 5px; 
+                padding: 0 182px;
+                margin: 0 10%;
+                margin-bottom: 31px;
+    }
+}
+
+.kbc {
+    margin:0 4% 15% 4%;
+    @media (--desktop) {
+        margin: 3% 3% 3% 25% ;
+    }
+}
+
+.preview {
+    flex: 1;
+    margin: var(--m-spacing);
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.1);
+    margin-bottom: var(--xl-spacing);
+    height: 244px;
+    @media (--desktop) {
+                margin-top: var(--xxxl-spacing);
+                height: 453px;
+                width: 80%;
+                border: 1px solid rgba(33, 33, 33, 0.1);
+                border-radius: 5px;
+                margin-left: 10%;
+    }
+}
+
+.container {
+    padding: 0;
+    height: calc(100vh - 60px);
+    width: calc(100%);
+    overflow-y: auto;
+    position: relative;
+    @media (--desktop) {
+        padding:20px 40px;
+        width: calc(100% - 90px);
+        position: relative;
+        background:var(--grey6);
+        height: calc(100vh - 120px);
+    }
+}
+
+
+.tabs {
+    margin: var(--l-spacing) 0;
+}
+
+.tabContainer {
+    padding: 0 var(--xl-spacing);
+    border-right: 1px solid var(--black15) !important;
+
+    &:last-child {
+        border-right: none !important;
+    }
+}
+
+.tab {
+    font-size: var(--d-font-size) !important;
+    color: var(--black60) !important;
+    font-weight: var(--medium-bold) !important;
+    padding: var(--s-spacing) 0 !important;
+
+}
+
+
+.active {
+    .tab {
+        color: var(--primary) !important;
+        border-bottom: 1px solid var(--primary);
+        font-weight: var(--semi-bold) !important;
+    }
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.containerD {
+    padding-top : var(--l-spacing) ;
+    padding-left : var(--xl-spacing) ;
+    max-height: calc(100vh - 106px);
+    overflow-y: auto;
+}
+
+.backIconForDesktop {
+    cursor: pointer;
+    padding:14px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+ }
+
+ .maintitle {
+    display: flex;
+    align-items: center;
+    font-size: var(--h21-font-size);
+    color: var(--black60);
+}
+
+.btnDesk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 72px;
+}
+
+.dBtn {
+    width: 328px;
+}

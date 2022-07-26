@@ -1,0 +1,54 @@
+.fileUpload {
+    margin: var(--xs-spacing) 0;
+}
+
+.container {
+    margin: 0 var(--m-spacing);
+}
+
+.radioContainer {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: flex-end !important;
+}
+
+.videoBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    > div {
+        > span {
+            display: block;
+            text-align: center;
+        }
+    }
+
+    .fileUpload {
+        justify-content: center;
+    }
+}
+
+.submit {
+    padding-top: var(--m-spacing);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: var(--l-spacing);
+}
+
+.tagButtonContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: var(--m-spacing);
+}
+
+.tagButton {
+    font-size: var(--s-font-size);
+}
+
+.productButton {
+    background: transparent;
+    color: var(--black);
+    border: 1px solid var(--black);
+}

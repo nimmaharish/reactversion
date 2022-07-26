@@ -1,0 +1,41 @@
+.list {
+    font-size: var(--d-font-size) !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    margin-right: var(--s-spacing);
+    margin-bottom: var(--s-spacing);
+}
+
+.active {
+    background: var(--new-secondary);
+    color: var(--primary);
+    font-size: var(--m-spacing);
+}
+
+.titleStyles{
+    height: 100%;
+}
+
+.title {
+    font-size: var(--h5-font-size);
+    padding-bottom: var(--l-spacing);
+    padding-top: var(--xxl-spacing);
+    font-weight: var(--semi-bold);
+}
+
+.title1 {
+    font-size: var(--d-font-size);
+    padding-bottom: var(--l-spacing);
+    padding-top: var(--l-spacing);
+    font-weight: var(--medium-bold);
+    color: var(--black60);
+}

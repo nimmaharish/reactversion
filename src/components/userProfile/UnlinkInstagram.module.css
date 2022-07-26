@@ -1,0 +1,91 @@
+.radios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.content {
+    padding-top: var(--xl-spacing);
+    padding-bottom: var(--xl-spacing);
+}
+
+.unlinkContent {
+    padding-top: var(--xl-spacing);
+    padding-bottom: var(--xl-spacing);
+    padding-left: var(--m-spacing);
+    align-items: center;
+    padding-right: var(--m-spacing);
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.radio {
+    margin-left: var(--xs-spacing);
+}
+.radioLabel span {
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--medium-bold) !important;
+    line-height: var(--l-spacing);
+}
+
+.active {
+    color: var(--primary) !important;
+}
+
+.unlinkText {
+    font-size: var(--d-font-size);
+    color: var(--black60);
+    line-height: var(--xl-spacing);
+    text-align: start;
+    margin-right: var(--l-spacing);
+    margin-left: var(--l-spacing);
+    margin-top: var(--m-spacing);
+    margin-bottom: var(--xl-spacing);
+    font-weight: var(--medium-bold);
+}
+
+.unlinkSuccessText {
+    font-size: var(--d-font-size);
+    color: var(--green);
+    line-height: var(--xl-spacing);
+    text-align: start;
+    font-weight: var(--medium-bold);
+    line-height: var(--xl-spacing);
+    margin-bottom: var(--xl-spacing);
+}
+
+.unlinkButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.unlinkButtons > button {
+    margin: 0 var(--l-spacing) !important;
+    border-radius: var(--border-radius);
+}
+
+.unlinkButton {
+    height: 45px !important;
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--semi-bold) !important;
+}
+
+.okButton {
+    height: 45px !important;
+    width: 140px;
+    font-size: var(--d-font-size) !important;
+    font-weight: var(--semi-bold) !important;
+
+}
+.unlinkIcon {
+    text-align: center;
+
+    img {
+        height: 35px;
+    }
+}
